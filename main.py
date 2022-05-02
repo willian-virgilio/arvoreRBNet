@@ -1,5 +1,5 @@
-
-
+import random
+import ctypes
 from ArvRB import ArvRB
 from arqvIO import Arquivo
 from new import AVLTree
@@ -9,7 +9,8 @@ if __name__ == "__main__":
 
 
     nova = ArvRB()
-    Arquivo.lerArquivo('entrada')
+    x = Arquivo.lerArquivo('entrada')
+    print(x)
     Arquivo.testeEscrita('saida')
 
     nova.inserirNovoNo(70)
@@ -30,5 +31,18 @@ if __name__ == "__main__":
     nova.deletarNo(44)
     nova.mostrar_arvore()
 
+
+    print(" ----------- ")
+
+    vertorx = []
+    vertory = []
+    vertorz = []
+    for i in range(10):
+        vertorx.append(i + random.randint(1,9999))
+        vertory.append(id(vertorx[i]))
+        vertorz.append(ctypes.cast(vertory[i], ctypes.py_object).value)
+    print(vertorx)
+    print(vertory)
+    print(vertorz)
 
 
