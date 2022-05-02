@@ -14,6 +14,7 @@ class ArvRB():
         self.NULL.filhoDireito = None
         self.raiz = self.NULL
         self.sucessor = None
+        self.contadorx = 0
 
 
 
@@ -252,41 +253,42 @@ class ArvRB():
     def __mostrar (self, noVerificado, identador, final,e_raiz) :
     #def __mostrar(self, noVerificado, identador, final):
 
+
         self.sucessor = noVerificado.valor
 
         if noVerificado != self.NULL :
             print(identador, end=' ')
-
             if e_raiz :
-                print("Raiz:::",end=' ')
+                self.sucessor = 0
+                print("Nivel %s - Raiz:::" %(self.contadorx),end=' ')
                 identador += "     "
                 e_raiz = False
-                self.imprimir_sucessor()
-              #  self.buscar_sucessor()
-            elif final:
-                print ("DIREITA----",end= ' ')
-                identador += "     "
-                self.imprimir_sucessor()
-              #  self.buscar_sucessor()
-            else :
-                print("ESQUERDA----",end=' ')
-                identador += "|    "
-                self.imprimir_sucessor()
-               # self.buscar_sucessor()
+                self.contadorx = self.contadorx + 1
+               # self.imprimir_sucessor()
+            else:
+                if final:
+                    print ("Nivel %s - DIREITA----"%(self.contadorx),end=' ')
+                    identador += "     "
+              #  self.imprimir_sucessor()
+
+                else :
+                    print("Nivel %s - ESQUERDA----"%(self.contadorx),end=' ')
+                    identador += "|    "
+               # self.imprimir_sucessor()
 
             s_cor = "RUBRO" if noVerificado.cor == 1 else "NEGRO"
             print (str (noVerificado.valor) + "(" + s_cor + ")")
 
 
-
           #  self.__mostrar (noVerificado.filhoEsquerdo, identador, False)
             self.__mostrar(noVerificado.filhoEsquerdo, identador, False, False)
-            v1 = str(noVerificado.filhoEsquerdo).split()
 
+          #  v1 = str(noVerificado.filhoEsquerdo).split()
 
 
            # print("Valor: ",ctypes.cast(140148353592000,ctypes.py_object).value)
             self.__mostrar (noVerificado.filhoDireito, identador, True,False)
+
             #self.__mostrar(noVerificado.filhoDireito, identador, True)
 
     def imprimir_sucessor(self):

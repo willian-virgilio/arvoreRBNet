@@ -19,12 +19,11 @@ class Arquivo:
 
     def testeEscrita(self):
         print("Tamanho do vetor: ",len(vetor))
-        escrever_arq = open('saida.txt', 'w')
+        arqv_teste = open('teste.txt', 'w')
+        arqv_saida = open('saida.txt', 'w')
 
         for i in range(len(vetor)):
-            # O primeiro elemento da lista separador é o comando, o segundo é o valor
-            lista_comandos_e_valores = [0]
-          #  print("Tamanho da lista inicial: ",len(lista_comandos_e_valores))
+            # O primeiro elemento da lista separador é o comando, o segundo é o valor lista_comandos_e_valores = [0]
             lista_comandos_e_valores = vetor[i].split()
            # print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
 
@@ -32,14 +31,24 @@ class Arquivo:
             if( len(lista_comandos_e_valores) > 2):
                 print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
                 print("A versão da estrutura é :", lista_comandos_e_valores[2])
+                for i in range(len(lista_comandos_e_valores)):
+                    arqv_saida.write(lista_comandos_e_valores[i] + ' ')
+            else:
+                if(lista_comandos_e_valores[0] == 'INC'):
+                    print("O comando é :", lista_comandos_e_valores[0])
+                    print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
+
+                if (lista_comandos_e_valores[0] == 'REM'):
+                    print("O comando é :", lista_comandos_e_valores[0])
+                    print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
+                if (lista_comandos_e_valores[0] == 'IMP'):
+                    print("O comando é :", lista_comandos_e_valores[0])
+                    print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1])
 
 
-            elif(lista_comandos_e_valores == 'INC'):
-                print("O comando é :", lista_comandos_e_valores[0])
-                print("O elemento a ser inserido é: ", lista_comandos_e_valores[1])
-
-            escrever_arq.write(vetor[i]+' ')
-        escrever_arq.close()
+            arqv_teste.write(vetor[i]+' ')
+        arqv_teste.close()
+        arqv_saida.close()
         print(vetor)
 
     def escreverArquivo(self):

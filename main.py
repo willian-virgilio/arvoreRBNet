@@ -24,7 +24,10 @@ if __name__ == "__main__":
     nova.inserirNovoNo(67)
     nova.inserirNovoNo(65)
     nova.inserirNovoNo(80)
-
+    nova.inserirNovoNo(55)
+    nova.inserirNovoNo(45)
+    nova.inserirNovoNo(77)
+    nova.inserirNovoNo(79)
 
     nova.mostrar_arvore()
     nova.imprimir_sucessor()
