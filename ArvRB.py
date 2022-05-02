@@ -250,7 +250,7 @@ class ArvRB():
 
 
     # Function to print
-    def __mostrar (self, noVerificado, identador, final,e_raiz) :
+    def __mostrar (self, noVerificado, identador, final,e_raiz,contadory) :
     #def __mostrar(self, noVerificado, identador, final):
 
 
@@ -259,21 +259,26 @@ class ArvRB():
         if noVerificado != self.NULL :
             print(identador, end=' ')
             if e_raiz :
-                self.sucessor = 0
-                print("Nivel %s - Raiz:::" %(self.contadorx),end=' ')
+                self.contadorx = 0
+                contadory = 0
+                print("Nivel %s - Raiz:::" %(contadory),end=' ')
                 identador += "     "
+
+
                 e_raiz = False
                 self.contadorx = self.contadorx + 1
                # self.imprimir_sucessor()
             else:
                 if final:
-                    print ("Nivel %s - DIREITA----"%(self.contadorx),end=' ')
+                    print ("Nivel %s - DIREITA----"%(contadory),end=' ')
                     identador += "     "
+
               #  self.imprimir_sucessor()
 
                 else :
-                    print("Nivel %s - ESQUERDA----"%(self.contadorx),end=' ')
+                    print("Nivel %s - ESQUERDA----"%(contadory),end=' ')
                     identador += "|    "
+
                # self.imprimir_sucessor()
 
             s_cor = "RUBRO" if noVerificado.cor == 1 else "NEGRO"
@@ -281,13 +286,13 @@ class ArvRB():
 
 
           #  self.__mostrar (noVerificado.filhoEsquerdo, identador, False)
-            self.__mostrar(noVerificado.filhoEsquerdo, identador, False, False)
+            self.__mostrar(noVerificado.filhoEsquerdo, identador, False, False,contadory = contadory+1)
 
           #  v1 = str(noVerificado.filhoEsquerdo).split()
 
 
            # print("Valor: ",ctypes.cast(140148353592000,ctypes.py_object).value)
-            self.__mostrar (noVerificado.filhoDireito, identador, True,False)
+            self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
             #self.__mostrar(noVerificado.filhoDireito, identador, True)
 
@@ -296,7 +301,7 @@ class ArvRB():
 
     # Function to call print
     def mostrar_arvore (self) :
-        self.__mostrar (self.raiz, "", True,True)
+        self.__mostrar (self.raiz, "", True,True,0)
        # self.__mostrar (self.raiz, "", True)
 
 
