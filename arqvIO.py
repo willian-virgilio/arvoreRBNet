@@ -24,7 +24,7 @@ class Arquivo:
         arqv_saida.write('\n')
 
     def testeEscrita(self):
-        print("Tamanho do vetor: ",len(vetor))
+        print("Tamanho do vetor1addr: ",len(vetor))
         arqv_teste = open('teste.txt', 'w')
         arqv_saida = open('saida.txt', 'w')
 
@@ -35,7 +35,7 @@ class Arquivo:
 
            # print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
 
-            # primeiro if, caso o vetor tenha indices maior que 2, então ele é o comando SUC de sucessor
+            # primeiro if, caso o vetor1addr tenha indices maior que 2, então ele é o comando SUC de sucessor
             if( len(lista_comandos_e_valores) > 2):
                 print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
                 print("A versão da estrutura é :", lista_comandos_e_valores[2])

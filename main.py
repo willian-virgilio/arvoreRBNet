@@ -34,15 +34,17 @@ if __name__ == "__main__":
 
     print(" ----------- ")
 
-    vertorx = []
-    vertory = []
-    vertorz = []
-    for i in range(10):
-        vertorx.append(i + random.randint(1,9999))
-        vertory.append(id(vertorx[i]))
-        vertorz.append(ctypes.cast(vertory[i], ctypes.py_object).value)
-    print(vertorx)
-    print(vertory)
-    print(vertorz)
-
+    vetor1 = []
+    for i in range(5):
+        vetor2 =[]
+        #vetor1.append(i + random.randint(1, 9999))
+        vetor1.append(vetor2)
+        vetor2.append(i + random.randint(1, 9999))
+        b = id(vetor1[i])
+        vetor2.append(b)
+        a = ctypes.cast(vetor1[i][-1], ctypes.py_object).value
+        print("valor de a: ",a)
+        vetor2.append(a)
+        #vertorz.append(ctypes.cast(verto1add[i], ctypes.py_object).value)
+    print(vetor1[2][0])
 
