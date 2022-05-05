@@ -25,9 +25,11 @@ if __name__ == "__main__":
 
     print(" ----------- ")
     nova.mostrar_arvore()
-
     print("\n------teste de gravacao de vetor arvRB.py-------")
-    nova.gravar_nova_versao(23)
+    nova.gravar_nova_versao(13)
+
+
+
     print(" ----------- ")
 
 

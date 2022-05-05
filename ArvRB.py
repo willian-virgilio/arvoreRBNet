@@ -17,8 +17,12 @@ class ArvRB():
         self.sucessor = 0
         self.contadorx = 0
 
-
     def gravar_nova_versao(self,index):
+        print(index)
+        self.__gravar_versao(index)
+
+
+    def __gravar_versao(self,index):
 
 
         for i in range(index):

@@ -57,6 +57,8 @@ class Arquivo:
                 # print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
                     nova.inserirNovoNo(lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
+
+
                     #print("Novo No: ", nova.imprimir_sucessor())
 
                 if(lista_comandos_e_valores[0] == 'REM'):
