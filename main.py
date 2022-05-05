@@ -13,6 +13,7 @@ if __name__ == "__main__":
 
     Arquivo.testeEscrita('saida')
 
+
    # nova.inserirNovoNo(70)
 
     #nova.mostrar_arvore()
@@ -23,6 +24,10 @@ if __name__ == "__main__":
 
 
     print(" ----------- ")
+    nova.mostrar_arvore()
+
+    print(" ----------- ")
+
 
     vetor1 = []
 
@@ -38,7 +43,7 @@ if __name__ == "__main__":
         vetor2.append(a)
         print(vetor1)
         print("\n------teste de gravacao de vetor arvRB.py-------")
-        nova.gravar_nova_versao(100)
+        nova.gravar_nova_versao(23)
 
 
         #vertorz.append(ctypes.cast(verto1add[i], ctypes.py_object).value)

@@ -3,6 +3,8 @@ from array import *
 
 from ArvRB import ArvRB
 
+
+
 versao = []
 vetor = []
 nova = ArvRB()
@@ -67,6 +69,7 @@ class Arquivo:
                 if(lista_comandos_e_valores[0] == 'IMP'):
                 # print("O comando é :", lista_comandos_e_valores[0])
                 #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
+
                     for i in range(len(lista_comandos_e_valores)):
                         a = lista_comandos_e_valores[i]
                         arqv_saida.write(a + ' ')
