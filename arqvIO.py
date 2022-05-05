@@ -1,13 +1,16 @@
 # from elementosLista import ElementosLista
 from array import *
-from ArvRB import ArvRB
-vetor = []
 
+from ArvRB import ArvRB
+
+versao = []
+vetor = []
 nova = ArvRB()
 class Arquivo:
 
     def __init__(self,nomeArqv):
         self.nomeArqv = nomeArqv
+
 
     def lerArquivo(self):
         abrir_arquivo = open('entrada.txt', 'r')
@@ -31,6 +34,7 @@ class Arquivo:
         arqv_saida = open('saida.txt', 'w')
 
         for i in range(len(vetor)):
+
             # O primeiro elemento da lista separador é o comando, o segundo é o valor lista_comandos_e_valores = [0]
             lista_comandos_e_valores = vetor[i].split()
            # print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
@@ -51,7 +55,7 @@ class Arquivo:
                 # print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
                     nova.inserirNovoNo(lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
-
+                    #print("Novo No: ", nova.imprimir_sucessor())
 
                 if(lista_comandos_e_valores[0] == 'REM'):
                 # print("O comando é :", lista_comandos_e_valores[0])

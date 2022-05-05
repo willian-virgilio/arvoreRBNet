@@ -1,11 +1,17 @@
 import ctypes
+import random
 
 from No import No
 
 
 
 
+
+
+
+
 class ArvRB():
+
 
     def __init__(self):
         self.NULL = No (0)
@@ -13,10 +19,24 @@ class ArvRB():
         self.NULL.filhoEsquerdo = None
         self.NULL.filhoDireito = None
         self.raiz = self.NULL
-        self.sucessor = None
+        self.sucessor = 0
         self.contadorx = 0
 
+    def gravar_nova_versao(self):
 
+        vetor_grava_versao2 = []
+        for i in range(5):
+            vetor_grava_versao1 = []
+            vetor_grava_versao2.append(vetor_grava_versao1)
+            vetor_grava_versao1.append(i)
+            b = id(vetor_grava_versao1[-1])
+            vetor_grava_versao1.append(b)
+
+            print("VEtor 2 completo: ",vetor_grava_versao2)
+            x = vetor_grava_versao2[i][-1]
+            print("Espaço de memoria:",x)
+            a = ctypes.cast(x, ctypes.py_object).value
+            print("valor armazenado no espaço de memoria: ", a)
 
     # Insert New Node
     def inserirNovoNo(self, key1):
@@ -254,7 +274,7 @@ class ArvRB():
     #def __mostrar(self, noVerificado, identador, final):
 
 
-        self.sucessor = noVerificado.valor
+
 
         if noVerificado != self.NULL :
             print(identador, end=' ')
@@ -283,6 +303,8 @@ class ArvRB():
 
             s_cor = "RUBRO" if noVerificado.cor == 1 else "NEGRO"
             print (str (noVerificado.valor) + "(" + s_cor + ")")
+            self.sucessor = noVerificado.valor
+            print("Novo No: ", self.imprimir_sucessor())
 
 
           #  self.__mostrar (noVerificado.filhoEsquerdo, identador, False)
@@ -296,9 +318,9 @@ class ArvRB():
 
             #self.__mostrar(noVerificado.filhoDireito, identador, True)
 
-    def imprimir_sucessor(self):
-        print(self.sucessor ,end='\n' )
 
+    def imprimir_sucessor(self):
+        return self.sucessor
     # Function to call print
     def mostrar_arvore (self) :
         self.__mostrar (self.raiz, "", True,True,0)

@@ -25,8 +25,9 @@ if __name__ == "__main__":
     print(" ----------- ")
 
     vetor1 = []
+
     for i in range(5):
-        vetor2 =[]
+        vetor2 = []
         #vetor1.append(i + random.randint(1, 9999))
         vetor1.append(vetor2)
         vetor2.append(i + random.randint(1, 9999))
@@ -35,6 +36,14 @@ if __name__ == "__main__":
         a = ctypes.cast(vetor1[i][-1], ctypes.py_object).value
         print("valor de a: ",a)
         vetor2.append(a)
+        print(vetor1)
+        print("\n------teste de gravacao de vetor arvRB.py-------")
+        nova.gravar_nova_versao()
+
+
         #vertorz.append(ctypes.cast(verto1add[i], ctypes.py_object).value)
-    print(vetor1[2][0])
+
+
+
+
 
