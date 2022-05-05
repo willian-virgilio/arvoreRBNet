@@ -57,9 +57,7 @@ class Arquivo:
                 # print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
                     nova.inserirNovoNo(lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
-
-
-                    #print("Novo No: ", nova.imprimir_sucessor())
+                    print("Novo No: ", lista_comandos_e_valores[1])
 
                 if(lista_comandos_e_valores[0] == 'REM'):
                 # print("O comando é :", lista_comandos_e_valores[0])
@@ -67,6 +65,8 @@ class Arquivo:
                     nova.deletarNo(lista_comandos_e_valores[1])
                     print("\n ----- Depois deletar o elemento: ",lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
+
+
 
                 if(lista_comandos_e_valores[0] == 'IMP'):
                 # print("O comando é :", lista_comandos_e_valores[0])

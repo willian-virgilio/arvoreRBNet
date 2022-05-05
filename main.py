@@ -22,17 +22,6 @@ if __name__ == "__main__":
    # nova.deletarNo(44)
    # nova.mostrar_arvore()
 
-
-    print(" ----------- ")
-    nova.mostrar_arvore()
-    print("\n------teste de gravacao de vetor arvRB.py-------")
-    nova.gravar_nova_versao(13)
-
-
-
-    print(" ----------- ")
-
-
     vetor1 = []
 
     for i in range(5):

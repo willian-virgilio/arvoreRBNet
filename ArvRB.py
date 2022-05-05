@@ -4,6 +4,8 @@ import random
 from No import No
 
 vetor_grava_versao2 = []
+vetor_grava_versao1 = []
+
 
 class ArvRB():
 
@@ -16,28 +18,36 @@ class ArvRB():
         self.raiz = self.NULL
         self.sucessor = 0
         self.contadorx = 0
-
-    def gravar_nova_versao(self,index):
-        print(index)
-        self.__gravar_versao(index)
-
-
-    def __gravar_versao(self,index):
+        self.valor_no = None
+        self.cor = None
+        self.nivel = None
+        self.z = ''
 
 
-        for i in range(index):
-            vetor_grava_versao1 = []
-            vetor_grava_versao1.append(i)
-            b = id(vetor_grava_versao1[-1])
-            vetor_grava_versao1.append(b)
-            vetor_grava_versao2.append(vetor_grava_versao1)
-            x = vetor_grava_versao1[-1]
-            print("Espaço de memoria:", x)
-            a = ctypes.cast(x, ctypes.py_object).value
-            print("valor armazenado no espaço de memoria: ", a)
-            print("VEtor 2d ultimo vetor inserido: ", vetor_grava_versao2[-1])
-            print("VEtor 2d ultimo elemento inserido: ", vetor_grava_versao2[i][0])
-            print("VEtor 2d endereço de memoria do ultimo elemento: ", vetor_grava_versao2[i][1])
+
+    def __gravar_versao(self,valor,nivel,cor):
+
+
+
+      # for i in range(nivel):
+            #vetor_grava_versao1 = []
+
+            y = " %s,%s,%s "%(valor,nivel,cor)
+            self.z += y
+
+
+            #vetor_grava_versao2.append(vetor_grava_versao1)
+
+
+            #vetor_grava_versao2.append(vetor_grava_versao1)
+            #print("O vetor completo é: ",vetor_grava_versao2)
+           # x = vetor_grava_versao1[-1]
+            #print("Espaço de memoria:", x)
+           # a = ctypes.cast(x, ctypes.py_object).value
+           # print("valor armazenado no espaço de memoria: ", a)
+           # print("VEtor 2d ultimo vetor inserido: ", vetor_grava_versao2[-1])
+           # print("VEtor 2d ultimo elemento inserido: ", vetor_grava_versao2[i][0])
+           # print("VEtor 2d endereço de memoria do ultimo elemento: ", vetor_grava_versao2[i][1])
 
     # Insert New Node
     def inserirNovoNo(self, key1):
@@ -275,6 +285,8 @@ class ArvRB():
     #def __mostrar(self, noVerificado, identador, final):
 
         if noVerificado != self.NULL :
+            s_cor = "R" if noVerificado.cor == 1 else "N" # R = Rubro e N = Negro
+
             print(identador, end=' ')
             if e_raiz :
                 self.contadorx = 0
@@ -282,6 +294,12 @@ class ArvRB():
                 print("Nivel %s - Raiz:::" %(contadory),end=' ')
                 identador += "     "
                 e_raiz = False
+
+                self.__gravar_versao(noVerificado.valor,contadory,s_cor)
+            #    z = '%s %s %s'%(noVerificado.valor,contadory,s_cor)
+             #   vetor_grava_versao1.append(z)
+
+
                 self.contadorx = self.contadorx + 1
                # self.imprimir_sucessor()
             else:
@@ -289,15 +307,24 @@ class ArvRB():
                     print ("Nivel %s - DIREITA----"%(contadory),end=' ')
                     identador += "     "
 
+
                 else :
                     print("Nivel %s - ESQUERDA----"%(contadory),end=' ')
                     identador += "|    "
 
+
+
                # self.imprimir_sucessor()
 
-            s_cor = "RUBRO" if noVerificado.cor == 1 else "NEGRO"
+
             print (str (noVerificado.valor) + "(" + s_cor + ")")
-            self.sucessor = noVerificado.valor
+
+            self.__gravar_versao(noVerificado.valor, contadory, s_cor)
+
+
+
+
+
             #print("Novo No: ", self.imprimir_sucessor())
 
 
@@ -310,6 +337,7 @@ class ArvRB():
            # print("Valor: ",ctypes.cast(140148353592000,ctypes.py_object).value)
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
+
             #self.__mostrar(noVerificado.filhoDireito, identador, True)
 
 
@@ -317,7 +345,12 @@ class ArvRB():
         return self.sucessor
     # Function to call print
     def mostrar_arvore (self) :
+
         self.__mostrar (self.raiz, "", True,True,0)
+        print(self.z)
+    def imprimir_vetor_completo(self):
+        print("O vetor completo é: ", vetor_grava_versao2)
+
        # self.__mostrar (self.raiz, "", True)
 
 
