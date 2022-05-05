@@ -2,7 +2,7 @@ import ctypes
 import random
 
 from No import No
-vetor_grava_versao1 = []
+
 vetor_grava_versao2 = []
 
 class ArvRB():
@@ -20,15 +20,20 @@ class ArvRB():
 
     def gravar_nova_versao(self,index):
 
+
         for i in range(index):
+            vetor_grava_versao1 = []
             vetor_grava_versao1.append(i)
             b = id(vetor_grava_versao1[-1])
             vetor_grava_versao1.append(b)
-            print("VEtor 2 completo: ", vetor_grava_versao1)
+            vetor_grava_versao2.append(vetor_grava_versao1)
             x = vetor_grava_versao1[-1]
             print("Espaço de memoria:", x)
             a = ctypes.cast(x, ctypes.py_object).value
             print("valor armazenado no espaço de memoria: ", a)
+            print("VEtor 2d ultimo vetor inserido: ", vetor_grava_versao2[-1])
+            print("VEtor 2d ultimo elemento inserido: ", vetor_grava_versao2[i][0])
+            print("VEtor 2d endereço de memoria do ultimo elemento: ", vetor_grava_versao2[i][1])
 
     # Insert New Node
     def inserirNovoNo(self, key1):
