@@ -22,6 +22,7 @@ class ArvRB():
         self.cor = None
         self.nivel = None
         self.z = ''
+        self.y = ''
 
 
 
@@ -32,12 +33,10 @@ class ArvRB():
       # for i in range(nivel):
             #vetor_grava_versao1 = []
 
-            y = " %s,%s,%s "%(valor,nivel,cor)
-            self.z += y
-
+            self.y = "%s %s %s;"%(valor,nivel,cor)
+            self.z += self.y
 
             #vetor_grava_versao2.append(vetor_grava_versao1)
-
 
             #vetor_grava_versao2.append(vetor_grava_versao1)
             #print("O vetor completo é: ",vetor_grava_versao2)
@@ -294,8 +293,16 @@ class ArvRB():
                 print("Nivel %s - Raiz:::" %(contadory),end=' ')
                 identador += "     "
                 e_raiz = False
+                noVerificadoAnterior = noVerificado.valor
+                contadoryAnterior = contadory
+                s_corAnterior = s_cor
+                self.z = ''
+                self.y = ''
 
-                self.__gravar_versao(noVerificado.valor,contadory,s_cor)
+                if((noVerificadoAnterior != noVerificado) and (contadoryAnterior != contadory) and (s_corAnterior != s_cor)):
+                    self.__gravar_versao(noVerificado.valor,contadory,s_cor)
+
+
             #    z = '%s %s %s'%(noVerificado.valor,contadory,s_cor)
              #   vetor_grava_versao1.append(z)
 
@@ -348,6 +355,8 @@ class ArvRB():
 
         self.__mostrar (self.raiz, "", True,True,0)
         print(self.z)
+        vetor_grava_versao1.append(self.z)
+        print(vetor_grava_versao1)
     def imprimir_vetor_completo(self):
         print("O vetor completo é: ", vetor_grava_versao2)
 
