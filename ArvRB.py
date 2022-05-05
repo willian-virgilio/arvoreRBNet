@@ -22,10 +22,10 @@ class ArvRB():
         self.sucessor = 0
         self.contadorx = 0
 
-    def gravar_nova_versao(self):
+    def gravar_nova_versao(self,index):
 
         vetor_grava_versao2 = []
-        for i in range(5):
+        for i in range(index):
             vetor_grava_versao1 = []
             vetor_grava_versao2.append(vetor_grava_versao1)
             vetor_grava_versao1.append(i)

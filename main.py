@@ -38,7 +38,7 @@ if __name__ == "__main__":
         vetor2.append(a)
         print(vetor1)
         print("\n------teste de gravacao de vetor arvRB.py-------")
-        nova.gravar_nova_versao()
+        nova.gravar_nova_versao(100)
 
 
         #vertorz.append(ctypes.cast(verto1add[i], ctypes.py_object).value)
