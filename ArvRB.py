@@ -30,7 +30,7 @@ class ArvRB():
       # for i in range(nivel):
             #vetor_grava_versao1 = []
 
-        self.y = "%s %s %s "%(valor,nivel,cor)
+        self.y = " %s %s %s"%(valor,nivel,cor)
         self.z += self.y
 
 
@@ -338,16 +338,21 @@ class ArvRB():
 
         self.__mostrar (self.raiz, "", True,True,0)
 
-        self.vetor_grava_versao2.append(self.vetor_grava_versao1)
+
         print(self.z)
         self.vetor_grava_versao1 = str(self.z.split())
        # print(self.vetor_grava_versao1)
+        s = len(self.vetor_grava_versao1)
+        print(s)
         self.vetor_grava_versao2.append(self.vetor_grava_versao1)
         self.vetor_grava_versao1 = []
 
         for i in range(len(self.vetor_grava_versao2)):
-            print(self.vetor_grava_versao2[i])
+
+                print(self.vetor_grava_versao2[i])
         print(self.vetor_grava_versao2)
+
+
 
        # vetor_grava_versao1.append(self.z)
       #  d = str(vetor_grava_versao1).split(';')
