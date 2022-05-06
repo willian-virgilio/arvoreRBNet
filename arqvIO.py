@@ -49,6 +49,7 @@ class Arquivo:
                 for i in range(len(lista_comandos_e_valores)):
                     a = lista_comandos_e_valores[i]
                     arqv_saida.write(a + ' ')
+                arqv_saida.write('\n')
             # verificar erro AttributeError: 'str' object has no attribute 'loopDeGravacao'
 
             else:
@@ -72,11 +73,16 @@ class Arquivo:
                 # print("O comando é :", lista_comandos_e_valores[0])
                 #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
 
-                    for i in range(len(lista_comandos_e_valores)):
-                        a = lista_comandos_e_valores[i]
-                        arqv_saida.write(a + ' ')
+                    #for i in range(len(lista_comandos_e_valores)):
+                    print(type(lista_comandos_e_valores[1]))
+                    print(type(int(lista_comandos_e_valores[1])))
 
-            arqv_teste.write(vetor[i]+' ')
+                    a = nova.imprimir_versao(int(lista_comandos_e_valores[1]))
+                    for i in range(len(a)):
+                        arqv_saida.write(a[i]+' ')
+                    arqv_saida.write('\n')
+
+            arqv_teste.write(' ')
         arqv_teste.close()
         arqv_saida.close()
         print(vetor)

@@ -30,8 +30,12 @@ class ArvRB():
       # for i in range(nivel):
             #vetor_grava_versao1 = []
 
-        self.y = " %s %s %s"%(valor,nivel,cor)
+        self.y = "%s;%s;%s;"%(valor,nivel,cor)
         self.z += self.y
+        self.vetor_grava_versao1.append(valor)
+        self.vetor_grava_versao1.append(str(nivel))
+        self.vetor_grava_versao1.append(cor)
+
 
 
 
@@ -331,8 +335,9 @@ class ArvRB():
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
 
-    def imprimir_sucessor(self):
-        return self.sucessor
+    def imprimir_versao(self,index):
+
+        return self.vetor_grava_versao2[index]
     # Function to call print
     def mostrar_arvore (self) :
 
@@ -340,10 +345,13 @@ class ArvRB():
 
 
         print(self.z)
-        self.vetor_grava_versao1 = str(self.z.split())
+
+
        # print(self.vetor_grava_versao1)
         s = len(self.vetor_grava_versao1)
-        print(s)
+
+
+
         self.vetor_grava_versao2.append(self.vetor_grava_versao1)
         self.vetor_grava_versao1 = []
 
