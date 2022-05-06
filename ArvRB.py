@@ -3,9 +3,6 @@ import random
 
 from No import No
 
-vetor_grava_versao2 = []
-vetor_grava_versao1 = []
-
 
 class ArvRB():
 
@@ -23,18 +20,20 @@ class ArvRB():
         self.nivel = None
         self.z = ''
         self.y = ''
-
+        self.vetor_grava_versao2 = []
+        self.vetor_grava_versao1 = []
+        self.vetor_concatenador = []
 
 
     def __gravar_versao(self,valor,nivel,cor):
 
-
-
       # for i in range(nivel):
             #vetor_grava_versao1 = []
 
-            self.y = "%s %s %s;"%(valor,nivel,cor)
-            self.z += self.y
+        self.y = "%s %s %s "%(valor,nivel,cor)
+        self.z += self.y
+
+
 
             #vetor_grava_versao2.append(vetor_grava_versao1)
 
@@ -300,40 +299,27 @@ class ArvRB():
                 self.y = ''
 
                 if((noVerificadoAnterior != noVerificado) and (contadoryAnterior != contadory) and (s_corAnterior != s_cor)):
-                    self.__gravar_versao(noVerificado.valor,contadory,s_cor)
+                   self.__gravar_versao(noVerificado.valor,contadory,s_cor)
 
 
             #    z = '%s %s %s'%(noVerificado.valor,contadory,s_cor)
              #   vetor_grava_versao1.append(z)
-
-
                 self.contadorx = self.contadorx + 1
                # self.imprimir_sucessor()
             else:
                 if final:
                     print ("Nivel %s - DIREITA----"%(contadory),end=' ')
                     identador += "     "
-
-
                 else :
                     print("Nivel %s - ESQUERDA----"%(contadory),end=' ')
                     identador += "|    "
-
-
-
-               # self.imprimir_sucessor()
-
-
             print (str (noVerificado.valor) + "(" + s_cor + ")")
 
             self.__gravar_versao(noVerificado.valor, contadory, s_cor)
 
 
 
-
-
             #print("Novo No: ", self.imprimir_sucessor())
-
 
           #  self.__mostrar (noVerificado.filhoEsquerdo, identador, False)
             self.__mostrar(noVerificado.filhoEsquerdo, identador, False, False,contadory = contadory+1)
@@ -345,26 +331,30 @@ class ArvRB():
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
 
-            #self.__mostrar(noVerificado.filhoDireito, identador, True)
-
-
     def imprimir_sucessor(self):
         return self.sucessor
     # Function to call print
     def mostrar_arvore (self) :
 
         self.__mostrar (self.raiz, "", True,True,0)
+
+        self.vetor_grava_versao2.append(self.vetor_grava_versao1)
         print(self.z)
-        vetor_grava_versao1.append(self.z)
-        print(vetor_grava_versao1)
-    def imprimir_vetor_completo(self):
-        print("O vetor completo é: ", vetor_grava_versao2)
+        self.vetor_grava_versao1 = str(self.z.split())
+       # print(self.vetor_grava_versao1)
+        self.vetor_grava_versao2.append(self.vetor_grava_versao1)
+        self.vetor_grava_versao1 = []
+
+        for i in range(len(self.vetor_grava_versao2)):
+            print(self.vetor_grava_versao2[i])
+        print(self.vetor_grava_versao2)
+
+       # vetor_grava_versao1.append(self.z)
+      #  d = str(vetor_grava_versao1).split(';')
+       # print(d,end='\n')
 
        # self.__mostrar (self.raiz, "", True)
 
 
     def buscar_sucessor(self,valor1,valor2):
        pass
-
-
-

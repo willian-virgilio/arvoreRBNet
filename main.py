@@ -7,7 +7,6 @@ from new import AVLTree
 
 if __name__ == "__main__":
 
-
     nova = ArvRB()
     Arquivo.lerArquivo('entrada')
 
