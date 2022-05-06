@@ -77,7 +77,7 @@ class Arquivo:
                     print(type(lista_comandos_e_valores[1]))
                     print(type(int(lista_comandos_e_valores[1])))
 
-                    a = nova.imprimir_versao(int(lista_comandos_e_valores[1]))
+                    a = nova.imprimir_versao((int(lista_comandos_e_valores[1])-1)) # valor negativo de IMP não é possivel
                     for i in range(len(a)):
                         arqv_saida.write(a[i]+' ')
                     arqv_saida.write('\n')
