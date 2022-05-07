@@ -76,7 +76,11 @@ acumulando o ultimo valor
                     x = 0
                     for i in range(len(sucessor)):
                         x = min(sucessor)
+
+                    if(x ==0 ):
+                        x = 'INF'
                 print("este é o sucessor", x)
+
                 arqv_saida.write(str(x))
 
 
