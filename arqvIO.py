@@ -83,8 +83,6 @@ acumulando o ultimo valor
 
                 arqv_saida.write(str(x))
 
-
-
                 arqv_saida.write('\n')
             # verificar erro AttributeError: 'str' object has no attribute 'loopDeGravacao'
 
