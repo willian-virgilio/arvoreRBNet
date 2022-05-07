@@ -335,7 +335,7 @@ class ArvRB():
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
 
-    def imprimir_versao(self,index):
+    def retornar_versao(self, index):
 
         return self.vetor_grava_versao2[index]
     # Function to call print
@@ -369,5 +369,5 @@ class ArvRB():
        # self.__mostrar (self.raiz, "", True)
 
 
-    def buscar_sucessor(self,valor1,valor2):
-       pass
+    def buscar_sucessor(self,antecessor,versao):
+        pass

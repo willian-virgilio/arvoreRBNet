@@ -31,9 +31,9 @@ if __name__ == "__main__":
         b = id(vetor1[i])
         vetor2.append(b)
         a = ctypes.cast(vetor1[i][-1], ctypes.py_object).value
-        print("valor de a: ",a)
+       # print("valor de a: ",a)
         vetor2.append(a)
-        print(vetor1)
+      #  print(vetor1)
 
 
 
