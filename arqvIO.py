@@ -7,11 +7,15 @@ versao = []
 vetor = []
 sucessor = []
 
+
 nova = ArvRB()
 class Arquivo:
 
+
     def __init__(self,nomeArqv):
         self.nomeArqv = nomeArqv
+        self.smsErro = False
+
 
 
 
@@ -31,10 +35,17 @@ class Arquivo:
             arqv_saida.write(a + ' ')
         arqv_saida.write('\n')
 
+    def smsdeErro(self,sms):
+
+        self.smsErro = 'V'
+
+
     def testeEscrita(self):
         print("Tamanho do vetor1: ",len(vetor))
         arqv_teste = open('teste.txt', 'w')
         arqv_saida = open('saida.txt', 'w')
+
+
 
         for i in range(len(vetor)):
 
@@ -77,9 +88,10 @@ acumulando o ultimo valor
                     for i in range(len(sucessor)):
                         x = min(sucessor)
 
-                    if(x ==0 ):
+                    if(x == 0 ):
                         x = 'INF'
-                print("este é o sucessor", x)
+                    print("este é o sucessor", x)
+
 
                 arqv_saida.write(str(x))
 
@@ -121,8 +133,7 @@ acumulando o ultimo valor
         arqv_saida.close()
         print(vetor)
 
-    def escreverArquivo(self):
-        pass
+
 
 
 

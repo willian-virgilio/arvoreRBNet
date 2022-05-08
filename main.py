@@ -9,9 +9,12 @@ if __name__ == "__main__":
 
     nova = ArvRB()
     Arquivo.lerArquivo('entrada')
+    try:
+        Arquivo.testeEscrita(' ')
+    except:
 
-    Arquivo.testeEscrita('saida')
-
+        print("erro de index, não existe versão nesse indíce informado")
+       # Arquivo.smsdeErro('teste',True)
 
    # nova.inserirNovoNo(70)
 
