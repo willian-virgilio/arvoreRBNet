@@ -356,6 +356,7 @@ class ArvRB():
         except:
             print("A versão solicitada para ser mostrada ainda não existe,\n "
                   "Por favor corrigir, para continuar")
+            exit()
         return a
     # Function to call print
     def mostrar_arvore (self) :
