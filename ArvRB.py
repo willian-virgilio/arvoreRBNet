@@ -24,6 +24,7 @@ class ArvRB():
         self.vetor_grava_versao1 = []
         self.vetor_concatenador = []
         self.controle_versao = 0
+        self.corrigido = 0
 
 
     def __gravar_versao(self,valor,nivel,cor):
@@ -354,27 +355,63 @@ class ArvRB():
            # print("Valor: ",ctypes.cast(140148353592000,ctypes.py_object).value)
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
+    def retornar_valor_corrigido(self):
+        return int(self.corrigido)
 
-    def retornar_versao(self, index):
-        print("Numero da versão existente: ", index)
-        if(index == -1):
+    def retornar_versao(self, index,e_sucessor=False):
+
+
+        print("Numero do indice do vetor da versão existente: ", index)
+
+        if index == -1:
             print("O valor da versão solicitada é 0,"
                   "\n a primeira versão começa com valor interio 1")
             exit()
 
+        print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
+        print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
+
+
+
         try:
             a = self.vetor_grava_versao2[index]
         except Exception as err:
+
             print(err)
-            with open('log.txt', 'a') as arqv_log:
-                arqv_log.truncate(0)
-                arqv_log.write("A versão solicitada para ser mostrada ainda não existe,\n "
+            if(e_sucessor==True):
+                if(index <= len(self.vetor_grava_versao2)):
+                    a = self.vetor_grava_versao2[index]
+
+                    return a
+                    exit()
+                else:
+                    self.corrigido = len(self.vetor_grava_versao2)
+                    print("valor corrigido: ",self.corrigido)
+                    a = self.vetor_grava_versao2[self.corrigido-1]
+                    with open('log.txt', 'a') as arqv_log:
+                        arqv_log.truncate(0)
+                        arqv_log.write("A versão solicitada para ser mostrada ainda é maior,\n "
+                                       "que a ultima versão gravada, portanto \n"
+                                       "sera mostrado o sucessor nó solicitado , da ultima\n"
+                                       "versão gravada " )
+                        arqv_log.write('\n')
+                        arqv_log.close()
+                    print("A versão solicitada para ser mostrada ainda não existe,\n "
+                          "Por favor corrigir, para continuar")
+                    self.retornar_valor_corrigido()
+                    return a
+                    #return a
+                    exit()
+            else:
+                with open('log.txt', 'a') as arqv_log:
+                    arqv_log.truncate(0)
+                    arqv_log.write("A versão solicitada para ser mostrada ainda não existe,\n "
+                    "Por favor corrigir, para continuar")
+                    arqv_log.write('\n')
+                    arqv_log.close()
+                print("A versão solicitada para ser mostrada ainda não existe,\n "
                   "Por favor corrigir, para continuar")
-                arqv_log.write('\n')
-                arqv_log.close()
-            print("A versão solicitada para ser mostrada ainda não existe,\n "
-                  "Por favor corrigir, para continuar")
-            exit()
+                exit()
         return a
     # Function to call print
     def mostrar_arvore (self) :
