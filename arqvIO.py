@@ -8,13 +8,16 @@ vetor = []
 sucessor = []
 
 
+
 nova = ArvRB()
 class Arquivo:
+
 
 
     def __init__(self,nomeArqv):
         self.nomeArqv = nomeArqv
         self.smsErro = False
+
 
 
     def lerArquivo(self):
@@ -39,6 +42,8 @@ class Arquivo:
 
 
     def testeEscrita(self):
+       # print(self.controle_versao)
+
         print("Tamanho do vetor1: ",len(vetor))
         arqv_teste = open('teste.txt', 'a')
         arqv_saida = open('saida.txt', 'w')
@@ -65,6 +70,8 @@ class Arquivo:
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
                 sucessor.clear()
+
+                # if(len(a) == 0)
                 for i in range(0,len(b),3):
 
                     if(int(lista_comandos_e_valores[1]) < int(b[i])):
@@ -102,16 +109,20 @@ acumulando o ultimo valor
                     nova.mostrar_arvore()
                     print("Novo No: ", lista_comandos_e_valores[1])
 
+
+
                 if(lista_comandos_e_valores[0] == 'REM'):
                 # print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
                     nova.deletarNo(lista_comandos_e_valores[1])
                     print("\n ----- Depois deletar o elemento: ",lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
+                  #  self.controle_versao += self.controle_versao
 
 
 
                 if(lista_comandos_e_valores[0] == 'IMP'):
+
                 # print("O comando é :", lista_comandos_e_valores[0])
                 #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
 
@@ -120,6 +131,7 @@ acumulando o ultimo valor
                     print(type(int(lista_comandos_e_valores[1])))
 
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1)) # valor negativo de IMP não é possivel
+
                     for i in range(len(a)):
                         arqv_saida.write(a[i]+' ')
                     arqv_saida.write('\n')

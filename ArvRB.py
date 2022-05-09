@@ -23,6 +23,7 @@ class ArvRB():
         self.vetor_grava_versao2 = []
         self.vetor_grava_versao1 = []
         self.vetor_concatenador = []
+        self.controle_versao = 0
 
 
     def __gravar_versao(self,valor,nivel,cor):
@@ -52,7 +53,18 @@ class ArvRB():
            # print("VEtor 2d endereço de memoria do ultimo elemento: ", vetor_grava_versao2[i][1])
 
     # Insert New Node
+    def controledeVersao(self):
+        self.controle_versao = self.controle_versao + 1
+        print("numero de versão: ",self.controle_versao)
+        if(self.controle_versao >= 100):
+            print("O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt"
+                  " contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção"
+                  "\n revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos")
+            exit()
+
     def inserirNovoNo(self, key1):
+        self.controledeVersao()
+
         no = No(key1)
         no.antecessor = None
         no.valor = key1
@@ -279,6 +291,7 @@ class ArvRB():
 
     # Deletion of noVerificado
     def deletarNo (self, valor) :
+        self.controledeVersao()
         self.__auxDel_no (self.raiz, valor)         # Call for deletion
 
 
@@ -336,8 +349,14 @@ class ArvRB():
 
 
     def retornar_versao(self, index):
+        print("Numero da versão existente: ", index)
 
-        return self.vetor_grava_versao2[index]
+        try:
+            a = self.vetor_grava_versao2[index]
+        except:
+            print("A versão solicitada para ser mostrada ainda não existe,\n "
+                  "Por favor corrigir, para continuar")
+        return a
     # Function to call print
     def mostrar_arvore (self) :
 

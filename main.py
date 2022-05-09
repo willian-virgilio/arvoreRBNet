@@ -29,7 +29,7 @@ if __name__ == "__main__":
     #nova.imprimir_sucessor()
 
    # nova.deletarNo(44)
-   # nova.mostrar_arvore()
+   # nova.most if(self.controle_versao == 100):rar_arvore()
 
     vetor1 = []
 
