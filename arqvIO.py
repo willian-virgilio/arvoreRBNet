@@ -88,7 +88,7 @@ class Arquivo:
                 sucessor.clear()
 
                 # if(len(a) == 0)
-                for i in range(0,len(a),3):
+                for i in range(0,len(a),4):
 
                     if(int(lista_comandos_e_valores[1]) < int(a[i])):
                         sucessor.append(int(a[i]))
@@ -121,9 +121,11 @@ acumulando o ultimo valor
                 if(lista_comandos_e_valores[0] == 'INC'):
                 #print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
+
                     nova.inserirNovoNo(lista_comandos_e_valores[1])
-                    nova.mostrar_arvore()
                     print("Novo No: ", lista_comandos_e_valores[1])
+                    nova.mostrar_arvore()
+
 
 
 
@@ -149,7 +151,7 @@ acumulando o ultimo valor
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
 
                     for i in range(len(a)):
-                        arqv_saida.write(a[i]+' ')
+                        arqv_saida.write(a[i]+',')
                     arqv_saida.write('\n')
 
             arqv_teste.write(' ')

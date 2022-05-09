@@ -25,9 +25,10 @@ class ArvRB():
         self.vetor_concatenador = []
         self.controle_versao = 0
         self.corrigido = 0
+        self.lado = None
 
 
-    def __gravar_versao(self,valor,nivel,cor):
+    def __gravar_versao(self,valor,nivel,cor,lado):
 
       # for i in range(nivel):
             #vetor_grava_versao1 = []
@@ -37,6 +38,7 @@ class ArvRB():
         self.vetor_grava_versao1.append(valor)
         self.vetor_grava_versao1.append(str(nivel))
         self.vetor_grava_versao1.append(cor)
+        self.vetor_grava_versao1.append(lado)
 
 
 
@@ -322,9 +324,10 @@ class ArvRB():
                 s_corAnterior = s_cor
                 self.z = ''
                 self.y = ''
+                lado = "raiz"
 
                 if((noVerificadoAnterior != noVerificado) and (contadoryAnterior != contadory) and (s_corAnterior != s_cor)):
-                   self.__gravar_versao(noVerificado.valor,contadory,s_cor)
+                   self.__gravar_versao(noVerificado.valor,contadory,s_cor,lado)
 
 
             #    z = '%s %s %s'%(noVerificado.valor,contadory,s_cor)
@@ -335,12 +338,16 @@ class ArvRB():
                 if final:
                     print ("Nivel %s - DIREITA----"%(contadory),end=' ')
                     identador += "     "
+                    lado = "dir"
+
                 else :
                     print("Nivel %s - ESQUERDA----"%(contadory),end=' ')
                     identador += "|    "
-            print (str (noVerificado.valor) + "(" + s_cor + ")")
+                    lado = "esq"
+                print (str (noVerificado.valor) + "(" + s_cor + ")")
 
-            self.__gravar_versao(noVerificado.valor, contadory, s_cor)
+
+            self.__gravar_versao(noVerificado.valor, contadory, s_cor,lado)
 
 
 
@@ -418,7 +425,7 @@ class ArvRB():
     # Function to call print
     def mostrar_arvore (self) :
 
-        self.__mostrar (self.raiz, "", True,True,0)
+        self.__mostrar (self.raiz,"",True,True,0)
 
 
         print(self.z)
