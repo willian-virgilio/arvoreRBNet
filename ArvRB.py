@@ -357,7 +357,13 @@ class ArvRB():
 
         try:
             a = self.vetor_grava_versao2[index]
-        except:
+        except Exception as err:
+            print(err)
+            with open('log.txt', 'a') as arqv_log:
+                arqv_log.write("A versão solicitada para ser mostrada ainda não existe,\n "
+                  "Por favor corrigir, para continuar")
+                arqv_log.write('\n')
+                arqv_log.close()
             print("A versão solicitada para ser mostrada ainda não existe,\n "
                   "Por favor corrigir, para continuar")
             exit()
