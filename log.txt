@@ -1,2 +1,3 @@
-A versão solicitada para ser mostrada ainda não existe,
- Por favor corrigir, para continuar
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção
+ revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos

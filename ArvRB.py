@@ -60,6 +60,13 @@ class ArvRB():
             print("O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt"
                   " contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção"
                   "\n revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos")
+            with open('log.txt', 'a') as arqv_log:
+                arqv_log.truncate(0)
+                arqv_log.write("O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt"
+                  " contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção"
+                  "\n revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos")
+                arqv_log.write('\n')
+                arqv_log.close()
             exit()
 
     def inserirNovoNo(self, key1):
