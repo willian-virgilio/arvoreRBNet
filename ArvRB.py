@@ -350,6 +350,10 @@ class ArvRB():
 
     def retornar_versao(self, index):
         print("Numero da versão existente: ", index)
+        if(index == -1):
+            print("O valor da versão solicitada é 0,"
+                  "\n a primeira versão começa com valor interio 1")
+            exit()
 
         try:
             a = self.vetor_grava_versao2[index]
