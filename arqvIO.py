@@ -75,7 +75,7 @@ class Arquivo:
                 print("Valor corrigido: ", corrigido)
                 print("Valor da versão solicitada ", lista_comandos_e_valores[2])
 
-                if (int(lista_comandos_e_valores[2]) > int(corrigido)):
+                if (int(corrigido) > 0):
                     arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(str(corrigido) + ' ')

@@ -1,3 +1,5 @@
-SUC 8 0 10
-SUC 11 0 INF
+SUC 8 1 10
+SUC 11 1 INF
 20,0,N,raiz,16,1,N,esq,30,1,N,dir,55,2,R,dir,
+SUC 53 8 55
+SUC 34 15 53
