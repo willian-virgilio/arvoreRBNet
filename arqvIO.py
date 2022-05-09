@@ -92,7 +92,7 @@ class Arquivo:
 
                     if(int(lista_comandos_e_valores[1]) < int(a[i])):
                         sucessor.append(int(a[i]))
-
+#
 
                     print("lista de valores de sucessores:", sucessor)
                     print("tamanho", len(sucessor))
