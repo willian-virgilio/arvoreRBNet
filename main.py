@@ -15,6 +15,7 @@ if __name__ == "__main__":
         print(err)
        # Arquivo.salvar_erro(" ",err)
         with open('log.txt', 'a') as arqv_log:
+            arqv_log.truncate(0)
             arqv_log.write("erro de index, não existe versão nesse indíce informado")
             arqv_log.write('\n')
             arqv_log.close()
