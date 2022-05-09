@@ -17,8 +17,6 @@ class Arquivo:
         self.smsErro = False
 
 
-
-
     def lerArquivo(self):
         abrir_arquivo = open('entrada.txt', 'r')
         for comando in abrir_arquivo:
@@ -42,10 +40,8 @@ class Arquivo:
 
     def testeEscrita(self):
         print("Tamanho do vetor1: ",len(vetor))
-        arqv_teste = open('teste.txt', 'w')
+        arqv_teste = open('teste.txt', 'a')
         arqv_saida = open('saida.txt', 'w')
-
-
 
         for i in range(len(vetor)):
 
@@ -132,6 +128,9 @@ acumulando o ultimo valor
         arqv_teste.close()
         arqv_saida.close()
         print(vetor)
+
+
+
 
 
 

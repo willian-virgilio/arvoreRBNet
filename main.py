@@ -11,7 +11,14 @@ if __name__ == "__main__":
     Arquivo.lerArquivo('entrada')
     try:
         Arquivo.testeEscrita(' ')
-    except:
+    except Exception as err:
+        print(err)
+       # Arquivo.salvar_erro(" ",err)
+        arqv_log = open('log.txt', 'w')
+        arqv_log.write("erro de index, não existe versão nesse indíce informado")
+        arqv_log.write('\n')
+        arqv_log.close()
+
 
         print("erro de index, não existe versão nesse indíce informado")
        # Arquivo.smsdeErro('teste',True)
