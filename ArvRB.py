@@ -364,7 +364,7 @@ class ArvRB():
         print("Numero do indice do vetor da versão existente: ", index)
 
         if index == -1:
-            print("O valor da versão solicitada é 0,"
+            print("O valor da versão solicitada para impressão IMP é 0,"
                   "\n a primeira versão começa com valor interio 1")
             exit()
 
@@ -390,14 +390,16 @@ class ArvRB():
                     a = self.vetor_grava_versao2[self.corrigido-1]
                     with open('log.txt', 'a') as arqv_log:
                         arqv_log.truncate(0)
-                        arqv_log.write("A versão solicitada para ser mostrada ainda é maior,\n "
+                        arqv_log.write("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
                                        "que a ultima versão gravada, portanto \n"
                                        "sera mostrado o sucessor nó solicitado , da ultima\n"
                                        "versão gravada " )
                         arqv_log.write('\n')
                         arqv_log.close()
-                    print("A versão solicitada para ser mostrada ainda não existe,\n "
-                          "Por favor corrigir, para continuar")
+                    print("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
+                                       "que a ultima versão gravada, portanto \n"
+                                       "sera mostrado o sucessor nó solicitado , da ultima\n"
+                                       "versão gravada ")
                     self.retornar_valor_corrigido()
                     return a
                     #return a

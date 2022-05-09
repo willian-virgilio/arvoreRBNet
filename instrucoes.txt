@@ -1,0 +1,48 @@
+Professor, estou compartilhando a pasta da atividade :
+basta colocar as instruções dentro do arquivo entrada.txt.
+As instruções estão no formato linha por linha.
+dai gera o arquivo saida.txt, e se caso tenha algum erro do tipo IMP 0,
+ou solicitar uma impressão ou sucessor de uma versão que ainda não exista,
+ele colocara em um arquivo log.txt, Os arquivos saida.txt e log.txt ,
+são reeescritos toda vez que a aplicação é executada.
+O programa esta escrito Linguagem Python, para executar basta :
+
+1- Colocado as Operações no arquivo entrada.txt;
+
+2  - Entrar, via  prompt de comando  no diretório contendo os arquivos fontes ;
+
+3 -Executar o comando: python3 main.py ;
+
+4 - Verificar o arquivo saida.txt, e o arquivo log.txt;
+
+5 - Caso o arquivo log.txt tenha apresentado alguma mensagem ,
+deve-se verificar qual foi a ultima linha escrita no arquivo saída.txt
+e junto com a informação contida no arquivo log.txt verificar qual
+Operação no arquivo entrada.txt pode esta interferindo no resto da execução do programa;
+
+5.1 - As Mensagens de falha no arquivo log podem ser :
+
+5.1.1:  O numero de versões alcançou o limite de 100!
+O arquivo entrada.txt contem mais de 100 operações de modificação
+( INC = incluir; REM = Remoção revise o arquivo de entrada para reduzir a quantidade de
+Elementos inclusos ou removidos;
+
+5.1.2: A versão solicitada para ser mostrada ainda não existe, Por favor corrigir, para continuar;
+
+5.1.3:  O valor da versão solicitada  para Impressão  IMP é 0, a primeira versão começa com valor interio 1;
+
+5.1.4: Alerta: A versão solicitada para ser mostrada ainda é maior, que a ultima versão gravada, portanto
+sera mostrado o sucessor nó solicitado , da ultima versão gravada.
+
+ O código fonte esta um pouco bagunçado ,com muitos comentários de testes que fui fazendo no prompt de saída,
+ até funções que não precisei executar.
+ Devido a saída no prompt de saída deve gerar um delay na execução,
+ porem executei aqui com o maximo( 100)  de instruções de inserção e remoção e fez em um tempo satisfatório.
+ Essa versão já faz o que o sr solicitou. porem ainda vou mexendo nela até o final do prazo,
+ tirando comentários e refinando mais o código dai vou colocando no final do nome do diretório o nome da
+ versão da aplicação ok.
+Está sendo uma ótima atividade, realmente bem desafiadora, um tanto trabalhosa,
+mas satisfatória quando consigo avançar nas etapas solicitadas, mas espero que na proxima não der tanta dor
+de cabeça pra fazer :)
+DE qualquer forma, Muito Obrigado.
+Att. Willian Virgilio S. Silva   - Tec. T.I IFPA Campus Paragominas - PA
