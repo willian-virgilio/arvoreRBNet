@@ -60,16 +60,10 @@ class ArvRB():
         self.controle_versao = self.controle_versao + 1
         print("numero de versão: ",self.controle_versao)
         if(self.controle_versao >= 100):
-            print("O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt"
-                  " contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção"
-                  "\n revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos")
-            with open('log.txt', 'a') as arqv_log:
-                arqv_log.truncate(0)
-                arqv_log.write("O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt"
-                  " contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção"
-                  "\n revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos")
-                arqv_log.write('\n')
-                arqv_log.close()
+            msg = "O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt \n" \
+                  "contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção \n" \
+                  "revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos"
+            self.gerar_log(msg)
             exit()
 
     def inserirNovoNo(self, key1):
@@ -398,8 +392,9 @@ class ArvRB():
         else:
             print("Numero do indice do vetor da versão existente: ", index)
             if index == -1:
-                print("O valor da versão solicitada para impressão IMP é 0,"
-                      "\n a primeira versão começa com valor interio 1")
+                msg = "O valor da versão solicitada para impressão IMP é 0," \
+                      "\n a primeira versão começa com valor interio 1"
+                self.gerar_log(msg)
                 exit()
             else:
                 a = self.vetor_grava_versao2[index]
