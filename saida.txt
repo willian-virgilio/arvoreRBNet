@@ -1,3 +1,7 @@
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
 SUC 8 1 10
 SUC 11 1 INF
 SUC 53 8 55
@@ -6,3 +10,4 @@ SUC 20 3 30
 SUC 20 23 30
 SUC 12 10 13
 SUC 12 23 13
+12,2,R,16,2,R,13,1,N,20,0,N,53,1,R,30,2,N,55,2,N,89,3,R,

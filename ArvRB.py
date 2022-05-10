@@ -364,8 +364,22 @@ class ArvRB():
 
     def retornar_valor_corrigido(self):
         return len(self.vetor_grava_versao2)
+    def gerar_log(self,menssagem):
+        with open('log.txt', 'a') as arqv_log:
+            arqv_log.truncate(0)
+            arqv_log.write(menssagem)
+            arqv_log.write('\n')
+        arqv_log.close()
+        with open('saida.txt', 'a') as arqv_saida:
+            arqv_saida.truncate(0)
+            arqv_saida.write(menssagem)
+            arqv_saida.write('\n')
+        arqv_saida.close()
+        print(menssagem)
 
-    def retornar_versao(self, index,e_sucessor=False):
+
+    def retornar_versao(self, index,e_sucessor):
+
 
         if(e_sucessor==True):
             if(index <= len(self.vetor_grava_versao2)):
@@ -374,18 +388,11 @@ class ArvRB():
 
             else:
                 a = self.vetor_grava_versao2[len(self.vetor_grava_versao2)-1]
-                with open('log.txt', 'a') as arqv_log:
-                    arqv_log.truncate(0)
-                    arqv_log.write("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
-                                "que a ultima versão gravada, portanto \n"
-                                "sera mostrado o sucessor nó solicitado , da ultima\n"
-                                "versão gravada " )
-                    arqv_log.write('\n')
-                arqv_log.close()
-                print("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
-                                    "que a ultima versão gravada, portanto \n"
-                                    "sera mostrado o sucessor nó solicitado , da ultima\n"
-                                    "versão gravada ")
+                msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n que a ultima versão gravada, portanto \n" \
+                      "sera mostrado o sucessor nó solicitado , da ultima\nversão gravada "
+                self.gerar_log(msg)
+
+
                 self.retornar_valor_corrigido()
                 return a
         else:
@@ -393,8 +400,10 @@ class ArvRB():
             if index == -1:
                 print("O valor da versão solicitada para impressão IMP é 0,"
                       "\n a primeira versão começa com valor interio 1")
+                exit()
             else:
                 a = self.vetor_grava_versao2[index]
+                return a
             print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
             print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
 

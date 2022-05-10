@@ -45,7 +45,8 @@ class Arquivo:
        # print(self.controle_versao)
 
         print("Tamanho do vetor1: ",len(vetor))
-        arqv_saida = open('saida.txt', 'w')
+        arqv_saida = open('saida.txt', 'a')
+        arqv_saida.truncate(0)
 
 
         for i in range(len(vetor)):
