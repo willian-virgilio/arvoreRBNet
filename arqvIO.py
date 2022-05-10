@@ -149,9 +149,19 @@ acumulando o ultimo valor
                     print(type(int(lista_comandos_e_valores[1])))
 
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
-
+                    ifcount = 0
+                    ifend = 3
                     for i in range(len(a)):
-                        arqv_saida.write(a[i]+',')
+                        ifcount = i
+                        while (ifcount < ifend):
+                            arqv_saida.write(a[ifcount]+',')
+                            arqv_saida.write(a[ifcount+1] + ',')
+                            arqv_saida.write(a[ifcount+2] + ',')
+                            ifcount = ifcount+4
+                            ifend = ifend+4
+
+
+
                     arqv_saida.write('\n')
 
             arqv_teste.write(' ')
