@@ -344,7 +344,7 @@ class ArvRB():
                     print("Nivel %s - ESQUERDA----"%(contadory),end=' ')
                     identador += "|    "
                     lado = "esq"
-                print (str (noVerificado.valor) + "(" + s_cor + ")")
+            print (str (noVerificado.valor) + "(" + s_cor + ")")
 
 
             self.__gravar_versao(noVerificado.valor, contadory, s_cor,lado)

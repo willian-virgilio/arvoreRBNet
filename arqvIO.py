@@ -47,6 +47,9 @@ class Arquivo:
         print("Tamanho do vetor1: ",len(vetor))
         arqv_teste = open('teste.txt', 'a')
         arqv_saida = open('saida.txt', 'w')
+        concatenar_a_direita = ''
+        concatenar_a_esquerda = ''
+        concatenar_raiz = ''
 
         for i in range(len(vetor)):
 
@@ -149,31 +152,53 @@ acumulando o ultimo valor
                     print(type(int(lista_comandos_e_valores[1])))
 
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
-                    ifcount = 0
+                    print("Vetor A: ",a)
+
                     ifend = 3
                     ant = None
 
                     for i in range(len(a)):
-                        ifcount = i
+                        if(i==0):
+                            ifcount = i
+                        print("Tamanho do vetor", len(a))
                         print("Valor do i:",i)
-                        while (ifcount < ifend):
-                            ant = int(a[ifcount + 1])
-                            print("Valor do nivel:", ant)
-                            if(int(a[ifcount + 1]) == 0):
-                                v_raiz = a[0]
-                                n_raiz = a[1]
-                                cor_raiz = a[2]
-                                print("a raiz é essa:", v_raiz, n_raiz, cor_raiz)
-                            else:
-                                if(ant<int(a[ifcount + 1])):
-                                    arqv_saida.write(a[ifcount]+'*')
-                                    arqv_saida.write(a[ifcount+1] + '*')
-                                    arqv_saida.write(a[ifcount+2] + '*')
-                                arqv_saida.write(a[ifcount] + ',')
-                                arqv_saida.write(a[ifcount + 1] + ',')
-                                arqv_saida.write(a[ifcount + 2] + ',')
-                            ifcount = ifcount+4
-                            ifend = ifend+4
+                        print("Valor do ifconunt:", ifcount)
+
+
+                        if(int(a[ifcount + 1]) == 0): #GRava valores da raiz
+                            concatenar_raiz += (a[0]+',')
+                            concatenar_raiz += (a[1]+',')
+                            concatenar_raiz += (a[2]+',')
+                            print("a raiz é essa:", concatenar_raiz)
+                            no_esqu_n1 = True
+                            imp_raiz = True
+                            ifcount = ifcount + 4
+                        elif(int(a[ifcount]) == 1) and (no_esqu_n1 == True):
+                            concatenar_a_esquerda += (a[0+4]+',')
+                            concatenar_a_esquerda += (a[1+4]+',')
+                            concatenar_a_esquerda += (a[2+4]+',')
+                            print("Este é o primeiro nó:", concatenar_a_esquerda)
+                            no_esqu_n1 = False
+
+                        else:
+                            concatenar_a_direita += (str(a[ifcount + 8]) + ',')
+                            concatenar_a_direita += (str(a[ifcount + 9]) + ',')
+                            concatenar_a_direita += (str(a[ifcount + 10]) + ',')
+
+                        arqv_saida.write(a[ifcount + 8] + ',')
+                        arqv_saida.write(a[ifcount + 9] + ',')
+                        arqv_saida.write(a[ifcount + 10] + ',')
+
+                        if(imp_raiz == True):
+                            arqv_saida.write("+++")
+                            imp_raiz = False
+
+
+
+                        ifend = ifend+4
+
+
+                    print("Valores a direita da raiz:", concatenar_a_direita)
 
 
 

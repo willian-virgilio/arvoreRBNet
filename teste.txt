@@ -3,6 +3,63 @@
     no centro e os numeros decresçam os niveis a partir dela, da esquerda e da direita.
 **Melhora Busca Sucessor
 
+----------------------------------
+
+ ifend = 3
+                    ant = None
+
+                    for i in range(len(a)):
+                        ifcount = i
+                        print("Tamanho do vetor", len(a))
+                        print("Valor do i:",i)
+                        print("Valor do ifconunt:", ifcount)
+
+
+                        while (ifcount < ifend):
+                            print("Tamanho do vetor", len(a))
+                            print("Valor do i:", i)
+                            print("Valor do ifconunt:", ifcount)
+                            ant = int(a[ifcount + 1])
+                            print("Valor do nivel:", ant)
+
+                            if(int(a[ifcount + 1]) == 0): #GRava valores da raiz
+                                concatenar_raiz += (a[0]+',')
+                                concatenar_raiz += (a[1]+',')
+                                concatenar_raiz += (a[2]+',')
+                                print("a raiz é essa:", concatenar_raiz)
+                                no_esqu_n1 = True
+                                imp_raiz = True
+                            elif(int(a[ifcount + 1]) == 1) and (no_esqu_n1 == True):
+                                concatenar_a_esquerda += (a[0+4]+',')
+                                concatenar_a_esquerda += (a[1+4]+',')
+                                concatenar_a_esquerda += (a[2+4]+',')
+                                print("Este é o primeiro nó:", concatenar_a_esquerda)
+                                no_esqu_n1 = False
+
+                            else:
+                                concatenar_a_direita += (str(a[ifcount + 8]) + ',')
+                                concatenar_a_direita += (str(a[ifcount + 9]) + ',')
+                                concatenar_a_direita += (str(a[ifcount + 10]) + ',')
+
+                            arqv_saida.write(a[ifcount + 8] + ',')
+                            arqv_saida.write(a[ifcount + 9] + ',')
+                            arqv_saida.write(a[ifcount + 10] + ',')
+
+                            if(imp_raiz == True):
+                                arqv_saida.write("+++")
+                                imp_raiz = False
+
+
+                            ifcount = ifcount+4
+                            ifend = ifend+4
+
+
+                            print("Valores a direita da raiz:", concatenar_a_direita)
+---------------------
+
+
+
+
 INC 98
 INC 75
 SUC 53 999
@@ -97,4 +154,4 @@ SUC 109 77
 SUC 109 90
 IMP 15
 SUC 76 150
-IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
