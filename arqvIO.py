@@ -195,8 +195,6 @@ class Arquivo:
 
                     print("Valor da concatenação a direita: ", concatenar_a_direita)
                     print("Valor do indice para o segundo for:", indice)
-
-
                     for i in range(indice, len(a), 4):
 
                         print("Valor do i segundo for:", i)
@@ -211,4 +209,3 @@ class Arquivo:
                     arqv_saida.write(concatenar_a_esquerda)
                     arqv_saida.write('\n')
         arqv_saida.close()
-
