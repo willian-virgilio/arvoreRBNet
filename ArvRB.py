@@ -1,5 +1,6 @@
 import ctypes
 import random
+from datetime import datetime
 
 from No import No
 
@@ -360,7 +361,9 @@ class ArvRB():
         return len(self.vetor_grava_versao2)
     def gerar_log(self,menssagem):
         with open('log.txt', 'a') as arqv_log:
-            arqv_log.truncate(0)
+            data_e_hora_atuais = datetime.now()
+            data_e_hora = "-----------"+ str(data_e_hora_atuais)+ "-----------\n"
+            arqv_log.write(data_e_hora)
             arqv_log.write(menssagem)
             arqv_log.write('\n')
         arqv_log.close()

@@ -1,2 +1,13 @@
+-----------2022-05-10 17:50:35.325430-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:50:35.351518-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:50:35.377031-----------
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1
