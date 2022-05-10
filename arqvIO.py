@@ -75,7 +75,7 @@ class Arquivo:
                 print("Valor corrigido: ", corrigido)
                 print("Valor da versão solicitada ", lista_comandos_e_valores[2])
 
-                if (int(corrigido) > 0):
+                if (int(corrigido) < int(lista_comandos_e_valores[2])):
                     arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(str(corrigido) + ' ')
@@ -151,6 +151,7 @@ class Arquivo:
                     #for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
                     print(type(int(lista_comandos_e_valores[1])))
+
 
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
                     print("Vetor A: ",a)

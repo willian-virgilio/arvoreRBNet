@@ -363,65 +363,41 @@ class ArvRB():
             self.__mostrar (noVerificado.filhoDireito, identador, True,False,contadory = contadory+1)
 
     def retornar_valor_corrigido(self):
-        return int(self.corrigido)
+        return len(self.vetor_grava_versao2)
 
     def retornar_versao(self, index,e_sucessor=False):
 
+        if(e_sucessor==True):
+            if(index <= len(self.vetor_grava_versao2)):
+                a = self.vetor_grava_versao2[index]
+                return a
 
-        print("Numero do indice do vetor da versão existente: ", index)
-
-        if index == -1:
-            print("O valor da versão solicitada para impressão IMP é 0,"
-                  "\n a primeira versão começa com valor interio 1")
-            exit()
-
-        print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
-        print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
-
-
-
-        try:
-            a = self.vetor_grava_versao2[index]
-        except Exception as err:
-
-            print(err)
-            if(e_sucessor==True):
-                if(index <= len(self.vetor_grava_versao2)):
-                    a = self.vetor_grava_versao2[index]
-
-                    return a
-                    exit()
-                else:
-                    self.corrigido = len(self.vetor_grava_versao2)
-                    print("valor corrigido: ",self.corrigido)
-                    a = self.vetor_grava_versao2[self.corrigido-1]
-                    with open('log.txt', 'a') as arqv_log:
-                        arqv_log.truncate(0)
-                        arqv_log.write("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
-                                       "que a ultima versão gravada, portanto \n"
-                                       "sera mostrado o sucessor nó solicitado , da ultima\n"
-                                       "versão gravada " )
-                        arqv_log.write('\n')
-                        arqv_log.close()
-                    print("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
-                                       "que a ultima versão gravada, portanto \n"
-                                       "sera mostrado o sucessor nó solicitado , da ultima\n"
-                                       "versão gravada ")
-                    self.retornar_valor_corrigido()
-                    return a
-                    #return a
-                    exit()
             else:
+                a = self.vetor_grava_versao2[len(self.vetor_grava_versao2)-1]
                 with open('log.txt', 'a') as arqv_log:
                     arqv_log.truncate(0)
-                    arqv_log.write("A versão solicitada para ser mostrada ainda não existe,\n "
-                    "Por favor corrigir, para continuar")
+                    arqv_log.write("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
+                                "que a ultima versão gravada, portanto \n"
+                                "sera mostrado o sucessor nó solicitado , da ultima\n"
+                                "versão gravada " )
                     arqv_log.write('\n')
-                    arqv_log.close()
-                print("A versão solicitada para ser mostrada ainda não existe,\n "
-                  "Por favor corrigir, para continuar")
-                exit()
-        return a
+                arqv_log.close()
+                print("Alerta: A versão solicitada para ser mostrada ainda é maior,\n "
+                                    "que a ultima versão gravada, portanto \n"
+                                    "sera mostrado o sucessor nó solicitado , da ultima\n"
+                                    "versão gravada ")
+                self.retornar_valor_corrigido()
+                return a
+        else:
+            print("Numero do indice do vetor da versão existente: ", index)
+            if index == -1:
+                print("O valor da versão solicitada para impressão IMP é 0,"
+                      "\n a primeira versão começa com valor interio 1")
+            else:
+                a = self.vetor_grava_versao2[index]
+            print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
+            print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
+
     # Function to call print
     def mostrar_arvore (self) :
 
@@ -433,9 +409,6 @@ class ArvRB():
 
        # print(self.vetor_grava_versao1)
         s = len(self.vetor_grava_versao1)
-
-
-
         self.vetor_grava_versao2.append(self.vetor_grava_versao1)
         self.vetor_grava_versao1 = []
 

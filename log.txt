@@ -1,2 +1,4 @@
-A versão solicitada para ser mostrada ainda não existe,
- Por favor corrigir, para continuar
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
