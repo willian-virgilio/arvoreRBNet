@@ -1,5 +1,6 @@
 
-**Tem que colocar a impressão na ordem esquerda e direita
+**Tem que colocar a impressão na ordem esquerda e direita,Ja consegui guardar a raiz, agora preciso concatenar na ordem da raiz estejam
+    no centro e os numeros decresçam os niveis a partir dela, da esquerda e da direita.
 **Melhora Busca Sucessor
 
 INC 98
@@ -96,4 +97,4 @@ SUC 109 77
 SUC 109 90
 IMP 15
 SUC 76 150
-IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
