@@ -45,11 +45,8 @@ class Arquivo:
        # print(self.controle_versao)
 
         print("Tamanho do vetor1: ",len(vetor))
-        arqv_teste = open('teste.txt', 'a')
         arqv_saida = open('saida.txt', 'w')
-        concatenar_a_direita = ''
-        concatenar_a_esquerda = ''
-        concatenar_raiz = ''
+
 
         for i in range(len(vetor)):
 
@@ -100,12 +97,12 @@ class Arquivo:
                     print("lista de valores de sucessores:", sucessor)
                     print("tamanho", len(sucessor))
                     """
-por algum motivo estranho a função min() está retornando vazio - ValueError: min() arg is an empty sequence -
-Porem fazendo os teste a lista esta sendo preenchida com todos os valores acima do de pesquisa de sucessor, 
-alem do proprio vetor sucessor retornar o tamanho na funcão len(). De tal forma tive que colocar a funcão min() 
-dentro de um for() que percorre o vetor sucessor dai no final o ultimo valor gravado na variavel x, 
-acumulando o ultimo valor
-"""
+                    por algum motivo estranho a função min() está retornando vazio - ValueError: min() arg is an empty sequence -
+                        Porem fazendo os teste a lista esta sendo preenchida com todos os valores acima do de pesquisa de sucessor, 
+                        alem do proprio vetor sucessor retornar o tamanho na funcão len(). De tal forma tive que colocar a funcão min() 
+                        dentro de um for() que percorre o vetor sucessor dai no final o ultimo valor gravado na variavel x, 
+                        acumulando o ultimo valor
+                        """
                     x = 0
                     for i in range(len(sucessor)):
                         x = min(sucessor)
@@ -143,6 +140,10 @@ acumulando o ultimo valor
 
 
                 if(lista_comandos_e_valores[0] == 'IMP'):
+                    concatenar_a_direita = ''
+                    concatenar_a_esquerda = ''
+                    concatenar_raiz = ''
+                    indice = 0
 
                 # print("O comando é :", lista_comandos_e_valores[0])
                 #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
@@ -156,63 +157,58 @@ acumulando o ultimo valor
 
                     ifend = 3
                     ant = None
+                    if (int(a[1]) == 0):  # GRava valores da raiz
+                        concatenar_raiz = (a[0] + ',')
+                        concatenar_raiz += (a[1] + ',')
+                        concatenar_raiz += (a[2] + ',')
 
-                    for i in range(len(a)):
-                        if(i==0):
-                            ifcount = i
-                        print("Tamanho do vetor", len(a))
-                        print("Valor do i:",i)
-                        print("Valor do ifconunt:", ifcount)
+                        imp_raiz = True
 
 
-                        if(int(a[ifcount + 1]) == 0): #GRava valores da raiz
-                            concatenar_raiz += (a[0]+',')
-                            concatenar_raiz += (a[1]+',')
-                            concatenar_raiz += (a[2]+',')
-                            print("a raiz é essa:", concatenar_raiz)
-                            no_esqu_n1 = True
-                            imp_raiz = True
-                            ifcount = ifcount + 4
-                        elif(int(a[ifcount]) == 1) and (no_esqu_n1 == True):
-                            concatenar_a_esquerda += (a[0+4]+',')
-                            concatenar_a_esquerda += (a[1+4]+',')
-                            concatenar_a_esquerda += (a[2+4]+',')
-                            print("Este é o primeiro nó:", concatenar_a_esquerda)
-                            no_esqu_n1 = False
+                    if (int(a[5]) == 1):
 
-                        else:
-                            concatenar_a_direita += (str(a[ifcount + 8]) + ',')
-                            concatenar_a_direita += (str(a[ifcount + 9]) + ',')
-                            concatenar_a_direita += (str(a[ifcount + 10]) + ',')
-
-                        arqv_saida.write(a[ifcount + 8] + ',')
-                        arqv_saida.write(a[ifcount + 9] + ',')
-                        arqv_saida.write(a[ifcount + 10] + ',')
-
-                        if(imp_raiz == True):
-                            arqv_saida.write("+++")
-                            imp_raiz = False
+                        concatenar_no01_direita = (a[4] + ',')
+                        concatenar_no01_direita += (a[5] + ',')
+                        concatenar_no01_direita += (a[6] + ',')
 
 
 
-                        ifend = ifend+4
+                    print("tamanho do vetor:",len(a))
+                    for i in range(9,len(a),4):
+                        print("valor de i:" ,i)
+                        print("Tipo da nivel: " ,type(a[i]))
+                        print("valor do nivel:", a[i])
+                        print("valor anterior ao nivel",a[i-1])
+
+                        if (a[i] == '1'):
+                            indice = i
+                            break
+                        concatenar_a_direita += (a[i - 1] + ',')
+                        concatenar_a_direita += (a[i] + ',')
+                        concatenar_a_direita += (a[i + 1] + ',')
+
+                    print("a raiz é essa:", concatenar_raiz)
+                    print("Este é o primeiro nó:", concatenar_no01_direita)
 
 
-                    print("Valores a direita da raiz:", concatenar_a_direita)
 
 
+                    print("Valor da concatenação a direita: ", concatenar_a_direita)
+                    print("Valor do indice para o segundo for:", indice)
 
+
+                    for i in range(indice, len(a), 4):
+
+                        print("Valor do i segundo for:", i)
+                        concatenar_a_esquerda+= (a[i - 1] + ',')
+                        concatenar_a_esquerda += (a[i] + ',')
+                        concatenar_a_esquerda += (a[i + 1] + ',')
+
+                    print("Valor da concatenação a esqueda: ", concatenar_a_esquerda)
+                    arqv_saida.write(concatenar_a_direita)
+                    arqv_saida.write(concatenar_no01_direita)
+                    arqv_saida.write(concatenar_raiz)
+                    arqv_saida.write(concatenar_a_esquerda)
                     arqv_saida.write('\n')
-
-            arqv_teste.write(' ')
-        arqv_teste.close()
         arqv_saida.close()
-        print(vetor)
-
-
-
-
-
-
-
 

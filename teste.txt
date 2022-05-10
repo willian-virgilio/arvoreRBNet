@@ -56,6 +56,41 @@
 
                             print("Valores a direita da raiz:", concatenar_a_direita)
 ---------------------
+if(i==0):
+                            ifcount = i
+                            print("Tamanho do vetor", len(a))
+                            print("Valor do i:",i)
+                            print("Valor do ifconunt:", ifcount)
+
+
+
+
+
+                            ifcount = ifcount + 4
+
+
+                        else:
+                            concatenar_a_direita += (str(a[ifcount + 8]) + ',')
+                            concatenar_a_direita += (str(a[ifcount + 9]) + ',')
+                            concatenar_a_direita += (str(a[ifcount + 10]) + ',')
+
+                        arqv_saida.write(a[ifcount + 8] + ',')
+                        arqv_saida.write(a[ifcount + 9] + ',')
+                        arqv_saida.write(a[ifcount + 10] + ',')
+
+                        if(imp_raiz == True):
+                            arqv_saida.write("+++")
+                            imp_raiz = False
+
+
+
+                        ifend = ifend+4
+
+                    print("Valores a esquer da raiz:", concatenar_a_esquerda)
+                    print("Valores Da raiz:", concatenar_raiz)
+                    print("Valores a direita da raiz:", concatenar_a_direita)
+
+-------
 
 
 
@@ -154,4 +189,4 @@ SUC 109 77
 SUC 109 90
 IMP 15
 SUC 76 150
-IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
