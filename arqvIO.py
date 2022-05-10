@@ -151,12 +151,27 @@ acumulando o ultimo valor
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
                     ifcount = 0
                     ifend = 3
+                    ant = None
+
                     for i in range(len(a)):
                         ifcount = i
+                        print("Valor do i:",i)
                         while (ifcount < ifend):
-                            arqv_saida.write(a[ifcount]+',')
-                            arqv_saida.write(a[ifcount+1] + ',')
-                            arqv_saida.write(a[ifcount+2] + ',')
+                            ant = int(a[ifcount + 1])
+                            print("Valor do nivel:", ant)
+                            if(int(a[ifcount + 1]) == 0):
+                                v_raiz = a[0]
+                                n_raiz = a[1]
+                                cor_raiz = a[2]
+                                print("a raiz é essa:", v_raiz, n_raiz, cor_raiz)
+                            else:
+                                if(ant<int(a[ifcount + 1])):
+                                    arqv_saida.write(a[ifcount]+'*')
+                                    arqv_saida.write(a[ifcount+1] + '*')
+                                    arqv_saida.write(a[ifcount+2] + '*')
+                                arqv_saida.write(a[ifcount] + ',')
+                                arqv_saida.write(a[ifcount + 1] + ',')
+                                arqv_saida.write(a[ifcount + 2] + ',')
                             ifcount = ifcount+4
                             ifend = ifend+4
 
