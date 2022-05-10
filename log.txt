@@ -11,3 +11,476 @@ versão gravada
 -----------2022-05-10 17:50:35.377031-----------
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1
+-----------2022-05-10 17:50:59.538050-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:50:59.564840-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:50:59.592636-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-10 17:55:47.875571-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:55:47.905555-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:19.859206-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:19.886088-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:37.914418-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:37.942290-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:52.768248-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:56:52.801960-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:57:10.787803-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:57:10.807281-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:57:17.491755-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 17:57:17.510559-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:26:48.412839-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:26:48.436816-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:27:11.775247-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:27:11.811150-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:27:44.712117-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:27:44.756527-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:28:37.566183-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:28:37.586447-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:29:39.204396-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:29:39.230167-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:33:18.969624-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:33:18.995169-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:35:04.695845-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:35:04.736443-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:35:32.543281-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:35:32.576227-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:39:17.742616-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 18:39:17.789100-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:17:20.802460-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:17:20.843458-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:28:49.230519-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:28:49.266459-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:35:50.242136-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:35:50.276932-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:36:59.518150-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:36:59.538037-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:38:18.932906-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:38:18.963523-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:38:46.168693-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:38:46.199071-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:39:45.124874-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:39:45.150498-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:40:59.227482-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:40:59.242753-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:42:18.516019-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:42:18.548690-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:44:06.274394-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:44:06.301671-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:14.931719-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:14.959491-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:29.688754-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:29.722796-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:42.657195-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:49:42.686654-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:50:53.500943-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:50:53.518216-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:52:19.772158-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:52:19.795527-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:58:54.422525-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 19:58:54.445520-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:00:12.323417-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:00:12.350698-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:03.341598-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:03.365915-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:39.847179-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:39.885517-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:55.576196-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:07:55.597070-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:08:47.518288-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:08:47.540408-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:08:57.259443-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:08:57.290045-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:09:29.363072-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:09:29.390264-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:12.228343-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:12.262508-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:37.738675-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:37.757224-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:59.338206-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:10:59.355630-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:14:09.280477-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:14:09.313416-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:14:47.552148-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:14:47.572766-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:20:44.984296-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:20:45.025080-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:21:25.206455-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:21:25.241301-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:24:43.979034-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-10 20:24:44.010301-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 

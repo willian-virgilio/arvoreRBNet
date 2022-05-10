@@ -143,6 +143,9 @@ class Arquivo:
                 if(lista_comandos_e_valores[0] == 'IMP'):
                     concatenar_a_direita = ''
                     concatenar_a_esquerda = ''
+                    concatenar_a_direita_nivel2 = ''
+                    concatenar_a_esquerda_nivel2 = ''
+                    concatenar_no01_direita =''
                     concatenar_raiz = ''
                     indice = 0
 
@@ -152,30 +155,54 @@ class Arquivo:
                     #for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
                     print(type(int(lista_comandos_e_valores[1])))
-
-
                     a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
                     print("Vetor A: ",a)
+                    print("tamanho do vetor:", len(a))
 
-                    ifend = 3
-                    ant = None
+
+
                     if (int(a[1]) == 0):  # GRava valores da raiz
-                        concatenar_raiz = (a[0] + ',')
-                        concatenar_raiz += (a[1] + ',')
-                        concatenar_raiz += (a[2] + ',')
-
-                        imp_raiz = True
-
-
-                    if (int(a[5]) == 1):
-
-                        concatenar_no01_direita = (a[4] + ',')
-                        concatenar_no01_direita += (a[5] + ',')
-                        concatenar_no01_direita += (a[6] + ',')
+                            concatenar_raiz = (a[0] + ',')
+                            concatenar_raiz += (a[1] + ',')
+                            concatenar_raiz += (a[2] + ',')
+                    print("a raiz é essa:", concatenar_raiz)
 
 
 
-                    print("tamanho do vetor:",len(a))
+
+                    if (int(a[5]) == 1) and (a[7] == 'dir'):
+
+                            concatenar_a_direita_nivel2 = (a[4] + ',')
+                            concatenar_a_direita_nivel2 += (a[5] + ',')
+                            concatenar_a_direita_nivel2 += (a[6] + ',')
+                            print("segue direita",concatenar_no01_direita)
+                    elif(int(a[5]) == 1) and (a[7] == 'esq'):
+                            concatenar_a_esquerda_nivel2 += (a[4] + ',')
+                            concatenar_a_esquerda_nivel2 += (a[5] + ',')
+                            concatenar_a_esquerda_nivel2 += (a[5] + ',')
+                            print("Segue esquerda",concatenar_a_esquerda_nivel2)
+
+
+                    if(len(a)<9):
+                        for i in range(indice, len(a), 4):
+                            print("Valor do i segundo for:", i)
+                        arqv_saida.write(concatenar_a_esquerda_nivel2)
+
+                        arqv_saida.write(concatenar_raiz)
+                        arqv_saida.write(concatenar_a_direita_nivel2)
+
+                        arqv_saida.write('\n')
+                        arqv_saida.close()
+                        break
+
+                    if (int(a[5]) == 1) :
+
+                            concatenar_no01_direita = (a[4] + ',')
+                            concatenar_no01_direita += (a[5] + ',')
+                            concatenar_no01_direita += (a[6] + ',')
+
+
+
                     for i in range(9,len(a),4):
                         print("valor de i:" ,i)
                         print("Tipo da nivel: " ,type(a[i]))

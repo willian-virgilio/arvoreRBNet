@@ -3,16 +3,14 @@
     no centro e os numeros decresçam os niveis a partir dela, da esquerda e da direita.
 **Melhora Busca Sucessor
 
- else:
-            with open('log.txt', 'a') as arqv_log:
-                arqv_log.truncate(0)
-                arqv_log.write("A versão solicitada para ser mostrada ainda não existe,\n "
-                "Por favor corrigir, para continuar")
-                arqv_log.write('\n')
-                arqv_log.close()
-            print("A versão solicitada para ser mostrada ainda não existe,\n "
-                "Por favor corrigir, para continuar")
-            exit()
+ if (len(a) < 5):
+                        arqv_saida.write(concatenar_raiz)
+                        arqv_saida.write('\n')
+                        arqv_saida.close()
+                        break
+
+
+
 
 INC 98
 INC 75
