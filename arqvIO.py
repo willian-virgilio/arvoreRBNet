@@ -173,7 +173,7 @@ class Arquivo:
 
 
 
-                        for i in range(4,1,1):
+                        for i in range(4,5,1):
                             print("Valore de i:", i)
                             concatenar_antes = a[i] + ','
                             concatenar_antes += a[i + 1] + ','
@@ -181,19 +181,28 @@ class Arquivo:
                             print("Este é o primeiro nó ", concatenar_antes)
 
                         if lista_comandos_e_valores[1] == '2':
+                            arqv_saida.write(concatenar_antes)
                             arqv_saida.write(concatenar_raiz)
-                            arqv_saida.write(concatenar_antes)
 
+                        for i in range(8,len(a),4):
+                            print("Valore de i:", i)
+                            controle = False
+                            if(a[i+1]!= '1'):
+                                if(controle == False):
+                                    concatenar_antes += a[i] + ','
+                                    concatenar_antes += a[i + 1] + ','
+                                    concatenar_antes += a[i + 2] + ','
+                                    print("Valore concatenado antes da raiz",concatenar_antes)
+                                    controle = True
+                            else:
+                                concatenar_depois += a[i] + ','
+                                concatenar_depois += a[i + 1] + ','
+                                concatenar_depois += a[i + 2] + ','
+                                print("Esta é é a direita da raiz ", concatenar_antes)
+                                arqv_saida.write(concatenar_antes)
+                                arqv_saida.write(concatenar_raiz)
+                                arqv_saida.write(concatenar_depois)
 
-
-
-
-                        for i in range(4,len(a),4):
-                            concatenar_antes = a[i] + ','
-                            concatenar_antes += a[i + 1] + ','
-                            concatenar_antes += a[i + 2] + ','
-                            arqv_saida.write(concatenar_antes)
-                            print("Esta é a direita ", concatenar_antes)
                         arqv_saida.write('\n')
 
 
