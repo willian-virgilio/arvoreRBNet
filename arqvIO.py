@@ -49,10 +49,11 @@ class Arquivo:
         arqv_saida.truncate(0)
 
 
-        for i in range(len(vetor)):
+        for i in range(0,len(vetor),1):
 
             # O primeiro elemento da lista separador é o comando, o segundo é o valor lista_comandos_e_valores = [0]
             lista_comandos_e_valores = vetor[i].split()
+            print("toda a lista :",lista_comandos_e_valores)
            # print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
 
             # primeiro if, caso o vetor1addr tenha indices maior que 2, então ele é o comando SUC de sucessor
@@ -62,7 +63,7 @@ class Arquivo:
                 #print(lista_comandos_e_valores)
 
                 print("A versão de busca do sucessor é:", int(lista_comandos_e_valores[2]))
-                a = nova.retornar_versao((int(lista_comandos_e_valores[2]) - 1),True)
+                a = nova.retornar_versao((int(lista_comandos_e_valores[2])),True)
                # if (c >= lista_comandos_e_valores[2] ):
                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
@@ -138,103 +139,38 @@ class Arquivo:
                     nova.mostrar_arvore()
                   #  self.controle_versao += self.controle_versao
 
+                if (lista_comandos_e_valores[0] == 'IMP'):
 
+                    # print("O comando é :", lista_comandos_e_valores[0])
+                    #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
 
-                if(lista_comandos_e_valores[0] == 'IMP'):
-                    concatenar_a_direita = ''
-                    concatenar_a_esquerda = ''
-                    concatenar_a_direita_nivel2 = ''
-                    concatenar_a_esquerda_nivel2 = ''
-                    concatenar_no01_direita =''
-                    concatenar_raiz = ''
-                    indice = 0
-
-                # print("O comando é :", lista_comandos_e_valores[0])
-                #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
-
-                    #for i in range(len(lista_comandos_e_valores)):
+                    # for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
                     print(type(int(lista_comandos_e_valores[1])))
-                    a = nova.retornar_versao((int(lista_comandos_e_valores[1]) - 1),False) # valor negativo de IMP não é possivel
-                    print("Vetor A: ",a)
-                    print("tamanho do vetor:", len(a))
+
+
+                    if lista_comandos_e_valores[1] == 0 :
+                        msg = "O valor da versão solicitada para impressão IMP é 0," \
+                              "\n a primeira versão começa com valor interio 1"
+                        nova.gerar_log(msg)
+                        exit()
+
+                    a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
+
+                    for i in range(0,1):
+                        print("Valore de i:", i)
+                        arqv_saida.write(a[i] + ',')
+                        arqv_saida.write(a[i+1] + ',')
+                        arqv_saida.write(a[i+2])
+                        print("Esta é a raiz")
+
+                    for i in range(4,len(a),4):
+                        print("Valore de i:",i)
+                        arqv_saida.write(a[i] + ',')
+                        arqv_saida.write(a[i + 1] + ',')
+                        arqv_saida.write(a[i + 2] + ',')
+                        print("Esta é a continuação")
 
 
 
-                    if (int(a[1]) == 0):  # GRava valores da raiz
-                            concatenar_raiz = (a[0] + ',')
-                            concatenar_raiz += (a[1] + ',')
-                            concatenar_raiz += (a[2] + ',')
-                    print("a raiz é essa:", concatenar_raiz)
-
-
-
-
-                    if (int(a[5]) == 1) and (a[7] == 'dir'):
-
-                            concatenar_a_direita_nivel2 = (a[4] + ',')
-                            concatenar_a_direita_nivel2 += (a[5] + ',')
-                            concatenar_a_direita_nivel2 += (a[6] + ',')
-                            print("segue direita",concatenar_no01_direita)
-                    elif(int(a[5]) == 1) and (a[7] == 'esq'):
-                            concatenar_a_esquerda_nivel2 += (a[4] + ',')
-                            concatenar_a_esquerda_nivel2 += (a[5] + ',')
-                            concatenar_a_esquerda_nivel2 += (a[5] + ',')
-                            print("Segue esquerda",concatenar_a_esquerda_nivel2)
-
-
-                    if(len(a)<9):
-                        for i in range(indice, len(a), 4):
-                            print("Valor do i segundo for:", i)
-                        arqv_saida.write(concatenar_a_esquerda_nivel2)
-
-                        arqv_saida.write(concatenar_raiz)
-                        arqv_saida.write(concatenar_a_direita_nivel2)
-
-                        arqv_saida.write('\n')
-                        arqv_saida.close()
-                        break
-
-                    if (int(a[5]) == 1) :
-
-                            concatenar_no01_direita = (a[4] + ',')
-                            concatenar_no01_direita += (a[5] + ',')
-                            concatenar_no01_direita += (a[6] + ',')
-
-
-
-                    for i in range(9,len(a),4):
-                        print("valor de i:" ,i)
-                        print("Tipo da nivel: " ,type(a[i]))
-                        print("valor do nivel:", a[i])
-                        print("valor anterior ao nivel",a[i-1])
-
-                        if (a[i] == '1'):
-                            indice = i
-                            break
-                        concatenar_a_direita += (a[i - 1] + ',')
-                        concatenar_a_direita += (a[i] + ',')
-                        concatenar_a_direita += (a[i + 1] + ',')
-
-                    print("a raiz é essa:", concatenar_raiz)
-                    print("Este é o primeiro nó:", concatenar_no01_direita)
-
-
-
-
-                    print("Valor da concatenação a direita: ", concatenar_a_direita)
-                    print("Valor do indice para o segundo for:", indice)
-                    for i in range(indice, len(a), 4):
-
-                        print("Valor do i segundo for:", i)
-                        concatenar_a_esquerda+= (a[i - 1] + ',')
-                        concatenar_a_esquerda += (a[i] + ',')
-                        concatenar_a_esquerda += (a[i + 1] + ',')
-
-                    print("Valor da concatenação a esqueda: ", concatenar_a_esquerda)
-                    arqv_saida.write(concatenar_a_direita)
-                    arqv_saida.write(concatenar_no01_direita)
-                    arqv_saida.write(concatenar_raiz)
-                    arqv_saida.write(concatenar_a_esquerda)
-                    arqv_saida.write('\n')
         arqv_saida.close()

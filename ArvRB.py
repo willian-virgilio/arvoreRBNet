@@ -376,15 +376,17 @@ class ArvRB():
 
 
     def retornar_versao(self, index,e_sucessor):
-
+        print("Index",index-1)
+        print("lenght vetor",len(self.vetor_grava_versao2))
 
         if(e_sucessor==True):
-            if(index <= len(self.vetor_grava_versao2)):
-                a = self.vetor_grava_versao2[index]
+            if(index-1 <= len(self.vetor_grava_versao2)):
+                a = self.vetor_grava_versao2[index-1]
                 return a
 
             else:
                 a = self.vetor_grava_versao2[len(self.vetor_grava_versao2)-1]
+
                 msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n que a ultima versão gravada, portanto \n" \
                       "sera mostrado o sucessor nó solicitado , da ultima\nversão gravada "
                 self.gerar_log(msg)
@@ -393,17 +395,16 @@ class ArvRB():
                 self.retornar_valor_corrigido()
                 return a
         else:
-            print("Numero do indice do vetor da versão existente: ", index)
-            if index == -1:
-                msg = "O valor da versão solicitada para impressão IMP é 0," \
-                      "\n a primeira versão começa com valor interio 1"
-                self.gerar_log(msg)
-                exit()
-            else:
-                a = self.vetor_grava_versao2[index]
-                return a
+            print("Valor variavel e_sucessor:",e_sucessor)
             print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
             print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
+            a = self.vetor_grava_versao2[index-1]
+            return a
+
+            print("primeiro elemento do vetor", self.vetor_grava_versao2[0])
+            print("Numero do indice do vetor da versão existente: ", index-1)
+
+
 
     # Function to call print
     def mostrar_arvore (self) :
