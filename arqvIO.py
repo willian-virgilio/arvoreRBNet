@@ -133,8 +133,10 @@ class Arquivo:
 
                 if(lista_comandos_e_valores[0] == 'REM'):
                     concatenar_raiz = ''
-                    concatenar_direita = ''
-                    concatenar_esquerda = ''
+                    concatenar_antes = ''
+                    concatenar_depois = ''
+
+
                 # print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
                     nova.deletarNo(lista_comandos_e_valores[1])
@@ -159,32 +161,39 @@ class Arquivo:
 
                         a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
 
-
-                        for i in range(0,1):
+                        for i in range(0, 1, 1):
                             print("Valore de i:", i)
                             concatenar_raiz = a[i] + ','
                             concatenar_raiz += a[i+1] + ','
                             concatenar_raiz += a[i + 2] + ','
+                        print("Esta é a raiz: ", concatenar_raiz)
+
+                        if lista_comandos_e_valores[1] == '1':
                             arqv_saida.write(concatenar_raiz)
-                            print("Esta é a raiz: ",concatenar_raiz)
+
+
+
+                        for i in range(4,1,1):
+                            print("Valore de i:", i)
+                            concatenar_antes = a[i] + ','
+                            concatenar_antes += a[i + 1] + ','
+                            concatenar_antes += a[i + 2] + ','
+                            print("Este é o primeiro nó ", concatenar_antes)
 
                         if lista_comandos_e_valores[1] == '2':
+                            arqv_saida.write(concatenar_raiz)
+                            arqv_saida.write(concatenar_antes)
 
-                            for i in range(0,1):
-                                print("Valore de i:", i)
-                                concatenar_direita = a[i] + ','
-                                concatenar_direita += a[i + 1] + ','
-                                concatenar_direita += a[i + 2] + ','
-                                arqv_saida.write(concatenar_direita)
-                                print("Este é o primeiro nó ", concatenar_direita)
-                            arqv_saida.write('\n')
+
+
+
 
                         for i in range(4,len(a),4):
-                            concatenar_direita = a[i] + ','
-                            concatenar_direita += a[i + 1] + ','
-                            concatenar_direita += a[i + 2] + ','
-                            arqv_saida.write(concatenar_direita)
-                            print("Esta é a direita ", concatenar_direita)
+                            concatenar_antes = a[i] + ','
+                            concatenar_antes += a[i + 1] + ','
+                            concatenar_antes += a[i + 2] + ','
+                            arqv_saida.write(concatenar_antes)
+                            print("Esta é a direita ", concatenar_antes)
                         arqv_saida.write('\n')
 
 
