@@ -146,30 +146,29 @@ class Arquivo:
 
                     # for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
-                    print(type(int(lista_comandos_e_valores[1])))
 
-
-                    if lista_comandos_e_valores[1] == 0 :
+                    if lista_comandos_e_valores[1] == '0' :
                         msg = "O valor da versão solicitada para impressão IMP é 0," \
                               "\n a primeira versão começa com valor interio 1"
                         nova.gerar_log(msg)
                         exit()
+                    else:
 
-                    a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
+                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
 
-                    for i in range(0,1):
-                        print("Valore de i:", i)
-                        arqv_saida.write(a[i] + ',')
-                        arqv_saida.write(a[i+1] + ',')
-                        arqv_saida.write(a[i+2])
-                        print("Esta é a raiz")
+                        for i in range(0,1):
+                            print("Valore de i:", i)
+                            arqv_saida.write(a[i] + ',')
+                            arqv_saida.write(a[i+1] + ',')
+                            arqv_saida.write(a[i+2])
+                            print("Esta é a raiz")
 
-                    for i in range(4,len(a),4):
-                        print("Valore de i:",i)
-                        arqv_saida.write(a[i] + ',')
-                        arqv_saida.write(a[i + 1] + ',')
-                        arqv_saida.write(a[i + 2] + ',')
-                        print("Esta é a continuação")
+                        for i in range(4,len(a),4):
+                            print("Valore de i:",i)
+                            arqv_saida.write(a[i] + ',')
+                            arqv_saida.write(a[i + 1] + ',')
+                            arqv_saida.write(a[i + 2] + ',')
+                            print("Esta é a continuação")
 
 
 
