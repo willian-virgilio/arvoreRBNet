@@ -160,7 +160,7 @@ class Arquivo:
                             print("Valore de i:", i)
                             arqv_saida.write(a[i] + ',')
                             arqv_saida.write(a[i+1] + ',')
-                            arqv_saida.write(a[i+2])
+                            arqv_saida.write(a[i+2]+',')
                             print("Esta é a raiz")
 
                         for i in range(4,len(a),4):
