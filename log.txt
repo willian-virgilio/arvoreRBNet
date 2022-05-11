@@ -1564,3 +1564,16 @@ versão gravada
 -----------2022-05-11 10:36:54.427736-----------
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1
+-----------2022-05-11 12:10:15.695549-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 12:10:15.728178-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 12:10:15.758381-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
