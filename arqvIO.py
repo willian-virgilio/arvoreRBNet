@@ -169,6 +169,7 @@ class Arquivo:
                             arqv_saida.write(a[i + 1] + ',')
                             arqv_saida.write(a[i + 2] + ',')
                             print("Esta é a continuação")
+                        arqv_saida.write('\n')
 
 
 
