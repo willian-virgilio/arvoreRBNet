@@ -168,16 +168,16 @@ class Arquivo:
                             arqv_saida.write(concatenar_raiz)
                             print("Esta é a raiz: ",concatenar_raiz)
 
-                        if lista_comandos_e_valores[1] == '2' :
-                            for i in range(0, 1):
+                        if lista_comandos_e_valores[1] == '2':
+
+                            for i in range(0,1):
+                                print("Valore de i:", i)
                                 concatenar_direita = a[i] + ','
                                 concatenar_direita += a[i + 1] + ','
                                 concatenar_direita += a[i + 2] + ','
                                 arqv_saida.write(concatenar_direita)
-                                print("Esta é a primeiro nó ", concatenar_direita)
+                                print("Este é o primeiro nó ", concatenar_direita)
                             arqv_saida.write('\n')
-
-
 
                         for i in range(4,len(a),4):
                             concatenar_direita = a[i] + ','
