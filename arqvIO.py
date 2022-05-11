@@ -132,6 +132,9 @@ class Arquivo:
 
 
                 if(lista_comandos_e_valores[0] == 'REM'):
+                    concatenar_raiz = ''
+                    concatenar_direita = ''
+                    concatenar_esquerda = ''
                 # print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
                     nova.deletarNo(lista_comandos_e_valores[1])
@@ -156,12 +159,14 @@ class Arquivo:
 
                         a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
 
+
                         for i in range(0,1):
                             print("Valore de i:", i)
-                            arqv_saida.write(a[i] + ',')
-                            arqv_saida.write(a[i+1] + ',')
-                            arqv_saida.write(a[i+2]+',')
-                            print("Esta é a raiz")
+                            concatenar_raiz = a[i] + ','
+                            concatenar_raiz += a[i+1] + ','
+                            concatenar_raiz += a[i + 2] + ','
+                            arqv_saida.write(concatenar_raiz)
+                            print("Esta é a raiz: ",concatenar_raiz)
 
 
                         for i in range(4,len(a),4):
