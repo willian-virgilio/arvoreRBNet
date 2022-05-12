@@ -7,12 +7,18 @@ from new import AVLTree
 
 if __name__ == "__main__":
 
+    x = True
+    y = True
+    while(x == True) and (y==True):
+        print(x)
+        print(y)
+        x = False
+
     nova = ArvRB()
     Arquivo.lerArquivo('entrada')
-    try:
-        Arquivo.testeEscrita(' ')
-    except Exception as err:
-        print(err)
+
+    Arquivo.testeEscrita(' ')
+
        # Arquivo.salvar_erro(" ",err)
 
        # Arquivo.smsdeErro('teste',True)
@@ -38,6 +44,7 @@ if __name__ == "__main__":
        # print("valor de a: ",a)
         vetor2.append(a)
       #  print(vetor1)
+
 
 
 

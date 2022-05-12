@@ -7,23 +7,37 @@
 
 
 
+
+
+----------------------------
+
+if(a[i+1]!= '1') and (controle_entrada == False):
+                                concatenar_antes += a[i] + ','
+                                concatenar_antes += a[i + 1] + ','
+                                concatenar_antes += a[i + 2] + ','
+                                print("Valore concatenado antes da raiz",concatenar_antes)
+
+                                print("Passou do no 1 do nivel 1",controle_entrada)
+                            elif(a[i+1] == '1') and (controle_entrada == False):
+                                concatenar_no01_nivel01 = a[i] + ','
+                                concatenar_no01_nivel01 += a[i + 1] + ','
+                                concatenar_no01_nivel01 += a[i + 2] + ','
+                                controle_entrada = True
+                                print("Esta é no 01 do nivel 01 ", concatenar_no01_nivel01)
+
+                                ################a ser removio###########
+                                if(a[i+1]!= '1') and (controle_entrada == True):
+                                    concatenar_apos += a[i]+','
+                                    concatenar_apos += a[a+1]+','
+                                    concatenar_apos += a[a+2]+','
+                                    print("Esta é concaternar depois ",concatenar_apos)
+                                #############a ser removido#################
+
 ----------------
-
-
-
- else:
-            print("primeiro elemento do vetor", self.vetor_grava_versao2[0])
-            print("Numero do indice do vetor da versão existente: ", index)
-            if index == -1:
-                msg = "O valor da versão solicitada para impressão IMP é 0," \
-                      "\n a primeira versão começa com valor interio 1"
-                self.gerar_log(msg)
-                exit()
-            else:
-                a = self.vetor_grava_versao2[index]
-                return a
-            print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
-            print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
+       elif(a[i+1]!= '1') and (controle_entrada == True):
+                                concatenar_depois += a[i]+','
+                                concatenar_depois += a[a+1]+','
+                                concatenar_depois += a[a+2]
 
 
 INC 98

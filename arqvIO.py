@@ -132,9 +132,7 @@ class Arquivo:
 
 
                 if(lista_comandos_e_valores[0] == 'REM'):
-                    concatenar_raiz = ''
-                    concatenar_antes = ''
-                    concatenar_depois = ''
+
 
 
                 # print("O comando é :", lista_comandos_e_valores[0])
@@ -145,6 +143,9 @@ class Arquivo:
                   #  self.controle_versao += self.controle_versao
 
                 if (lista_comandos_e_valores[0] == 'IMP'):
+                    concatenar_raiz = ''
+                    concatenar_antes = ''
+                    concatenar_apos = ''
 
                     # print("O comando é :", lista_comandos_e_valores[0])
                     #  print("O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
@@ -158,52 +159,73 @@ class Arquivo:
                         nova.gerar_log(msg)
                         exit()
                     else:
+                        controle = True
 
                         a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
 
-                        for i in range(0, 1, 1):
-                            print("Valore de i:", i)
-                            concatenar_raiz = a[i] + ','
-                            concatenar_raiz += a[i+1] + ','
-                            concatenar_raiz += a[i + 2] + ','
+                        concatenar_raiz = a[0] + ','
+                        concatenar_raiz += a[1] + ','
+                        concatenar_raiz += a[2] + ','
                         print("Esta é a raiz: ", concatenar_raiz)
 
-                        if lista_comandos_e_valores[1] == '1':
-                            arqv_saida.write(concatenar_raiz)
+                        if(len(a)<9) and(len(a)>5):
 
-
-
-                        for i in range(4,5,1):
-                            print("Valore de i:", i)
-                            concatenar_antes = a[i] + ','
-                            concatenar_antes += a[i + 1] + ','
-                            concatenar_antes += a[i + 2] + ','
+                            concatenar_antes = a[4] + ','
+                            concatenar_antes += a[5] + ','
+                            concatenar_antes += a[6] + ','
                             print("Este é o primeiro nó ", concatenar_antes)
 
-                        if lista_comandos_e_valores[1] == '2':
-                            arqv_saida.write(concatenar_antes)
-                            arqv_saida.write(concatenar_raiz)
+  #                          if (lista_comandos_e_valores[1] == '1'):
+   #                             arqv_saida.write(concatenar_raiz)
+    #                            print("controle antes de 1:", controle)
+     #                           controle = False
+      #                          print("valor controle depois 1: ",controle)
 
+
+                      #      if lista_comandos_e_valores[1] == '2':
+                       #         arqv_saida.write(concatenar_antes)
+                        #        arqv_saida.write(concatenar_raiz)
+                         #       print("controle antes de 2:", controle)
+                          #      controle = False
+                           #     print("valor controle depois 2: ", controle)
+                        controle_entrada = False
+                        print("Tamanho vetor a antes do for:",len(a))
                         for i in range(8,len(a),4):
                             print("Valore de i:", i)
-                            controle = False
-                            if(a[i+1]!= '1'):
-                                if(controle == False):
-                                    concatenar_antes += a[i] + ','
-                                    concatenar_antes += a[i + 1] + ','
-                                    concatenar_antes += a[i + 2] + ','
-                                    print("Valore concatenado antes da raiz",concatenar_antes)
-                                    controle = True
-                            else:
-                                concatenar_depois += a[i] + ','
-                                concatenar_depois += a[i + 1] + ','
-                                concatenar_depois += a[i + 2] + ','
-                                print("Esta é é a direita da raiz ", concatenar_antes)
-                                arqv_saida.write(concatenar_antes)
-                                arqv_saida.write(concatenar_raiz)
-                                arqv_saida.write(concatenar_depois)
+                            valor = a[i]
+                            nivel = a[i+1]
+                            cor = a[i+2]
 
-                        arqv_saida.write('\n')
+                            if (nivel != '1'):
+                                if(controle_entrada == False):
+                                    concatenar_antes += valor + ','
+                                    concatenar_antes += nivel + ','
+                                    concatenar_antes += cor + ','
+                                    print("Valore concatenado antes da raiz", concatenar_antes)
+                                ################a ser removio###########
+                                if (controle_entrada == True):
+                                    concatenar_apos += valor + ','
+                                    concatenar_apos += nivel + ','
+                                    concatenar_apos += cor + ','
+                                    print("Esta é concaternar depois ", concatenar_apos)
+                                #############a ser removido#################
+
+                                print("Passou do no 1 do nivel 1", controle_entrada)
+                            elif (a[i + 1] == '1') and (controle_entrada == False):
+                                concatenar_no01_nivel01 = valor + ','
+                                concatenar_no01_nivel01 += nivel + ','
+                                concatenar_no01_nivel01 += cor + ','
+                                controle_entrada = True
+                                print("Esta é no 01 do nivel 01 ", concatenar_no01_nivel01)
+
+
+                        arqv_saida.write(concatenar_antes)
+                        arqv_saida.write(concatenar_raiz)
+                        arqv_saida.write(concatenar_no01_nivel01)
+                        arqv_saida.write(concatenar_apos)
+
+
+                    arqv_saida.write('\n')
 
 
 
