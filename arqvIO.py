@@ -181,7 +181,7 @@ class Arquivo:
                         print("Esta é a raiz: ", concatenar_raiz)
                         if(tamanho_vetor_a <= 4):
                             arqv_saida.write(concatenar_raiz)
-                            arqv_saida.write('\n')
+
 
                         else:
                             concatenar_antes += a[4] + ','
