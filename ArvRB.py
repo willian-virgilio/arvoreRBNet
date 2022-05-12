@@ -63,7 +63,8 @@ class ArvRB():
         if(self.controle_versao >= 100):
             msg = "O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt \n" \
                   "contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção \n" \
-                  "revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos"
+                  "revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos\n" \
+                  "---------------------------------------------------------------------------------------------"
             self.gerar_log(msg)
             exit()
 
@@ -368,7 +369,7 @@ class ArvRB():
             arqv_log.write('\n')
         arqv_log.close()
         with open('saida.txt', 'a') as arqv_saida:
-            arqv_saida.truncate(0)
+
             arqv_saida.write(menssagem)
             arqv_saida.write('\n')
         arqv_saida.close()
@@ -387,8 +388,10 @@ class ArvRB():
             else:
                 a = self.vetor_grava_versao2[len(self.vetor_grava_versao2)-1]
 
-                msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n que a ultima versão gravada, portanto \n" \
-                      "sera mostrado o sucessor nó solicitado , da ultima\nversão gravada "
+                msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n " \
+                      "que a ultima versão gravada,portanto sera mostrado\n" \
+                      "o sucessor nó solicitado , da ultima versão gravada \n" \
+                      "----------------------------------------------------------"
                 self.gerar_log(msg)
 
 

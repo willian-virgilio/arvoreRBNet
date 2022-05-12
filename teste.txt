@@ -5,40 +5,8 @@
     *** cRIAR CONDICIONAL DE CASO SUCESSOR SEJA MAIOR QUE 1 VALOR INTEIRO APENAS, QUBRAR A O LAÇO
 
 
-
-
-
-
-----------------------------
-
-if(a[i+1]!= '1') and (controle_entrada == False):
-                                concatenar_antes += a[i] + ','
-                                concatenar_antes += a[i + 1] + ','
-                                concatenar_antes += a[i + 2] + ','
-                                print("Valore concatenado antes da raiz",concatenar_antes)
-
-                                print("Passou do no 1 do nivel 1",controle_entrada)
-                            elif(a[i+1] == '1') and (controle_entrada == False):
-                                concatenar_no01_nivel01 = a[i] + ','
-                                concatenar_no01_nivel01 += a[i + 1] + ','
-                                concatenar_no01_nivel01 += a[i + 2] + ','
-                                controle_entrada = True
-                                print("Esta é no 01 do nivel 01 ", concatenar_no01_nivel01)
-
-                                ################a ser removio###########
-                                if(a[i+1]!= '1') and (controle_entrada == True):
-                                    concatenar_apos += a[i]+','
-                                    concatenar_apos += a[a+1]+','
-                                    concatenar_apos += a[a+2]+','
-                                    print("Esta é concaternar depois ",concatenar_apos)
-                                #############a ser removido#################
-
-----------------
-       elif(a[i+1]!= '1') and (controle_entrada == True):
-                                concatenar_depois += a[i]+','
-                                concatenar_depois += a[a+1]+','
-                                concatenar_depois += a[a+2]
-
+*esta concatenando raiz, antes , porem falta o primeiro nivel 1,
+* IMP 1 esta concatenando valor apos a raiz
 
 INC 98
 INC 75

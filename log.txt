@@ -3436,3 +3436,571 @@ versão gravada
 -----------2022-05-11 21:22:35.982166-----------
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1
+-----------2022-05-11 21:32:09.131750-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:32:09.166708-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:32:09.207780-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 21:32:58.623517-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:32:58.665224-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:32:58.694939-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 21:35:33.079104-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:35:33.104829-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:35:33.133915-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 21:38:35.512779-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:38:35.539673-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:38:35.555846-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 21:41:57.939941-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:41:57.979005-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:41:58.009470-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 21:44:38.968410-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:44:38.983382-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:46:28.162761-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:46:28.180945-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:50:15.279966-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:50:15.314786-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:50:58.439582-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:50:58.471185-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:51:04.713272-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:51:04.746568-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:53:15.931583-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:53:15.963108-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:58:01.429032-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:58:01.461814-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:59:55.057830-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:59:55.100104-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 21:59:55.132649-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:00:59.323455-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:00:59.355099-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:00:59.381447-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:01:16.071252-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:01:16.114924-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:01:16.155138-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:03:32.233171-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:03:32.274621-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:03:32.298670-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:08:13.464437-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:08:13.487922-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:08:34.060922-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:08:34.089597-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:08:34.115810-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:09:34.629037-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:09:34.654763-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:09:34.678811-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:09:58.014801-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:09:58.052421-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:09:58.079021-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-11 22:10:16.436236-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:10:16.474049-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-11 22:10:16.513870-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 10:27:50.799760-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:27:50.800345-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:27:50.801155-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 10:28:03.655597-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:28:03.656569-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:28:03.658350-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 10:29:33.756428-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:29:33.757163-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:29:33.758609-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 10:37:47.005469-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:37:47.009280-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:53:00.971277-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 10:53:14.098465-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 10:53:14.100187-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:04:30.849052-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:04:30.849733-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:04:30.850329-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:04:48.801041-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:04:48.801554-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:04:48.802061-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:05:05.554286-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:05:05.555677-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:05:05.559732-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:05:27.975868-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:05:27.976752-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:05:27.980034-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:06:01.575192-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:06:01.575863-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:06:01.576424-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:06:15.138911-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:06:15.140010-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:06:15.141327-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:08:47.512455-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:08:47.513122-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:09:26.464109-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:09:26.465344-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:09:26.466980-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:11:03.169424-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:11:03.170152-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:11:03.170984-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:11:48.250123-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:11:48.251596-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:11:48.253896-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:14:51.934638-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:14:51.936134-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:14:51.939660-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:20:11.667416-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:20:11.668067-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:20:11.669073-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:20:50.212444-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:20:50.213165-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:20:50.214928-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:21:04.124616-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:04.125124-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:04.126522-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:21:10.010480-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:10.011581-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:10.013696-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:21:17.911043-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:17.912239-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:21:17.915047-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:27:11.065660-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:27:11.259693-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+-----------2022-05-12 11:28:10.283421-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:28:10.286546-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:28:28.053591-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:28:28.058632-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:29:09.193472-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada, portanto 
+sera mostrado o sucessor nó solicitado , da ultima
+versão gravada 
+-----------2022-05-12 11:29:09.196798-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1
+-----------2022-05-12 11:32:13.158046-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,
+ portanto sera mostrado o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------------------------------------------
+-----------2022-05-12 11:32:13.161239-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 11:33:01.888520-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 11:33:01.890321-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
