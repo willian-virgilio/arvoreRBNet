@@ -182,7 +182,6 @@ class Arquivo:
                         if(tamanho_vetor_a <= 4):
                             arqv_saida.write(concatenar_raiz)
 
-
                         else:
                             concatenar_antes += a[4] + ','
                             concatenar_antes += a[5] + ','
