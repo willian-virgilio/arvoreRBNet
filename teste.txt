@@ -6,15 +6,28 @@
 
 
 
----------------------------------------------------
 
+                                 if (valor_referencia < int(a[i])):
+                        if (tamanho_vetor_a < 5):
+                            x = str(a[i])
 
- if(anterior <int(a[i])):
-                            sucessor.clear()
-                            sucessor.append(anterior)
-                            print("O valor do sucessor, comparando com o proximo elemento é: ",sucessor)
-                        sucessor.append(int(a[i]))
-#
+                        else:
+
+                            proximo = a[i + 4]
+                            arqv_saida.write("o valor do proximo:")
+                            arqv_saida.write(proximo)
+                            arqv_saida.write('\n')
+                            if (int(proximo) < int(a[i])):
+                                x = str(proximo)
+
+                    else:
+                        x = 'INF'
+                        print("este é o sucessor", x)
+
+                    arqv_saida.write(str(x))
+
+                    arqv_saida.write('\n')
+
 
 INC 98
 INC 75
@@ -110,4 +123,9 @@ SUC 109 77
 SUC 109 90
 IMP 15
 SUC 76 150
-IMP 9                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+IMP 9
+SUC 8 1
+SUC 11 1
+SUC 53 8
+SUC 20 1
+SUC 20 3

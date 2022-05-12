@@ -4085,3 +4085,771 @@ o sucessor nó solicitado , da ultima versão gravada
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1 
 -----------------------------------------------------
+-----------2022-05-12 15:42:29.484438-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 15:42:29.487981-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:01:20.193874-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:01:20.198084-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:02:48.621971-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:02:48.625784-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:04:10.268574-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:04:10.270786-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:09:41.637460-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:09:41.641588-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:20:50.005974-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:21:32.052269-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:21:56.377244-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:22:23.595892-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:22:23.596834-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:27:45.583127-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:27:45.584494-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:29:41.595966-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:29:41.598524-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:30:53.686823-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:30:53.689820-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:31:15.698709-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:31:15.700969-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:32:41.197233-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:32:55.298878-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:33:07.699870-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:33:22.951735-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:34:37.994840-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:34:37.996788-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:35:15.743070-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:35:15.744933-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:36:10.107138-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:36:41.261155-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:36:53.787216-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:37:08.234070-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:38:18.235823-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:39:16.242017-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:39:16.245238-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:39:40.181808-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:39:40.184262-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:39:48.101593-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:39:48.103753-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:39:59.607177-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:40:05.060254-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:40:13.134543-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:51:32.972063-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:51:32.973084-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 17:51:50.385817-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:52:02.666631-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:52:02.666886-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 17:52:15.505623-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:53:14.111280-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:53:14.111530-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 17:53:24.383172-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:53:45.673329-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:53:45.673535-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 17:54:07.177804-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:54:07.178000-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 17:54:29.772444-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-12 17:55:03.413243-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:55:03.413443-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:55:03.413480-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 17:57:33.005733-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 17:57:33.006179-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 17:57:33.006243-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:19:58.669106-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:19:58.669869-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 18:19:58.669959-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:20:23.640584-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:20:43.387300-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:20:53.686969-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:21:19.193315-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:22:25.538387-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:27:18.322365-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:32:09.286973-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:32:09.287571-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 18:32:09.287659-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:40:04.493240-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:41:49.862520-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:46:58.782225-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:46:58.782458-----------
+-----------------
+local variable 'sucessor' referenced before assignment-----------------
+
+-----------2022-05-12 18:46:58.782526-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:47:53.230935-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:47:53.231218-----------
+-----------------
+local variable 'sucessor' referenced before assignment-----------------
+
+-----------2022-05-12 18:47:53.231306-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:49:00.573277-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:49:00.573606-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 18:49:00.573674-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:50:13.925978-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:52:43.937568-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 18:52:43.937873-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:54:24.972139-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 18:54:24.972531-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 18:54:24.972625-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 18:56:44.419363-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:00:13.275939-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:00:13.276364-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:00:13.276408-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 19:01:53.687106-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:01:53.687418-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:01:53.687497-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...
+ -----------------------------------------------------
+
+-----------2022-05-12 19:03:31.072345-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:03:52.767224-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:04:44.887702-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:05:22.982184-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:12:12.777852-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:13:17.133551-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:13:17.134158-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:13:17.134248-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:17:33.898469-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-12 19:17:33.899034-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:17:33.899169-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:30:55.305132-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:30:55.305698-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:31:32.530151-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:31:32.530434-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:32:48.599250-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:32:48.599744-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:35:29.874459-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:35:29.874888-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:36:50.203835-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:36:50.204237-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:37:27.690188-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:37:27.690523-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:37:38.792951-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:37:38.793269-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:46:43.867175-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:46:43.867751-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:48:30.510480-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:48:30.510847-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:48:44.966500-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:48:44.966760-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:49:02.421222-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:49:02.421485-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:50:14.397592-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:50:14.398075-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:51:46.375166-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:51:46.375458-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:55:37.872630-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:55:37.872862-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:57:51.550664-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:57:51.550948-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:58:53.652874-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:58:53.653191-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:59:24.336669-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:59:24.337027-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 19:59:42.064486-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 19:59:42.064785-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 20:01:06.392375-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 20:01:06.392537-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 20:05:17.978572-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 20:05:17.978868-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 20:05:51.049177-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 20:05:51.049454-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
+-----------2022-05-12 20:06:56.167244-----------
+-----------------
+list index out of range-----------------
+
+-----------2022-05-12 20:06:56.167433-----------
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+

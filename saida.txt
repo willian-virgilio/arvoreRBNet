@@ -1,48 +1,50 @@
-Alerta: A versão solicitada para ser mostrada ainda é maior,
- que a ultima versão gravada,portanto sera mostrado
-o sucessor nó solicitado , da ultima versão gravada 
-----------------------------------------------------------
-O valor da versão solicitada para impressão IMP é 0,
- a primeira versão começa com valor interio 1 
------------------------------------------------------
-SUC 8 1 
-20
-SUC 11 1 
-20
-SUC 53 8 
-INF
-SUC 20 1 
-INF
-SUC 20 3 
-INF
-SUC 20 29 
-30
-SUC 12 10 
-15
-SUC 12 20 
-13
+-----------------
+list index out of range-----------------
+
+----------------------------------------------------------------
+ erro de indice, a lista deve ter uma instrução sem o numero,
+ ou conter algum espaço em branco entre as instruções,
+por favor corrigir...-----------------------------------------------------
+
 IMP 13
-15,1,R,10,2,N,1,3,R,2,2,N,16,3,R,20,0,N,8,1,R,53,2,N,30,3,R,55,3,R,9,2,N,
+15,1,N,10,2,N,10,3,R,1,4,R,2,2,N,16,3,R,30,0,N,8,1,N,55,2,N,53,3,R,9,2,N,
 IMP 12
-15,1,R,10,2,N,1,3,R,2,2,N,16,3,R,20,0,N,8,1,R,30,2,N,55,3,R,9,2,N,
+15,1,N,10,2,N,10,3,R,1,4,R,2,2,N,16,3,R,30,0,N,8,1,N,55,2,N,9,2,N,
 IMP 11
-15,1,R,10,2,N,1,3,R,10,3,R,2,2,N,16,3,R,20,0,N,8,1,R,30,2,N,55,3,R,9,2,N,
+10,1,N,10,2,N,1,3,R,10,2,N,15,0,N,8,1,N,30,2,R,2,3,N,16,4,R,55,3,N,9,2,N,
 IMP 10
-15,1,R,10,2,N,1,3,R,10,3,R,2,2,N,20,0,N,8,1,R,30,2,N,55,3,R,9,2,N,
+10,1,R,10,2,N,1,3,R,10,2,N,15,0,N,8,1,R,30,2,N,2,3,R,55,3,R,9,2,N,
 IMP 9
-10,1,N,1,2,R,10,2,R,15,0,N,20,1,R,2,2,N,8,2,N,30,3,R,9,3,R,
+10,1,R,10,2,N,1,3,R,10,2,N,15,0,N,8,1,R,2,2,N,30,3,R,9,2,N,
 IMP 8
-10,1,N,1,2,R,10,2,R,15,0,N,20,1,R,2,2,N,9,2,N,8,3,R,
+10,1,N,1,2,R,10,0,N,15,1,R,10,2,N,8,2,N,2,3,R,9,3,R,
 IMP 7
-10,1,N,1,2,R,10,2,R,15,0,N,20,1,N,2,2,R,9,2,R,
+10,1,N,1,2,R,10,0,N,15,1,R,10,2,N,2,2,N,9,3,R,
 IMP 6
-10,1,N,1,2,R,10,2,R,15,0,N,20,1,N,2,2,R,
+10,1,N,1,2,R,10,0,N,15,1,N,10,2,R,2,2,R,
 IMP 4
-10,1,N,15,0,N,20,1,N,2,2,R,
+10,1,N,10,0,N,15,1,N,2,2,R,
 IMP 3
-10,1,R,15,0,N,20,1,R,
+10,1,R,10,0,N,15,1,R,
 IMP 2
-15,1,R,20,0,N,
+15,1,R,10,0,N,
 IMP 1
-20,0,N,
-IMP 0
+10,0,N,
+SUC 1 1
+10
+SUC 16 15
+o valor do proximo nó:15
+15
+INF
+INF
+INF
+INF
+INF
+INF
+INF
+INF
+o valor do proximo nó:53
+53
+o valor do proximo nó:9
+9
+INF

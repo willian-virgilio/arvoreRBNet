@@ -5,7 +5,6 @@ from ArvRB import ArvRB
 
 versao = []
 vetor = []
-sucessor = []
 
 
 
@@ -58,69 +57,66 @@ class Arquivo:
 
             # primeiro if, caso o vetor1addr tenha indices maior que 2, então ele é o comando SUC de sucessor
             if( len(lista_comandos_e_valores) > 2):
-              #  print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
-              #  print("A versão da estrutura é :", lista_comandos_e_valores[2])
-                #print(lista_comandos_e_valores)
+
 
                 print("A versão de busca do sucessor é:", int(lista_comandos_e_valores[2]))
-                a = nova.retornar_versao((int(lista_comandos_e_valores[2])),True)
-               # if (c >= lista_comandos_e_valores[2] ):
-                #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
+
+                 # if (c >= lista_comandos_e_valores[2] ):
+                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                   #  arqv_saida.write(lista_comandos_e_valores[c] + ' ')
 
-               # print("Elementos salvos desta  versão: ",a)
-                print("O valor de pesquisa de sucessor: ",int(lista_comandos_e_valores[1]))
+                      # print("Elementos salvos desta  versão: ",a)
+                valor_de_referencia = int(lista_comandos_e_valores[1])
+
+                print("O valor de pesquisa de sucessor: ",valor_de_referencia)
 
                 corrigido = nova.retornar_valor_corrigido()
-                print("Tipo corrigido: ",type(corrigido))
-                print("Valor corrigido: ", corrigido)
-                print("Valor da versão solicitada ", lista_comandos_e_valores[2])
+                print("Tipo variavel corrigido: ",type(corrigido))
 
-                if (int(corrigido) < int(lista_comandos_e_valores[2])):
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[1] + ' ')
-                    arqv_saida.write(str(corrigido) + ' ')
-                    arqv_saida.write('\n')
-                else:
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[1] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[2] + ' ')
-                    arqv_saida.write('\n')
+                print("A versão solicitada ", lista_comandos_e_valores[2])
+                versao_referencia = int(lista_comandos_e_valores[2])
+                if (versao_referencia > corrigido):
+                    print("Valor da versão solicitada agora é: ",corrigido)
+                    versao_referencia = corrigido
+                print("VErsão corrigido: ", versao_referencia)
+                a = nova.retornar_versao(versao_referencia, True)
+
+                arqv_saida.write(lista_comandos_e_valores[0] + ' ')
+                arqv_saida.write(lista_comandos_e_valores[1] + ' ')
+                arqv_saida.write(str(versao_referencia) + '\n')
+
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
-                sucessor.clear()
-
+                x = ''
+                tamanho_vetor_a = len(a)
                 # if(len(a) == 0)
-                for i in range(0,len(a),4):
+                print("Tamanho do len de a:",tamanho_vetor_a)
 
-                    if(int(lista_comandos_e_valores[1]) < int(a[i]) ):
+                for i in range(0,tamanho_vetor_a,4):
 
+                    print(i)
 
-                        sucessor.append(int(a[i]))
-#
+                    if (valor_de_referencia < int(a[i])):
+                        if (tamanho_vetor_a < 5):
+                            x = str(a[i])
 
-                    print("lista de valores de sucessores:", sucessor)
-                    print("tamanho", len(sucessor))
-                    """
-                    por algum motivo estranho a função min() está retornando vazio - ValueError: min() arg is an empty sequence -
-                        Porem fazendo os teste a lista esta sendo preenchida com todos os valores acima do de pesquisa de sucessor, 
-                        alem do proprio vetor sucessor retornar o tamanho na funcão len(). De tal forma tive que colocar a funcão min() 
-                        dentro de um for() que percorre o vetor sucessor dai no final o ultimo valor gravado na variavel x, 
-                        acumulando o ultimo valor
-                        """
-                    x = 0
-                    for i in range(len(sucessor)):
-                        x = min(sucessor)
+                        else:
 
-                    if(x == 0 ):
+                            proximo = a[i + 4]
+                            arqv_saida.write("o valor do proximo nó:")
+                            arqv_saida.write(proximo)
+                            arqv_saida.write('\n')
+                            if (int(proximo) < int(a[i])):
+                                x = str(proximo)
+
+                    else:
                         x = 'INF'
                     print("este é o sucessor", x)
 
+                    arqv_saida.write(str(x))
 
-                arqv_saida.write(str(x))
-
-                arqv_saida.write('\n')
+                    arqv_saida.write('\n')
             # verificar erro AttributeError: 'str' object has no attribute 'loopDeGravacao'
 
             else:
