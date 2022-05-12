@@ -81,10 +81,12 @@ class Arquivo:
                     arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(str(corrigido) + ' ')
+                    arqv_saida.write('\n')
                 else:
                     arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[2] + ' ')
+                    arqv_saida.write('\n')
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
                 sucessor.clear()
@@ -92,7 +94,9 @@ class Arquivo:
                 # if(len(a) == 0)
                 for i in range(0,len(a),4):
 
-                    if(int(lista_comandos_e_valores[1]) < int(a[i])):
+                    if(int(lista_comandos_e_valores[1]) < int(a[i]) ):
+
+
                         sucessor.append(int(a[i]))
 #
 
@@ -147,6 +151,9 @@ class Arquivo:
                     concatenar_antes = ''
                     concatenar_apos = ''
                     concatenar_no01_nivel01 = ''
+                    arqv_saida.write('IMP ')
+                    arqv_saida.write(lista_comandos_e_valores[1])
+                    arqv_saida.write('\n')
 
 
                     # print("O comando é :", lista_comandos_e_valores[0])

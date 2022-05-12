@@ -5,8 +5,16 @@
     *** cRIAR CONDICIONAL DE CASO SUCESSOR SEJA MAIOR QUE 1 VALOR INTEIRO APENAS, QUBRAR A O LAÇO
 
 
-*esta concatenando raiz, antes , porem falta o primeiro nivel 1,
-* IMP 1 esta concatenando valor apos a raiz
+
+---------------------------------------------------
+
+
+ if(anterior <int(a[i])):
+                            sucessor.clear()
+                            sucessor.append(anterior)
+                            print("O valor do sucessor, comparando com o proximo elemento é: ",sucessor)
+                        sucessor.append(int(a[i]))
+#
 
 INC 98
 INC 75
