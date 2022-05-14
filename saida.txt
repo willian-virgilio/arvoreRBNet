@@ -6,7 +6,7 @@ A operação do arquivo entrada.txt
 que gerou o esse alerta foi: SUC 12 20 
 ----------------------------------------
 O valor da versão solicitada para impressão IMP é 0,
- a primeira versão começa com valor interio 1 
+ a primeira versão começa com valor inteiro 1 
 -----------------------------------------------------
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  0 

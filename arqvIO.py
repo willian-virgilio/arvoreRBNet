@@ -49,13 +49,13 @@ class Arquivo:
         print("Tamanho do vetor1: ",len(vetor))
         arqv_saida = open('saida.txt', 'a')
         arqv_saida.truncate(0)
-        msg_erro_index = "Erro : Vaalor do da versão maior que a existente, ou inexistente" \
+        msg_erro_index = "Erro : Valor do elemento é inexistente, ou contem algum caracter invalido" \
                          "O arquivo entrada.txt contem uma instrução invalida, \n " \
                       "Verifique as seguntes possibilidades:\n" \
                          " 1 - Se alguma instrução esta faltando numero posterior a ela. \n" \
                          "Exemplo: IMP  <-----está sem o numero da versão!!\n" \
                       "    2 - Se contem caracter invalido, não numerico.: Exemplo INC x \n" \
-                        "  3 - Se o numero de pesquisa da impressão é maior que a ultima versão "
+
 
 
 
@@ -183,10 +183,9 @@ class Arquivo:
                         arqv_saida.write('\n')
 
                         controle = True
-                        try:
-                            a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'','')  # valor negativo de IMP não é possivel
-                        except:
-                            nova.gerar_log(msg_erro_index,'IMP',lista_comandos_e_valores[1],'')
+
+                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'','')  # valor negativo de IMP não é possivel
+
 
                         tamanho_vetor_a = len(a)
                         print("Tamanho vetor a antes do for:", tamanho_vetor_a)
