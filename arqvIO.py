@@ -42,7 +42,16 @@ class Arquivo:
 
         self.smsErro = 'V'
 
-
+    def gravarCorrigido(self,corrigido,index,elemento):
+        arqv_saida = open('saida.txt', 'a')
+        if (int(corrigido) < int(index)):
+            arqv_saida.write(index + ' ')
+            arqv_saida.write(str(corrigido) + ' ')
+            arqv_saida.write('\n')
+        else:
+            arqv_saida.write(index + ' ')
+            arqv_saida.write(elemento + ' ')
+            arqv_saida.write('\n')
 
 
     def testeEscrita(self):
@@ -87,14 +96,13 @@ class Arquivo:
                 print("Tipo corrigido: ",type(corrigido))
                 print("Valor corrigido: ", corrigido)
                 print("Valor da versão solicitada ", lista_comandos_e_valores[2])
+                arqv_saida.write('SUC ')
 
                 if (int(corrigido) < int(lista_comandos_e_valores[2])):
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(str(corrigido) + ' ')
                     arqv_saida.write('\n')
                 else:
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[2] + ' ')
                     arqv_saida.write('\n')
@@ -169,19 +177,26 @@ class Arquivo:
                     print(type(lista_comandos_e_valores[1]))
                     arqv_saida.write('IMP ')
 
+
+
+
                     if lista_comandos_e_valores[1] == '0' :
                         msg = "O valor da versão solicitada para impressão IMP é 0," \
                               "\n a primeira versão começa com valor inteiro 1 \n" \
                               "-----------------------------------------------------"
                         nova.gerar_log(msg,'IMP','','0')
-                        arqv_saida.write(lista_comandos_e_valores[1])
+                    #    arqv_saida.write(lista_comandos_e_valores[1])
                         arqv_saida.write('\n')
                         exit()
                     else:
+                        corrigido = nova.retornar_valor_corrigido()
 
-                        arqv_saida.write(lista_comandos_e_valores[1])
-                        arqv_saida.write('\n')
-
+                        if (int(corrigido) < int(lista_comandos_e_valores[1])):
+                            arqv_saida.write(str(corrigido) + ' ')
+                            arqv_saida.write('\n')
+                        else:
+                            arqv_saida.write(lista_comandos_e_valores[1] + ' ')
+                            arqv_saida.write('\n')
                         controle = True
 
                         a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'')  # valor negativo de IMP não é possivel

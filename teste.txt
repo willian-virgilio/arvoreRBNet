@@ -3,16 +3,14 @@
     no centro e os numeros decresçam os niveis a partir dela, da esquerda e da direita.
 **Melhora Busca Sucessor
     *** cRIAR CONDICIONAL DE CASO SUCESSOR SEJA MAIOR QUE 1 VALOR INTEIRO APENAS, QUBRAR A O LAÇO
-    def gravar_se_corrigido(self,corrigido,num_versao,operacao,num_no):
+    def gravar_se_corrigido(self,corrigido,num_versao,num_no):
         arqv_saida = open('saida.txt', 'a')
 
         if (int(corrigido) < num_versao):
-            arqv_saida.write(operacao + ' ')
             arqv_saida.write(str(num_no) + ' ')
             arqv_saida.write(str(corrigido) + ' ')
             arqv_saida.write('\n')
         else:
-            arqv_saida.write(operacao + ' ')
             arqv_saida.write(str(num_no) + ' ')
             arqv_saida.write(str(num_versao) + ' ')
             arqv_saida.write('\n')

@@ -5673,3 +5673,315 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  225 
 ----------------------------------------
+-----------2022-05-14 16:09:22.812835-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 16:09:22.838007-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 16:09:22.860259-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 16:58:37.507960-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 16:58:37.535609-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 16:58:37.552876-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:36:55.025774-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:36:55.044554-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:36:55.067592-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:38:21.429858-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:38:21.452215-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:38:21.479061-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:43:11.916550-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:43:11.958101-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:43:34.102116-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:43:34.147057-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:45:31.865839-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:45:31.906404-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:45:49.008468-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:45:49.041141-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:45:49.075227-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:47:10.063974-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:47:10.087001-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:47:10.112342-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:47:32.543714-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:47:32.564662-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:47:32.582919-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 17:56:13.868487-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:56:13.891687-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 17:56:13.909065-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 18:14:41.645777-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:14:41.673412-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:14:41.703834-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 18:16:07.170455-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:16:07.193235-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:16:07.213549-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 18:19:52.749130-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:19:52.774000-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 18:19:52.812078-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
