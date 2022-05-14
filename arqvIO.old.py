@@ -1,10 +1,9 @@
+# from elementosLista import ElementosLista
+from array import *
 
 from ArvRB import ArvRB
 
 versao = []
-
-sucessor = []
-
 vetor = []
 
 nova = ArvRB()
@@ -18,12 +17,11 @@ class Arquivo:
 
 
 
-
     def lerArquivo(self):
         abrir_arquivo = open('entrada.txt', 'r')
         for comando in abrir_arquivo:
             comando = comando.rstrip()
-            print("Valores de comando:",comando)
+           # print(comando)
             vetor.append(comando)
         abrir_arquivo.close()
 
@@ -57,59 +55,64 @@ class Arquivo:
 
             # primeiro if, caso o vetor1addr tenha indices maior que 2, então ele é o comando SUC de sucessor
             if( len(lista_comandos_e_valores) > 2):
-              #  print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
-              #  print("A versão da estrutura é :", lista_comandos_e_valores[2])
-                #print(lista_comandos_e_valores)
+
 
                 print("A versão de busca do sucessor é:", int(lista_comandos_e_valores[2]))
-                a = nova.retornar_versao((int(lista_comandos_e_valores[2])),True)
-               # if (c >= lista_comandos_e_valores[2] ):
-                #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
+
+                 # if (c >= lista_comandos_e_valores[2] ):
+                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                   #  arqv_saida.write(lista_comandos_e_valores[c] + ' ')
 
-               # print("Elementos salvos desta  versão: ",a)
-                print("O valor de pesquisa de sucessor: ",int(lista_comandos_e_valores[1]))
+                      # print("Elementos salvos desta  versão: ",a)
+                valor_de_referencia = int(lista_comandos_e_valores[1])
+
+                print("O valor de pesquisa de sucessor: ",valor_de_referencia)
 
                 corrigido = nova.retornar_valor_corrigido()
-                print("Tipo corrigido: ",type(corrigido))
-                print("Valor corrigido: ", corrigido)
-                print("Valor da versão solicitada ", lista_comandos_e_valores[2])
+                print("Tipo variavel corrigido: ",type(corrigido))
 
-                if (int(corrigido) < int(lista_comandos_e_valores[2])):
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[1] + ' ')
-                    arqv_saida.write(str(corrigido) + ' ')
-                    arqv_saida.write('\n')
-                else:
-                    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[1] + ' ')
-                    arqv_saida.write(lista_comandos_e_valores[2] + ' ')
-                    arqv_saida.write('\n')
+                print("A versão solicitada ", lista_comandos_e_valores[2])
+                versao_referencia = int(lista_comandos_e_valores[2])
+                if (versao_referencia > corrigido):
+                    print("Valor da versão solicitada agora é: ",corrigido)
+                    versao_referencia = corrigido
+                print("VErsão corrigido: ", versao_referencia)
+                a = nova.retornar_versao(versao_referencia, True)
+
+                arqv_saida.write(lista_comandos_e_valores[0] + ' ')
+                arqv_saida.write(lista_comandos_e_valores[1] + ' ')
+                arqv_saida.write(str(versao_referencia) + '\n')
+
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
-                sucessor.clear()
-
+                x = ''
+                tamanho_vetor_a = len(a)
                 # if(len(a) == 0)
-                for i in range(0,len(a),4):
+                print("Tamanho do len de a:",tamanho_vetor_a)
 
-                    if(int(lista_comandos_e_valores[1]) < int(a[i]) ):
+                for i in range(0,tamanho_vetor_a,4):
 
+                    valor_atual = int(a[i])
 
-                        sucessor.append(int(a[i]))
-#
+                    if (valor_de_referencia < valor_atual ):
+                        if (tamanho_vetor_a < 5):
+                            x = str(a[i])
+                            break
 
-                    print("lista de valores de sucessores:", sucessor)
-                    print("tamanho", len(sucessor))
+                        else:
 
-                    x = 0
-                    for i in range(len(sucessor)):
-                        x = min(sucessor)
+                            proximo = a[i + 4]
+                            print("o valor do proximo nó:")
+                            print(proximo,end='\n')
 
-                    if(x == 0 ):
+                            if (valor_de_referencia < int(proximo) ):
+                                x = str(proximo)
+                                break
+
+                    else:
                         x = 'INF'
                     print("este é o sucessor", x)
-
 
                 arqv_saida.write(str(x))
 
