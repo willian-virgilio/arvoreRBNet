@@ -74,7 +74,7 @@ class Arquivo:
                 print("A versão de busca do sucessor é:", nversao)
                 elemento = int(lista_comandos_e_valores[1])
 
-                a = nova.retornar_versao(elemento,True,lista_comandos_e_valores[1],lista_comandos_e_valores[2])
+                a = nova.retornar_versao(nversao,True,'')
                # if (c >= lista_comandos_e_valores[2] ):
                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
@@ -103,6 +103,7 @@ class Arquivo:
                 sucessor.clear()
 
                 # if(len(a) == 0)
+                print('Vetor A:',a)
                 for i in range(0,len(a),4):
 
                     if(int(lista_comandos_e_valores[1]) < int(a[i]) ):
@@ -183,7 +184,7 @@ class Arquivo:
 
                         controle = True
 
-                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'',lista_comandos_e_valores[1])  # valor negativo de IMP não é possivel
+                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'')  # valor negativo de IMP não é possivel
 
 
                         tamanho_vetor_a = len(a)

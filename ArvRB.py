@@ -358,7 +358,7 @@ class ArvRB():
     def gerar_log(self,menssagem,operacao,elemento,nversao):
         msg_erro = "A operação do arquivo entrada.txt \n" \
                    "que gerou o esse alerta foi: "\
-                   + operacao + ' ' + elemento + ' ' + nversao + " \n" \
+                   + operacao + ' ' + str(elemento) + ' ' + str(nversao) + " \n" \
                     "----------------------------------------"
         with open('log.txt', 'a') as arqv_log:
             data_e_hora_atuais = datetime.now()
@@ -379,11 +379,11 @@ class ArvRB():
         print(menssagem)
         print(msg_erro)
 
-    def retornar_versao(self, index,e_sucessor,elemento,nversao):
+    def retornar_versao(self, index,e_sucessor,elemento):
        # print("Index",index-1)
        # print("lenght vetor",len(self.vetor_grava_versao2))
 
-
+#
             if(index-1 <= len(self.vetor_grava_versao2)):
                 a = self.vetor_grava_versao2[index-1]
                 return a
@@ -395,13 +395,13 @@ class ArvRB():
                       "que a ultima versão gravada,portanto sera mostrado\n" \
                       "o sucessor nó solicitado , da ultima versão gravada \n" \
                       "----------------------------------------------------------"
-                    self.gerar_log(msg,'SUC',elemento,nversao)
+                    self.gerar_log(msg,'SUC',elemento,index)
                 else:
                     msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n " \
                           "que a ultima versão gravada,portanto sera mostrado\n" \
                           " a arvore  da ultima versão gravada \n" \
                           "----------------------------------------------------------"
-                    self.gerar_log(msg,'IMP', '', nversao)
+                    self.gerar_log(msg,'IMP', '', index)
 
 
                 self.retornar_valor_corrigido()
