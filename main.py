@@ -1,17 +1,20 @@
 import random
 import ctypes
 from ArvRB import ArvRB
-from arqvIO import Arquivo
 
 
 
 if __name__ == "__main__":
 
-
     nova = ArvRB()
-    Arquivo.lerArquivo('entrada')
+    for i in range(12):
+        nova.inserirNovoNo(i)
+        nova.mostrar_arvore()
 
-    Arquivo.testeEscrita(' ')
+
+
+   #Arquivo.lerArquivo('entrada')
+   #Arquivo.testeEscrita(' ')
 
 
 

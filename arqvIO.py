@@ -8,6 +8,8 @@ sucessor = []
 vetor = []
 
 nova = ArvRB()
+
+
 class Arquivo:
 
 
@@ -120,6 +122,8 @@ class Arquivo:
                 if(lista_comandos_e_valores[0] == 'INC'):
                 #print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser INCLUIDO é: ", lista_comandos_e_valores[1])
+
+
 
                     nova.inserirNovoNo(lista_comandos_e_valores[1])
                     print("Novo No: ", lista_comandos_e_valores[1])
@@ -238,3 +242,14 @@ class Arquivo:
 
 
         arqv_saida.close()
+if __name__ == "__main__":
+
+  #  nova = ArvRB()
+    #for i in range(21):
+    #    nova.inserirNovoNo(i)
+    #    nova.mostrar_arvore()
+
+    x = Arquivo('entrada.txt')
+    x.lerArquivo()
+    x.testeEscrita()
+

@@ -63,13 +63,15 @@ class ArvRB():
 
         no = No(key1)
         no.antecessor = None
-        no.valor = key1
+        no.valor = int(key1)
         no.filhoEsquerdo = self.TNULL
         no.filhoDireito = self.TNULL
         no.cor = 1                                   # Set raiz colour as Red
 
         v1 = None
         v2 = self.raiz
+       # z = ctypes.pointer(self.raiz)
+
 
         while v2 != self.TNULL :                           # Find position for new noVerificado
             v1 = v2
@@ -93,7 +95,8 @@ class ArvRB():
         if no.antecessor.antecessor == None :                  # If antecessor of noVerificado is Root Node
             return
 
-        self.rotacionarInsercao (no)                          # Else call for Fix Up
+        self.rotacionarInsercao(no)                          # Else call for Fix Up
+
 
 
     def minimo(self, no):
@@ -401,7 +404,6 @@ class ArvRB():
 
 
 
-    # Function to call print
     def mostrar_arvore (self) :
 
         self.__mostrar (self.raiz,"",True,True,0)
