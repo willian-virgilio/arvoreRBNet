@@ -1,6 +1,7 @@
 import ctypes
 import random
 from datetime import datetime
+import sys
 
 from No import No
 
@@ -9,11 +10,11 @@ class ArvRB():
 
 
     def __init__(self):
-        self.NULL = No (0)
-        self.NULL.cor = 0
-        self.NULL.filhoEsquerdo = None
-        self.NULL.filhoDireito = None
-        self.raiz = self.NULL
+        self.TNULL = No (0)
+        self.TNULL.cor = 0
+        self.TNULL.filhoEsquerdo = None
+        self.TNULL.filhoDireito = None
+        self.raiz = self.TNULL
         self.sucessor = 0
         self.contadorx = 0
         self.valor_no = None
@@ -44,17 +45,6 @@ class ArvRB():
 
 
 
-            #vetor_grava_versao2.append(vetor_grava_versao1)
-
-            #vetor_grava_versao2.append(vetor_grava_versao1)
-            #print("O vetor completo é: ",vetor_grava_versao2)
-           # x = vetor_grava_versao1[-1]
-            #print("Espaço de memoria:", x)
-           # a = ctypes.cast(x, ctypes.py_object).value
-           # print("valor armazenado no espaço de memoria: ", a)
-           # print("VEtor 2d ultimo vetor inserido: ", vetor_grava_versao2[-1])
-           # print("VEtor 2d ultimo elemento inserido: ", vetor_grava_versao2[i][0])
-           # print("VEtor 2d endereço de memoria do ultimo elemento: ", vetor_grava_versao2[i][1])
 
     # Insert New Node
     def controledeVersao(self):
@@ -74,14 +64,14 @@ class ArvRB():
         no = No(key1)
         no.antecessor = None
         no.valor = key1
-        no.filhoEsquerdo = self.NULL
-        no.filhoDireito = self.NULL
+        no.filhoEsquerdo = self.TNULL
+        no.filhoDireito = self.TNULL
         no.cor = 1                                   # Set raiz colour as Red
 
         v1 = None
         v2 = self.raiz
 
-        while v2 != self.NULL :                           # Find position for new noVerificado
+        while v2 != self.TNULL :                           # Find position for new noVerificado
             v1 = v2
             if no.valor < v2.valor :
                 v2 = v2.filhoEsquerdo
@@ -107,7 +97,7 @@ class ArvRB():
 
 
     def minimo(self, no):
-        while no.filhoEsquerdo != self.NULL:
+        while no.filhoEsquerdo != self.TNULL:
             no = no.filhoEsquerdo
         return no
 
@@ -116,7 +106,7 @@ class ArvRB():
     def rotacaoParaEsquerda (self, key2) :
         v3 = key2.filhoDireito                                      # Y = Right child of key2
         key2.filhoDireito = v3.filhoEsquerdo                                 # Change filhoDireito child of key2 to filhoEsquerdo child of y
-        if v3.filhoEsquerdo != self.NULL :
+        if v3.filhoEsquerdo != self.TNULL :
             v3.filhoEsquerdo.antecessor = key2
 
         v3.antecessor = key2.antecessor                              # Change antecessor of y as antecessor of key2
@@ -134,7 +124,7 @@ class ArvRB():
     def rotacaoParaDireita (self, key3) :
         v5 = key3.filhoEsquerdo                                       # Y = Left child of key2
         key3.filhoEsquerdo = v5.filhoDireito                                 # Change filhoEsquerdo child of key2 to filhoDireito child of y
-        if v5.filhoDireito != self.NULL :
+        if v5.filhoDireito != self.TNULL :
             v5.filhoDireito.antecessor = key3
 
         v5.antecessor = key3.antecessor                              # Change antecessor of y as antecessor of key2
@@ -251,8 +241,8 @@ class ArvRB():
 
     # Function to handle deletion
     def __auxDel_no (self, no, key7) :
-        v9 = self.NULL
-        while no != self.NULL :                          # Search for the noVerificado having that value/ key1 and store it in 'v9'
+        v9 = self.TNULL
+        while no != self.TNULL :                          # Search for the noVerificado having that value/ key1 and store it in 'v9'
             if no.valor == key7 :
                 v9 = no
 
@@ -264,16 +254,16 @@ class ArvRB():
 
 
 
-        if v9 == self.NULL :                                # If Kwy is not present then deletion not possible so return
+        if v9 == self.TNULL :                                # If Kwy is not present then deletion not possible so return
             print ( "O elemento não esta presente na arvore" )
             return
 
         v10 = v9
         v10_cor_anterior = v10.cor                          # Store the cor of v9- noVerificado
-        if v9.filhoEsquerdo == self.NULL :                            # If filhoEsquerdo child of v9 is NULL
+        if v9.filhoEsquerdo == self.TNULL :                            # If filhoEsquerdo child of v9 is NULL
             v11 = v9.filhoDireito                                     # Assign filhoDireito child of v9 to key2
             self.__transposicao_rb (v9, v9.filhoDireito)            # Transplant Node to be deleted with key2
-        elif (v9.filhoDireito == self.NULL) :                       # If filhoDireito child of v9 is NULL
+        elif (v9.filhoDireito == self.TNULL) :                       # If filhoDireito child of v9 is NULL
             v11 = v9.filhoEsquerdo                                      # Assign filhoEsquerdo child of v9 to key2
             self.__transposicao_rb (v9, v9.filhoEsquerdo)             # Transplant Node to be deleted with key2
         else :                                              # If v9 has both the child nodes
@@ -305,13 +295,15 @@ class ArvRB():
     def __mostrar (self, noVerificado, identador, final,e_raiz,contadory) :
     #def __mostrar(self, noVerificado, identador, final):
 
-        if noVerificado != self.NULL :
+        if noVerificado != self.TNULL :
             s_cor = "R" if noVerificado.cor == 1 else "N" # R = Rubro e N = Negro
 
-            print(identador, end=' ')
+           # print(identador, end=' ')
+            sys.stdout.write(identador)
             if e_raiz :
                 self.contadorx = 0
                 contadory = 0
+
                 print("Nivel %s - Raiz:::" %(contadory),end=' ')
                 identador += "     "
                 e_raiz = False
@@ -377,8 +369,8 @@ class ArvRB():
 
 
     def retornar_versao(self, index,e_sucessor):
-        print("Index",index-1)
-        print("lenght vetor",len(self.vetor_grava_versao2))
+       # print("Index",index-1)
+       # print("lenght vetor",len(self.vetor_grava_versao2))
 
         if(e_sucessor==True):
             if(index-1 <= len(self.vetor_grava_versao2)):
@@ -398,14 +390,14 @@ class ArvRB():
                 self.retornar_valor_corrigido()
                 return a
         else:
-            print("Valor variavel e_sucessor:",e_sucessor)
-            print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
-            print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
+           # print("Valor variavel e_sucessor:",e_sucessor)
+          #  print("o valor do indice do vetor grava versão 2 , na função retornar versão é:", index)
+         #   print("O tamanho do vetor grava versão 2 é: ", len(self.vetor_grava_versao2))
             a = self.vetor_grava_versao2[index-1]
             return a
 
-            print("primeiro elemento do vetor", self.vetor_grava_versao2[0])
-            print("Numero do indice do vetor da versão existente: ", index-1)
+         #   print("primeiro elemento do vetor", self.vetor_grava_versao2[0])
+           # print("Numero do indice do vetor da versão existente: ", index-1)
 
 
 
@@ -415,7 +407,7 @@ class ArvRB():
         self.__mostrar (self.raiz,"",True,True,0)
 
 
-        print(self.z)
+        #print(self.z)
 
 
        # print(self.vetor_grava_versao1)
@@ -423,10 +415,10 @@ class ArvRB():
         self.vetor_grava_versao2.append(self.vetor_grava_versao1)
         self.vetor_grava_versao1 = []
 
-        for i in range(len(self.vetor_grava_versao2)):
+       # for i in range(len(self.vetor_grava_versao2)):
 
-                print(self.vetor_grava_versao2[i])
-        print(self.vetor_grava_versao2)
+           #     print(self.vetor_grava_versao2[i])
+       # print(self.vetor_grava_versao2)
 
 
 
@@ -435,7 +427,6 @@ class ArvRB():
        # print(d,end='\n')
 
        # self.__mostrar (self.raiz, "", True)
-
 
     def buscar_sucessor(self,antecessor,versao):
         pass
