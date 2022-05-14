@@ -5,13 +5,14 @@ o sucessor nó solicitado , da ultima versão gravada
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: SUC 12 20 
 ----------------------------------------
-O valor da versão solicitada para impressão IMP é 0,
- a primeira versão começa com valor interio 1 
------------------------------------------------------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
 A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: IMP  0 
+que gerou o esse alerta foi: IMP  222 
 ----------------------------------------
-SUC 1 10 
+SUC 1 8 
 INF
 SUC 5 10 
 INF
@@ -25,6 +26,5 @@ IMP 4
 1,1,N,2,0,N,3,1,N,4,2,R,
 IMP 5
 1,1,N,2,0,N,4,1,N,3,2,R,5,2,R,
-IMP 10
+IMP 222
 2,1,N,1,2,N,3,2,N,4,0,N,6,1,N,5,2,N,8,2,R,7,3,N,9,3,N,10,4,R,
-IMP 0
