@@ -4471,3 +4471,803 @@ o sucessor nó solicitado , da ultima versão gravada
 O valor da versão solicitada para impressão IMP é 0,
  a primeira versão começa com valor interio 1 
 -----------------------------------------------------
+-----------2022-05-14 09:21:19.780696-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:21:19.795988-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:21:19.827355-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:24.921449-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:24.956053-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:24.987728-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:58.568670-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:58.592723-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:24:58.614897-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:26:57.075003-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:26:57.101380-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:26:57.133206-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:27:42.258647-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:27:42.290999-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:27:42.337647-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:25.409481-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:25.424063-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:25.446797-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:38.932996-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:38.955148-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:38.971214-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:45.882737-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:45.903093-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:28:45.930994-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:38:33.891905-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:38:33.918943-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:38:33.947106-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:45:55.294814-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:45:55.326133-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:45:55.361050-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:45:55.392422-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $
+-----------2022-05-14 09:48:11.779030-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:48:11.798825-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:48:11.814133-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:48:11.840260-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 09:52:09.839653-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:52:09.874246-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:52:09.899322-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 09:52:09.915683-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:00:56.849137-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:00:56.893220-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:00:56.937154-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:00:56.960101-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:01:39.908202-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:39.936513-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:39.978087-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:40.006487-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:01:48.443585-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:48.477264-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:48.511689-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:01:48.550483-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:03:02.534844-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:02.575157-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:02.603094-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:02.630112-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:03:04.602327-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:04.623600-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:04.639969-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:04.659918-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:03:40.822501-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:40.860107-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:40.890384-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:03:40.920750-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:11:14.936051-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:14.968247-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:15.002609-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:15.030590-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:11:42.486907-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:42.528068-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:42.565216-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:11:42.585930-----------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:14:38.369300-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:14:38.394976-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:19:22.354110-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:19:22.420870-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:19:22.503944-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:19:22.813871-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:22:23.280949-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:23.333047-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:23.411515-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:23.866755-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:22:47.857982-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:47.912089-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:47.966853-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:22:48.303978-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:23:23.055782-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:23:23.075071-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:23:23.107470-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:23:23.141190-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:26:51.637501-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:26:51.654761-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:26:51.672911-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:26:51.704151-----------
+
+---------------------------------------------------------------------------
+Erro na leitura do arquivo de entrada, o arquivo tem entrada invalida. 
+ Verifique se há instruções faltando que esta com espaço em branco 
+posterior ao comando, ou algum caractere invalido. Exemplo: INC  ; REM $ 
+---------------------------------------------------------------------------
+
+-----------2022-05-14 10:27:52.835212-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:27:52.851145-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:27:52.877920-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:22.349781-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:22.384279-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:22.422325-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:43.630829-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:43.673411-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:28:43.705012-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:29:03.308873-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:29:03.344458-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:29:03.387550-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:13.244228-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:13.273783-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:13.293929-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:47.501762-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:47.519518-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:47.545098-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:33:47.570043-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-14 10:34:28.019236-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:34:28.040021-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:34:28.078422-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:34:28.107157-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+-----------2022-05-14 10:36:02.134369-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:36:02.190115-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:36:02.234445-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:44:06.259094-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:44:06.293075-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:44:06.323769-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:44:06.343938-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+-----------2022-05-14 10:48:59.601242-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:48:59.623043-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:48:59.655217-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 10:48:59.687601-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+-----------2022-05-14 11:02:53.728563-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 11:05:42.168108-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 11:09:08.455651-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+-----------2022-05-14 11:09:08.495558-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+-----------2022-05-14 11:13:34.356344-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação que gerou o esse alerta foi: SUC 1220
+-----------2022-05-14 11:14:08.651640-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação que gerou o esse alerta foi: SUC 1220
+-----------2022-05-14 11:14:08.680675-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+A operação que gerou o esse alerta foi: IMP 11
+-----------2022-05-14 11:14:37.656069-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação que gerou o esse alerta foi: SUC 1220
+-----------2022-05-14 11:14:37.678388-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+A operação que gerou o esse alerta foi: IMP 11
+-----------2022-05-14 11:17:33.688067-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 11:17:33.734730-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 11  
+----------------------------------------
+-----------2022-05-14 11:18:30.500293-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 11:18:30.536667-----------
+Erro : O arquivo entrada.txt contem uma instrução invalida,
+ Verifique se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+ou se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 11  
+----------------------------------------
+-----------2022-05-14 11:25:08.999835-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 11:25:09.036245-----------
+Erro : Vaalor do da versão maior que a existente, ou inexistenteO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+  3 - Se o numero de pesquisa da impressão é maior que a ultima versão 
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 11  
+----------------------------------------
+-----------2022-05-14 11:27:28.904671-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 11:27:28.942510-----------
+Erro : Vaalor do da versão maior que a existente, ou inexistenteO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+  3 - Se o numero de pesquisa da impressão é maior que a ultima versão 
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 11  
+----------------------------------------
+-----------2022-05-14 11:27:44.736745-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 11:27:44.760256-----------
+O valor da versão solicitada para impressão IMP é 0,
+ a primeira versão começa com valor interio 1 
+-----------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  0 
+----------------------------------------

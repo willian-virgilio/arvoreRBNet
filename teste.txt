@@ -5,6 +5,13 @@
     *** cRIAR CONDICIONAL DE CASO SUCESSOR SEJA MAIOR QUE 1 VALOR INTEIRO APENAS, QUBRAR A O LAÇO
 
 
+        with open('saida.txt', 'a') as arqv_saida:
+            arqv_saida.write(menssagem)
+            arqv_saida.write('\n')
+        arqv_saida.close()
+        print(menssagem)
+
+
 
 ---------------------------------------------------
 

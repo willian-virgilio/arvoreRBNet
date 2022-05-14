@@ -1,5 +1,6 @@
 
 from ArvRB import ArvRB
+import datetime
 
 versao = []
 
@@ -48,6 +49,14 @@ class Arquivo:
         print("Tamanho do vetor1: ",len(vetor))
         arqv_saida = open('saida.txt', 'a')
         arqv_saida.truncate(0)
+        msg_erro_index = "Erro : Vaalor do da versão maior que a existente, ou inexistente" \
+                         "O arquivo entrada.txt contem uma instrução invalida, \n " \
+                      "Verifique as seguntes possibilidades:\n" \
+                         " 1 - Se alguma instrução esta faltando numero posterior a ela. \n" \
+                         "Exemplo: IMP  <-----está sem o numero da versão!!\n" \
+                      "    2 - Se contem caracter invalido, não numerico.: Exemplo INC x \n" \
+                        "  3 - Se o numero de pesquisa da impressão é maior que a ultima versão "
+
 
 
         for i in range(0,len(vetor),1):
@@ -62,16 +71,18 @@ class Arquivo:
               #  print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
               #  print("A versão da estrutura é :", lista_comandos_e_valores[2])
                 #print(lista_comandos_e_valores)
+                nversao = (int(lista_comandos_e_valores[2]))
+                print("A versão de busca do sucessor é:", nversao)
+                elemento = int(lista_comandos_e_valores[1])
 
-                print("A versão de busca do sucessor é:", int(lista_comandos_e_valores[2]))
-                a = nova.retornar_versao((int(lista_comandos_e_valores[2])),True)
+                a = nova.retornar_versao(elemento,True,lista_comandos_e_valores[1],lista_comandos_e_valores[2])
                # if (c >= lista_comandos_e_valores[2] ):
                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                   #  arqv_saida.write(lista_comandos_e_valores[c] + ' ')
 
                # print("Elementos salvos desta  versão: ",a)
-                print("O valor de pesquisa de sucessor: ",int(lista_comandos_e_valores[1]))
+                print("O valor de pesquisa de sucessor: ",elemento)
 
                 corrigido = nova.retornar_valor_corrigido()
                 print("Tipo corrigido: ",type(corrigido))
@@ -148,9 +159,7 @@ class Arquivo:
                     concatenar_antes = ''
                     concatenar_apos = ''
                     concatenar_no01_nivel01 = ''
-                    arqv_saida.write('IMP ')
-                    arqv_saida.write(lista_comandos_e_valores[1])
-                    arqv_saida.write('\n')
+
 
 
                     # print("O comando é :", lista_comandos_e_valores[0])
@@ -158,30 +167,40 @@ class Arquivo:
 
                     # for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
+                    arqv_saida.write('IMP ')
 
                     if lista_comandos_e_valores[1] == '0' :
                         msg = "O valor da versão solicitada para impressão IMP é 0," \
-                              "\n a primeira versão começa com valor interio 1 \n" \
+                              "\n a primeira versão começa com valor inteiro 1 \n" \
                               "-----------------------------------------------------"
-                        nova.gerar_log(msg)
+                        nova.gerar_log(msg,'IMP','','0')
+                        arqv_saida.write(lista_comandos_e_valores[1])
+                        arqv_saida.write('\n')
                         exit()
                     else:
-                        controle = True
 
-                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False)  # valor negativo de IMP não é possivel
+                        arqv_saida.write(lista_comandos_e_valores[1])
+                        arqv_saida.write('\n')
+
+                        controle = True
+                        try:
+                            a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'','')  # valor negativo de IMP não é possivel
+                        except:
+                            nova.gerar_log(msg_erro_index,'IMP',lista_comandos_e_valores[1],'')
+
                         tamanho_vetor_a = len(a)
                         print("Tamanho vetor a antes do for:", tamanho_vetor_a)
 
-                        concatenar_raiz = a[0] + ','
-                        concatenar_raiz += a[1] + ','
+                        concatenar_raiz = str(a[0]) + ','
+                        concatenar_raiz += str(a[1]) + ','
                         concatenar_raiz += a[2] + ','
                         print("Esta é a raiz: ", concatenar_raiz)
                         if(tamanho_vetor_a <= 4):
                             arqv_saida.write(concatenar_raiz)
 
                         else:
-                            concatenar_antes += a[4] + ','
-                            concatenar_antes += a[5] + ','
+                            concatenar_antes += str(a[4]) + ','
+                            concatenar_antes += str(a[5]) + ','
                             concatenar_antes += a[6] + ','
                             print("Este é o primeiro nó ", concatenar_antes)
 
@@ -203,8 +222,8 @@ class Arquivo:
 
                             for i in range(8,tamanho_vetor_a,4):
                                 print("Valore de i:", i)
-                                valor = a[i]
-                                nivel = a[i+1]
+                                valor = str(a[i])
+                                nivel = str(a[i+1])
                                 cor = a[i+2]
 
                                 if (nivel != '1'):
@@ -244,12 +263,14 @@ class Arquivo:
         arqv_saida.close()
 if __name__ == "__main__":
 
-  #  nova = ArvRB()
+    nova = ArvRB()
     #for i in range(21):
     #    nova.inserirNovoNo(i)
     #    nova.mostrar_arvore()
 
     x = Arquivo('entrada.txt')
     x.lerArquivo()
+
     x.testeEscrita()
+
 
