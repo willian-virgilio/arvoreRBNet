@@ -383,7 +383,7 @@ class ArvRB():
        # print("Index",index-1)
        # print("lenght vetor",len(self.vetor_grava_versao2))
 
-#
+
             if(index-1 <= len(self.vetor_grava_versao2)):
                 a = self.vetor_grava_versao2[index-1]
                 return a

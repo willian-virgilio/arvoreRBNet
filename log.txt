@@ -5585,3 +5585,35 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  222 
 ----------------------------------------
+-----------2022-05-14 13:51:57.100569-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 13:51:57.123273-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  222 
+----------------------------------------
+-----------2022-05-14 13:52:49.138525-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 12 20 
+----------------------------------------
+-----------2022-05-14 13:52:49.156314-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  222 
+----------------------------------------

@@ -144,7 +144,7 @@ class Arquivo:
 
                 if(lista_comandos_e_valores[0] == 'REM'):
 
-#
+
 
                 # print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
