@@ -21,6 +21,8 @@ class Arquivo:
         self.smsErro = False
 
 
+    def getStringRaizCentro(self):
+        pass
 
 
     def lerArquivo(self):
@@ -57,8 +59,8 @@ class Arquivo:
             arqv_saida.write('\n')
 
 
-    def testeEscrita(self):
-       # print(self.controle_versao)
+    def testeEscrita(self,e_sucessor = False):
+#        print(self.controle_versao)
         msg_erro_index = "Erro : Valor a ser inserido ou removido é inexistente, \n" \
                          "ou a operação  contem algum caracter invalido" \
                         "O arquivo entrada.txt contem uma instrução invalida, \n " \
@@ -66,10 +68,12 @@ class Arquivo:
                         " 1 - Se alguma instrução esta faltando numero posterior a ela. \n" \
                         "Exemplo: INC  <-----está sem o numero da versão!!\n" \
                         "    2 - Se contem caracter invalido, não numerico.: Exemplo REM x \n"
-
         print("Tamanho do vetor1: ",len(vetor))
-        arqv_saida = open('saida.txt', 'a')
-        arqv_saida.truncate(0)
+
+        if(e_sucessor == False):
+
+            arqv_saida = open('saida.txt', 'a')
+            arqv_saida.truncate(0)
 
 
 
@@ -78,13 +82,13 @@ class Arquivo:
             # O primeiro elemento da lista separador é o comando, o segundo é o valor lista_comandos_e_valores = [0]
             lista_comandos_e_valores = vetor[i].split()
             print("toda a lista :",lista_comandos_e_valores)
-           # print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
+            print("Tamanho da lista apos split: ", len(lista_comandos_e_valores))
 
             # primeiro if, caso o vetor1addr tenha indices maior que 2, então ele é o comando SUC de sucessor
             if( len(lista_comandos_e_valores) > 2):
-              #  print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
-              #  print("A versão da estrutura é :", lista_comandos_e_valores[2])
-                #print(lista_comandos_e_valores)
+                print("O sucessor de: "+ lista_comandos_e_valores[1]+ " é: ")
+                print("A versão da estrutura é :", lista_comandos_e_valores[2])
+                print(lista_comandos_e_valores)
                 nversao = (int(lista_comandos_e_valores[2]))
                 print("A versão de busca do sucessor é:", nversao)
                 elemento = int(lista_comandos_e_valores[1])
@@ -95,7 +99,7 @@ class Arquivo:
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                   #  arqv_saida.write(lista_comandos_e_valores[c] + ' ')
 
-               # print("Elementos salvos desta  versão: ",a)
+                print("Elementos salvos desta  versão: ",a)
                 print("O valor de pesquisa de sucessor: ",elemento)
 
                 corrigido = nova.retornar_valor_corrigido()
@@ -193,8 +197,8 @@ class Arquivo:
                         resposta = variavelA
                         nova.gerar_log(msg_erro_index, 'REM', resposta, '')
 
-                # print("O comando é :", lista_comandos_e_valores[0])
-                # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
+                    print("O comando é :", lista_comandos_e_valores[0])
+                    print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
 
 
 
@@ -214,12 +218,13 @@ class Arquivo:
 
 
 
-                    # print("O comando é :", lista_comandos_e_valores[0])
+                    print("O comando é :", lista_comandos_e_valores[0])
                     #  print(ta"O elemento a ser INCLUID é: ", lista_comandos_e_valores[1],end=' ' )
 
                     # for i in range(len(lista_comandos_e_valores)):
                     print(type(lista_comandos_e_valores[1]))
-                    arqv_saida.write('IMP ')
+                    if (e_sucessor == False):
+                        arqv_saida.write('IMP ')
 
 
 
@@ -230,19 +235,22 @@ class Arquivo:
                               "-----------------------------------------------------"
                         nova.gerar_log(msg,'IMP','','0')
                     #    arqv_saida.write(lista_comandos_e_valores[1])
-                        arqv_saida.write('\n')
+                        if (e_sucessor == False):
+                            arqv_saida.write('\n')
                         exit()
                     else:
                         corrigido = nova.retornar_valor_corrigido()
 
 
                         if (int(corrigido) < int(lista_comandos_e_valores[1])):
-                            arqv_saida.write(str(corrigido) + ' ')
-                            arqv_saida.write('\n')
+                            if (e_sucessor == False):
+                                arqv_saida.write(str(corrigido) + ' ')
+                                arqv_saida.write('\n')
                             a = nova.retornar_versao(corrigido, False,'')  # valor negativo de IMP não é possivel
                         else:
-                            arqv_saida.write(lista_comandos_e_valores[1] + ' ')
-                            arqv_saida.write('\n')
+                            if (e_sucessor == False):
+                                arqv_saida.write(lista_comandos_e_valores[1] + ' ')
+                                arqv_saida.write('\n')
                             a = nova.retornar_versao((int(lista_comandos_e_valores[1])), False,'')  # valor negativo de IMP não é possivel
                             controle = True
 
@@ -258,7 +266,14 @@ class Arquivo:
                         concatenar_raiz += a[2] + ','
                         print("Esta é a raiz: ", concatenar_raiz)
                         if(tamanho_vetor_a <= 4):
-                            arqv_saida.write(concatenar_raiz)
+                            if (e_sucessor == False):
+                                arqv_saida.write(concatenar_raiz)
+                                print("Valor concaternado da stringConcatenada\n"
+                                      "se o vetor for menor que 4 : %s" % concatenar_raiz)
+
+                            stringConcatenada = concatenar_raiz
+                            print("Valor concaternado da stringConcatenada\n"
+                                  "se o vetor for menor que 4 : %s" % stringConcatenada)
 
                         else:
                             concatenar_antes += str(a[4]) + ','
@@ -311,14 +326,25 @@ class Arquivo:
                                     print("Esta é no 01 do nivel 01 ", concatenar_no01_nivel01)
 
                         if(tamanho_vetor_a>4):
+                            if (e_sucessor == False):
 
-                            arqv_saida.write(concatenar_antes)
-                            arqv_saida.write(concatenar_raiz)
-                            arqv_saida.write(concatenar_no01_nivel01)
-                            arqv_saida.write(concatenar_apos)
+                                arqv_saida.write(concatenar_antes)
+                                arqv_saida.write(concatenar_raiz)
+                                arqv_saida.write(concatenar_no01_nivel01)
+                                arqv_saida.write(concatenar_apos)
+                                print("Valor concaternado da stringConcatenada\n"
+                                      "se o vetor for maior que 4 : %s%s%s%s" % (concatenar_antes,concatenar_raiz,concatenar_no01_nivel01,concatenar_apos) )
+                            stringConcatenada = concatenar_antes
+                            stringConcatenada += concatenar_raiz
+                            stringConcatenada += concatenar_no01_nivel01
+                            stringConcatenada += concatenar_apos
+                            print("Valor concaternado da stringConcatenada\n"
+                                  "se o vetor for maior que 4 :",stringConcatenada)
 
 
-                    arqv_saida.write('\n')
+
+
+                        arqv_saida.write('\n')
 
 
 

@@ -7723,3 +7723,42 @@ Exemplo: INC  <-----está sem o numero da versão!!
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: REM j  
 ----------------------------------------
+-----------2022-05-15 07:54:58.328136-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM j  
+----------------------------------------
+-----------2022-05-15 07:57:05.407336-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  999 
+----------------------------------------
+-----------2022-05-15 08:28:15.592482-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+---------------------------------------------------------------------------------------------
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 100  
+----------------------------------------
+-----------2022-05-15 08:29:03.598753-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+---------------------------------------------------------------------------------------------
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 100  
+----------------------------------------
