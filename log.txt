@@ -7580,3 +7580,135 @@ Exemplo: INC  <-----está sem o numero da versão!!
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: REM Y  
 ----------------------------------------
+-----------2022-05-14 21:24:45.469965-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:39:37.894857-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:40:12.240331-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:40:23.750254-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:41:02.720949-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:41:53.315711-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:42:36.070570-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:42:42.951806-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:56:16.499009-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:57:37.341105-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 3  
+----------------------------------------
+-----------2022-05-14 21:58:00.517228-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 2  
+----------------------------------------
+-----------2022-05-14 22:00:15.389148-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM 2  
+----------------------------------------

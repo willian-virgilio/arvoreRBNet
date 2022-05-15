@@ -150,15 +150,12 @@ class Arquivo:
 
 
 
-
-
                     try:
                         variavelA = str(lista_comandos_e_valores[1])
 
-                        nova.controledeVersao('INC', str(variavelA))
+                        nova.controledeVersao('INC', lista_comandos_e_valores[1])
 
-                        nova.inserirNovoNo(lista_comandos_e_valores[1])
-                        print("Tamanho len de A",variavelA)
+                        nova.inserirNovoNo(int(lista_comandos_e_valores[1]))
 
                     except Exception as err:
 
@@ -183,8 +180,10 @@ class Arquivo:
                     try:
                         variavelA = str(lista_comandos_e_valores[1])
 
-                        nova.controledeVersao('REM', str(lista_comandos_e_valores[1]))
-                        nova.deletarNo(lista_comandos_e_valores[1])
+
+                        nova.controledeVersao('REM', lista_comandos_e_valores[1])
+
+                        nova.deletarNo(int(lista_comandos_e_valores[1]))
                     except Exception as err:
 
                         if len(lista_comandos_e_valores) == 1:
