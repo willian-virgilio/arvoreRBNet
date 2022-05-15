@@ -1,16 +1,23 @@
 Alerta: A versão solicitada para ser mostrada ainda é maior,
  que a ultima versão gravada,portanto sera mostrado
-o sucessor nó solicitado , da ultima versão gravada 
+ a arvore  da ultima versão gravada 
 ----------------------------------------------------------
 A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: SUC  40 
+que gerou o esse alerta foi: IMP  99 
 ----------------------------------------
 Alerta: A versão solicitada para ser mostrada ainda é maior,
  que a ultima versão gravada,portanto sera mostrado
 o sucessor nó solicitado , da ultima versão gravada 
 ----------------------------------------------------------
 A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: SUC  7 
+que gerou o esse alerta foi: SUC 1 40 
+----------------------------------------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 10 7 
 ----------------------------------------
 IMP 2 
 2,1,R,1,0,N,

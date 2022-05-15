@@ -112,7 +112,7 @@ class Arquivo:
                 print("A versão de busca do sucessor é:", nversao)
                 elemento = int(lista_comandos_e_valores[1])
 
-                a = nova.retornar_versao(nversao,True,'')
+                a = nova.retornar_versao(nversao,True,elemento)
                # if (c >= lista_comandos_e_valores[2] ):
                 #    arqv_saida.write(lista_comandos_e_valores[0] + ' ')
                  #   arqv_saida.write(lista_comandos_e_valores[1] + ' ')
@@ -272,14 +272,19 @@ class Arquivo:
                                     arqv_saida.write('IMP ')
                                     arqv_saida.write(str(corrigido) + ' ')
                                     arqv_saida.write('\n')
+                                    msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n " \
+                                          "que a ultima versão gravada,portanto sera mostrado\n" \
+                                          " a arvore  da ultima versão gravada \n" \
+                                          "----------------------------------------------------------"
+                                    nova.gerar_log(msg, 'IMP', '', lista_comandos_e_valores[1])
 
-                                a = nova.retornar_versao(corrigido, False,'')  # valor negativo de IMP não é possivel
+                                a = nova.retornar_versao(corrigido, False,lista_comandos_e_valores[1])  # valor negativo de IMP não é possivel
                             else:
                                 if (e_sucessor == False):
                                     arqv_saida.write('IMP ')
                                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                                     arqv_saida.write('\n')
-                                a = nova.retornar_versao((int(lista_comandos_e_valores[1])), False,'')  # valor negativo de IMP não é possivel
+                                a = nova.retornar_versao((int(lista_comandos_e_valores[1])), False,lista_comandos_e_valores[1])  # valor negativo de IMP não é possivel
                                 controle = True
 
 

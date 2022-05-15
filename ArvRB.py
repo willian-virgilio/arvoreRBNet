@@ -395,18 +395,12 @@ class ArvRB():
 
             else:
                 a = self.vetor_grava_versao2[len(self.vetor_grava_versao2)-1]
-                if (e_sucessor == True):
+                if(e_sucessor == True):
                     msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n " \
                       "que a ultima versão gravada,portanto sera mostrado\n" \
                       "o sucessor nó solicitado , da ultima versão gravada \n" \
                       "----------------------------------------------------------"
                     self.gerar_log(msg,'SUC',elemento,index)
-                else:
-                    msg = "Alerta: A versão solicitada para ser mostrada ainda é maior,\n " \
-                          "que a ultima versão gravada,portanto sera mostrado\n" \
-                          " a arvore  da ultima versão gravada \n" \
-                          "----------------------------------------------------------"
-                    self.gerar_log(msg,'IMP', '', index)
 
 
                 self.retornar_valor_corrigido()
