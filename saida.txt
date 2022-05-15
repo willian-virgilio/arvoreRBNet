@@ -3,35 +3,15 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 o sucessor nó solicitado , da ultima versão gravada 
 ----------------------------------------------------------
 A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: SUC  20 
+que gerou o esse alerta foi: SUC 1 40 
 ----------------------------------------
-Alerta: A versão solicitada para ser mostrada ainda é maior,
- que a ultima versão gravada,portanto sera mostrado
-o sucessor nó solicitado , da ultima versão gravada 
-----------------------------------------------------------
-A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: SUC  20 
-----------------------------------------
-Alerta: A versão solicitada para ser mostrada ainda é maior,
- que a ultima versão gravada,portanto sera mostrado
- a arvore  da ultima versão gravada 
-----------------------------------------------------------
-A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: IMP  225 
-----------------------------------------
-SUC 1 8 
+IMP 11 
+2,1,N,1,2,N,3,2,N,4,0,N,6,1,N,5,2,N,8,2,R,7,3,N,10,3,N,9,4,R,11,4,R,
+IMP 1 
+1,0,N,
+SUC 1 2 
 2
-SUC 5 10 
-6
-SUC 12 10 
+SUC 1 14 
+2
+SUC 10 7 
 INF
-IMP 2
-2,1,R,1,0,N,
-IMP 3
-1,1,R,2,0,N,3,1,R,
-IMP 4
-1,1,N,2,0,N,3,1,N,4,2,R,
-IMP 5
-1,1,N,2,0,N,4,1,N,3,2,R,5,2,R,
-IMP 225
-2,1,N,1,2,N,3,2,N,4,0,N,6,1,N,5,2,N,8,2,R,7,3,N,9,3,N,10,4,R,
