@@ -6,9 +6,9 @@ import datetime
 versao = []
 
 sucessor = []
-
+d = dict()
 vetor = []
-
+receber_valores = []
 nova = ArvRB()
 
 
@@ -144,18 +144,44 @@ class Arquivo:
 
                 sucessor.clear()
 
+                zy = self.testeEscrita(True, valordereferencia)
+                vetor_valores_recebidos = []
+                print(type(zy))
+                print("valor apos executar testeEscrita em SUC:", zy)
+
                 # if(len(a) == 0)
                 print('Vetor A:',a)
-                for i in range(0,len(a),4):
-                    x = int(lista_comandos_e_valores[1])
-                    y = int(a[i])
+                zy = zy.split(',')
 
-                    if( x < y ):
+
+
+
+
+                # lst = []
+
+                #user = input("enter a string ::-- ")
+               # lst = user.split(',')
+               # print("LIST ELEMENR ARE :: ", lst)
+
+
+
+
+
+
+
+                for i in range(0,len(zy)-1,3):
+
+                    print(zy[i])
+
+                    print("Len de zy",len(zy))
+
+
+                    y = int(zy[i])
+
+
+                    if( elemento < y ):#mpressão de valores
 
                         sucessor.append(y)
-
-                        zy = self.testeEscrita(True, 11)
-                        print("valor apos executar testeEscrita em SUC:", zy)
 
                     print("lista de valores de sucessores:", sucessor)
                     print("tamanho", len(sucessor))

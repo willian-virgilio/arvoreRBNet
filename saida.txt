@@ -1,17 +1,6 @@
-Alerta: A versão solicitada para ser mostrada ainda é maior,
- que a ultima versão gravada,portanto sera mostrado
-o sucessor nó solicitado , da ultima versão gravada 
-----------------------------------------------------------
-A operação do arquivo entrada.txt 
-que gerou o esse alerta foi: SUC 1 40 
-----------------------------------------
 IMP 14 
 2,1,N,1,2,N,3,2,N,4,0,N,8,1,R,6,2,N,5,3,N,7,3,N,10,2,N,9,3,N,12,3,R,11,4,N,13,4,N,14,5,R,
 IMP 11 
 2,1,N,1,2,N,3,2,N,4,0,N,6,1,N,5,2,N,8,2,R,7,3,N,10,3,N,9,4,R,11,4,R,
-SUC 1 2 
-2
-SUC 1 14 
-2
-SUC 10 7 
-INF
+SUC 10 14 
+11
