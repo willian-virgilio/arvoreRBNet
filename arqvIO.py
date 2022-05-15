@@ -1,5 +1,6 @@
 
 from ArvRB import ArvRB
+from collections import Counter
 import datetime
 
 versao = []
@@ -42,6 +43,8 @@ class Arquivo:
 
         self.smsErro = 'V'
 
+
+
     def gravarCorrigido(self,corrigido,index,elemento):
         arqv_saida = open('saida.txt', 'a')
         if (int(corrigido) < int(index)):
@@ -56,16 +59,19 @@ class Arquivo:
 
     def testeEscrita(self):
        # print(self.controle_versao)
+        msg_erro_index = "Erro : Valor a ser inserido ou removido é inexistente, \n" \
+                         "ou a operação  contem algum caracter invalido" \
+                        "O arquivo entrada.txt contem uma instrução invalida, \n " \
+                        "Verifique as seguntes possibilidades:\n" \
+                        " 1 - Se alguma instrução esta faltando numero posterior a ela. \n" \
+                        "Exemplo: INC  <-----está sem o numero da versão!!\n" \
+                        "    2 - Se contem caracter invalido, não numerico.: Exemplo REM x \n"
 
         print("Tamanho do vetor1: ",len(vetor))
         arqv_saida = open('saida.txt', 'a')
         arqv_saida.truncate(0)
-        msg_erro_index = "Erro : Valor do elemento é inexistente, ou contem algum caracter invalido" \
-                         "O arquivo entrada.txt contem uma instrução invalida, \n " \
-                      "Verifique as seguntes possibilidades:\n" \
-                         " 1 - Se alguma instrução esta faltando numero posterior a ela. \n" \
-                         "Exemplo: IMP  <-----está sem o numero da versão!!\n" \
-                      "    2 - Se contem caracter invalido, não numerico.: Exemplo INC x \n" \
+
+
 
         for i in range(0,len(vetor),1):
 
@@ -144,8 +150,29 @@ class Arquivo:
 
 
 
-                    nova.inserirNovoNo(lista_comandos_e_valores[1])
-                    print("Novo No: ", lista_comandos_e_valores[1])
+
+
+                    try:
+                        variavelA = str(lista_comandos_e_valores[1])
+
+                        nova.controledeVersao('INC', str(variavelA))
+
+                        nova.inserirNovoNo(lista_comandos_e_valores[1])
+                        print("Tamanho len de A",variavelA)
+
+                    except Exception as err:
+
+
+                        if  len(lista_comandos_e_valores) == 1:
+                            resposta = ' '
+                            nova.gerar_log(msg_erro_index, 'INC', resposta, '')
+                            exit()
+                        resposta = variavelA
+                        nova.gerar_log(msg_erro_index,'INC',resposta,'')
+
+
+                    #nova.gerar_log(msg_erro_index,lista_comandos_e_valores[0],lista_comandos_e_valores[1],'')
+
                     nova.mostrar_arvore()
 
 
@@ -153,11 +180,29 @@ class Arquivo:
 
                 if(lista_comandos_e_valores[0] == 'REM'):
 
+                    try:
+                        variavelA = str(lista_comandos_e_valores[1])
 
+                        nova.controledeVersao('REM', str(lista_comandos_e_valores[1]))
+                        nova.deletarNo(lista_comandos_e_valores[1])
+                    except Exception as err:
+
+                        if len(lista_comandos_e_valores) == 1:
+                            resposta = ' '
+                            nova.gerar_log(msg_erro_index, 'REM', resposta, '')
+                            exit()
+                        resposta = variavelA
+                        nova.gerar_log(msg_erro_index, 'REM', resposta, '')
 
                 # print("O comando é :", lista_comandos_e_valores[0])
                 # print("O elemento a ser REMOVIDO é: ", lista_comandos_e_valores[1])
-                    nova.deletarNo(lista_comandos_e_valores[1])
+
+
+
+
+                    #nova.gerar_log(msg_erro_index, lista_comandos_e_valores[0], lista_comandos_e_valores[1], '')
+
+                    nova.mostrar_arvore()
                     print("\n ----- Depois deletar o elemento: ",lista_comandos_e_valores[1])
                     nova.mostrar_arvore()
                   #  self.controle_versao += self.controle_versao
@@ -191,15 +236,19 @@ class Arquivo:
                     else:
                         corrigido = nova.retornar_valor_corrigido()
 
+
                         if (int(corrigido) < int(lista_comandos_e_valores[1])):
                             arqv_saida.write(str(corrigido) + ' ')
                             arqv_saida.write('\n')
+                            a = nova.retornar_versao(corrigido, False,'')  # valor negativo de IMP não é possivel
                         else:
                             arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                             arqv_saida.write('\n')
-                        controle = True
+                            a = nova.retornar_versao((int(lista_comandos_e_valores[1])), False,'')  # valor negativo de IMP não é possivel
+                            controle = True
 
-                        a = nova.retornar_versao((int(lista_comandos_e_valores[1])),False,'')  # valor negativo de IMP não é possivel
+
+
 
 
                         tamanho_vetor_a = len(a)

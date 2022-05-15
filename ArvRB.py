@@ -48,18 +48,23 @@ class ArvRB():
 
     # Insert New Node
     def controledeVersao(self,operacao,elemento):
-        self.controle_versao = self.controle_versao + 1
+        self.controle_versao += 1
         print("numero de versão: ",self.controle_versao)
         if(self.controle_versao >= 100):
+         #   arqv_saida = open('saida.txt', 'w')
+          #  arqv_saida.write('')
+         #   arqv_saida.close()
+
             msg = "O numero de versões alcançou o limite de 100!.\n O arquivo entrada.txt \n" \
                   "contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção \n" \
                   "revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos\n" \
                   "---------------------------------------------------------------------------------------------\n"
-            self.gerar_log(msg,operacao,elemento,'','')
+
+            self.gerar_log(msg,operacao,elemento,'')
             exit()
 
     def inserirNovoNo(self, key1):
-        self.controledeVersao('INC',key1)
+       # self.controledeVersao('INC',key1)
 
         no = No(key1)
         no.antecessor = None
@@ -290,8 +295,8 @@ class ArvRB():
 
     # Deletion of noVerificado
     def deletarNo (self, valor) :
-        self.controledeVersao('REM',valor)
-        self.__auxDel_no (self.raiz, valor)         # Call for deletion
+        #self.controledeVersao('REM',valor)
+        self.__auxDel_no (self.raiz, valor)
 
 
     # Function to print

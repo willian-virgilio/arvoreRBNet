@@ -5985,3 +5985,1598 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  225 
 ----------------------------------------
+-----------2022-05-14 19:23:28.609353-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 19:23:28.626406-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 19:23:28.644578-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 19:23:28.664586-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 4  
+----------------------------------------
+-----------2022-05-14 19:23:28.682650-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 5  
+----------------------------------------
+-----------2022-05-14 19:23:28.699085-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 6  
+----------------------------------------
+-----------2022-05-14 19:23:28.715596-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 7  
+----------------------------------------
+-----------2022-05-14 19:23:28.734501-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 8  
+----------------------------------------
+-----------2022-05-14 19:23:28.754500-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 9  
+----------------------------------------
+-----------2022-05-14 19:23:28.778948-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 10  
+----------------------------------------
+-----------2022-05-14 19:23:28.807061-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:23:28.835807-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:23:28.866414-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:24:16.662135-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 19:24:16.695916-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 19:24:16.743688-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 19:24:16.775928-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 4  
+----------------------------------------
+-----------2022-05-14 19:24:16.795376-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 5  
+----------------------------------------
+-----------2022-05-14 19:24:16.812476-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 6  
+----------------------------------------
+-----------2022-05-14 19:24:16.827698-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 7  
+----------------------------------------
+-----------2022-05-14 19:24:16.848904-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 8  
+----------------------------------------
+-----------2022-05-14 19:24:16.870450-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 9  
+----------------------------------------
+-----------2022-05-14 19:24:16.891963-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 10  
+----------------------------------------
+-----------2022-05-14 19:24:16.914075-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:24:16.936405-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:24:16.953477-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:25:00.597741-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 19:25:00.636758-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 19:25:00.661045-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 19:25:00.679596-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 4  
+----------------------------------------
+-----------2022-05-14 19:25:00.696353-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 5  
+----------------------------------------
+-----------2022-05-14 19:25:00.714754-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 6  
+----------------------------------------
+-----------2022-05-14 19:25:00.730694-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 7  
+----------------------------------------
+-----------2022-05-14 19:25:00.748740-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 8  
+----------------------------------------
+-----------2022-05-14 19:25:00.764369-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 9  
+----------------------------------------
+-----------2022-05-14 19:25:00.780979-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 10  
+----------------------------------------
+-----------2022-05-14 19:25:00.796275-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:25:00.814215-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:25:00.829394-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:25:19.537832-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:25:19.562675-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:25:19.592829-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:27:45.364095-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 19:27:45.390002-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 19:27:45.405590-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 19:27:45.422423-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 4  
+----------------------------------------
+-----------2022-05-14 19:27:45.437261-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 5  
+----------------------------------------
+-----------2022-05-14 19:27:45.452369-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 6  
+----------------------------------------
+-----------2022-05-14 19:27:45.467299-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 7  
+----------------------------------------
+-----------2022-05-14 19:27:45.482899-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 8  
+----------------------------------------
+-----------2022-05-14 19:27:45.497688-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 9  
+----------------------------------------
+-----------2022-05-14 19:27:45.513139-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 10  
+----------------------------------------
+-----------2022-05-14 19:27:45.528159-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:27:45.543095-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:27:45.560741-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 2  
+----------------------------------------
+-----------2022-05-14 19:27:45.596524-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 3  
+----------------------------------------
+-----------2022-05-14 19:27:45.623180-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 4  
+----------------------------------------
+-----------2022-05-14 19:27:45.647678-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:27:45.666514-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:27:45.682820-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:28:12.082260-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:28:12.112656-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:28:12.135623-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:28:35.300953-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:28:35.328246-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  20 
+----------------------------------------
+-----------2022-05-14 19:28:35.351780-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:33:01.716948-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:33:01.758926-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:33:01.812129-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:34:20.255296-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 4  
+----------------------------------------
+-----------2022-05-14 19:34:20.271305-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:34:20.297885-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:34:20.326570-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:34:37.832685-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 3  
+----------------------------------------
+-----------2022-05-14 19:34:37.849022-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 4  
+----------------------------------------
+-----------2022-05-14 19:34:37.865355-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:34:37.885628-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:34:37.904643-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:38:33.134120-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 101  
+----------------------------------------
+-----------2022-05-14 19:38:33.155790-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 2  
+----------------------------------------
+-----------2022-05-14 19:38:33.184425-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 3  
+----------------------------------------
+-----------2022-05-14 19:38:33.209582-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 4  
+----------------------------------------
+-----------2022-05-14 19:38:33.238015-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:38:33.267016-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:38:33.291657-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:45:42.761062-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 101  
+----------------------------------------
+-----------2022-05-14 19:45:42.775945-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 2  
+----------------------------------------
+-----------2022-05-14 19:45:42.790853-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 3  
+----------------------------------------
+-----------2022-05-14 19:45:42.815136-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 4  
+----------------------------------------
+-----------2022-05-14 19:45:42.838998-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 5  
+----------------------------------------
+-----------2022-05-14 19:45:42.863858-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 225  
+----------------------------------------
+-----------2022-05-14 19:45:42.892552-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:55:07.663918-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+---------------------------------------------------------------------------------------------
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 101  
+----------------------------------------
+-----------2022-05-14 19:55:55.902867-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+---------------------------------------------------------------------------------------------
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 101  
+----------------------------------------
+-----------2022-05-14 19:56:17.702797-----------
+O numero de versões alcançou o limite de 100!.
+ O arquivo entrada.txt 
+contem mais de 100 operacções de modificação( INC = incluir; REM = Remoção 
+revise o arquivo de entrada para reduzir a quantidade de Elementos inclusos ou removidos
+---------------------------------------------------------------------------------------------
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 101  
+----------------------------------------
+-----------2022-05-14 19:58:51.371846-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 19:59:32.666465-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 20:01:27.333548-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 20:01:45.199804-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 20:02:00.008801-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  225 
+----------------------------------------
+-----------2022-05-14 20:03:11.294216-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:03:29.342900-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:03:29.357964-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:03:42.526668-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:03:42.544270-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:05:00.432351-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:05:00.452531-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:05:00.468454-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:08:09.558676-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC  90 
+----------------------------------------
+-----------2022-05-14 20:08:09.594666-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:08:09.623953-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:08:37.878706-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:08:37.916022-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:08:45.716012-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:08:45.748498-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:09:21.840926-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:09:21.872894-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:09:29.639281-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:09:29.685746-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:10:37.055789-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: IMP  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP 99  
+----------------------------------------
+-----------2022-05-14 20:10:37.089658-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:10:37.120929-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:10:59.662596-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:10:59.683826-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:11:36.335334-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:11:36.364935-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  300 
+----------------------------------------
+-----------2022-05-14 20:12:41.685837-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:14:00.369229-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:14:00.389135-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  99 
+----------------------------------------
+-----------2022-05-14 20:15:15.885800-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:15:29.339479-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-14 20:23:13.735938-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 20:23:13.766945-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:23:59.585628-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 20:23:59.608552-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:23:59.631243-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 20:24:08.504091-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 20:24:08.532998-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:24:08.563362-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 20:24:16.951565-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 1  
+----------------------------------------
+-----------2022-05-14 20:24:16.967722-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:24:16.988175-----------
+Erro : Valor do elemento é inexistente, ou contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo INC x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 20:45:02.429346-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC   
+----------------------------------------
+-----------2022-05-14 20:48:38.212442-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC >  
+----------------------------------------
+-----------2022-05-14 20:50:51.335750-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC >  
+----------------------------------------
+-----------2022-05-14 20:50:54.307607-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC >  
+----------------------------------------
+-----------2022-05-14 20:57:38.975069-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:58:32.495429-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:58:42.521816-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:58:52.138541-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:59:00.008106-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 20:59:37.776175-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 21:00:01.964874-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 2  
+----------------------------------------
+-----------2022-05-14 21:00:37.461026-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:01:21.059289-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:04:44.922365-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:05:16.000895-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:06:00.683961-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:11:22.082124-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:11:48.904067-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:13:11.280831-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:13:48.639013-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC 3  
+----------------------------------------
+-----------2022-05-14 21:17:19.521005-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC    
+----------------------------------------
+-----------2022-05-14 21:19:18.776977-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC    
+----------------------------------------
+-----------2022-05-14 21:19:32.999331-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM    
+----------------------------------------
+-----------2022-05-14 21:19:44.164684-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM    
+----------------------------------------
+-----------2022-05-14 21:19:58.150982-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM    
+----------------------------------------
+-----------2022-05-14 21:20:36.621632-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: INC T  
+----------------------------------------
+-----------2022-05-14 21:23:40.950803-----------
+Erro : Valor a ser inserido ou removido é inexistente, 
+ou a operação  contem algum caracter invalidoO arquivo entrada.txt contem uma instrução invalida, 
+ Verifique as seguntes possibilidades:
+ 1 - Se alguma instrução esta faltando numero posterior a ela. 
+Exemplo: INC  <-----está sem o numero da versão!!
+    2 - Se contem caracter invalido, não numerico.: Exemplo REM x 
+
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: REM Y  
+----------------------------------------
