@@ -126,15 +126,20 @@ class Arquivo:
                 print("Valor corrigido: ", corrigido)
                 print("Valor da versão solicitada ", lista_comandos_e_valores[2])
                 arqv_saida.write('SUC ')
+                valordereferencia = None
+
 
                 if (int(corrigido) < int(lista_comandos_e_valores[2])):
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(str(corrigido) + ' ')
                     arqv_saida.write('\n')
+                    valordereferencia = int(corrigido)
+
                 else:
                     arqv_saida.write(lista_comandos_e_valores[1] + ' ')
                     arqv_saida.write(lista_comandos_e_valores[2] + ' ')
                     arqv_saida.write('\n')
+                    valordereferencia  = int(lista_comandos_e_valores[2])
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
                 sucessor.clear()

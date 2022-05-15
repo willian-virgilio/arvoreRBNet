@@ -8984,3 +8984,35 @@ o sucessor nó solicitado , da ultima versão gravada
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: SUC 1 40 
 ----------------------------------------
+-----------2022-05-15 16:25:06.562828-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 1 40 
+----------------------------------------
+-----------2022-05-15 16:25:08.474409-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 1 40 
+----------------------------------------
+-----------2022-05-15 16:25:19.990451-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 1 40 
+----------------------------------------
+-----------2022-05-15 16:25:52.230003-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+o sucessor nó solicitado , da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: SUC 1 40 
+----------------------------------------
