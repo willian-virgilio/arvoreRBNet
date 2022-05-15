@@ -341,14 +341,12 @@ class Arquivo:
                             print("Valor concaternado da stringConcatenada\n"
                                   "se o vetor for maior que 4 :",stringConcatenada)
 
+                        if (e_sucessor == False):
+                            arqv_saida.write('\n')
 
 
-
-                        arqv_saida.write('\n')
-
-
-
-        arqv_saida.close()
+        if (e_sucessor == False):
+            arqv_saida.close()
 if __name__ == "__main__":
 
     nova = ArvRB()
