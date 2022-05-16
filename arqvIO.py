@@ -159,27 +159,27 @@ class Arquivo:
 
 
 
-                for j in range(0, len(ant_raiz), 3):
+                for j in range(0, len(ant_raiz)-1, 3):
                     print("Valor apos separado:",ant_raiz)
                     print(ant_raiz[j])
-                    print("Len do da ant_raiz", len(ant_raiz))
+                    print("Len do da ant_raiz", len(ant_raiz)-1)
 
-                for k in range(0, len(raiz) , 3):
+                for k in range(0, len(raiz) -1, 3):
                     print("Valor apos separado:",raiz)
                     print(raiz[k])
-                    print("Len do da raiz", len(raiz))
+                    print("Len do da raiz", len(raiz)-1)
 
-                for l in range(0, len(no01_n01) , 3):
+                for l in range(0, len(no01_n01)-1 , 3):
                     print("Valor apos separado:",no01_n01)
                     print(no01_n01[l])
-                    print("Len do da primeiro ńo apos a raiz", len(no01_n01))
-                m = 0
-                while m < (len(apos)):
+                    print("Len do da primeiro ńo apos a raiz", len(no01_n01)-1)
+
+                for m in range(0,len(apos)-1,3):
                     print("Valor apos separado:",apos)
                     print(m)
                     print(apos[m])
-                    print("Len do  apos a raiz", len(apos))
-                    m +=3
+                    print("Len do  apos a raiz", len(apos)-1)
+
 
 
                 sucessor = elemento
