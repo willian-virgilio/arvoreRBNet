@@ -9912,3 +9912,11 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  200 
 ----------------------------------------
+-----------2022-05-16 00:28:41.911690-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------

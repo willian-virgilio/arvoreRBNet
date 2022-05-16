@@ -167,7 +167,7 @@ class Arquivo:
                     print("Valor apos separado:",raiz)
                     print(raiz[k])
                     print("Len do da raiz", len(raiz)-1)
-                    if(int(raiz[k]) <= elemento):
+                    if(int(raiz[k]) <= valordereferencia):
 
                         for j in range(0, len(ant_raiz) - 1, 3):
                                 print("Valor apos separado:", ant_raiz)
@@ -175,7 +175,7 @@ class Arquivo:
                                 print("Len do da ant_raiz", len(ant_raiz) - 1)
                                 sucessor.append(int(ant_raiz[j]))
                                 print(sucessor)
-                        if (min(sucessor) > elemento):
+                        if (min(sucessor) > valordereferencia):
                             sucessor = min(sucessor)
                             print("Minimo sucessor lado esquerdo da arvore",sucessor)
                             break
@@ -184,7 +184,7 @@ class Arquivo:
                             break
 
 
-                    elif (int(raiz[k]) > elemento):
+                    elif (int(raiz[k]) > valordereferencia):
 
 
                         for l in range(0, len(no01_n01)-1 , 3):
@@ -192,7 +192,7 @@ class Arquivo:
                                 print(no01_n01[l])
                                 print("Len do da primeiro ńo apos a raiz", len(no01_n01)-1)
                                 sucessor.append(int(ant_raiz[l]))
-                        if (min(sucessor) > elemento):
+                        if (min(sucessor) > valordereferencia):
                             sucessor = min(sucessor)
                             break
                         else:
@@ -201,7 +201,7 @@ class Arquivo:
                                     print("Valor apos separado:", apos)
                                     print("Len do segundo no em diante apos a raiz", len(apos) - 1)
                                     sucessor.append(int(apos[m]))
-                            if (min(sucessor) > elemento):
+                            if (min(sucessor) > valordereferencia):
                                 sucessor = min(sucessor)
 
                             else:
