@@ -90,7 +90,7 @@ class Arquivo:
         lista_comandos_e_valores_SUC = []
 
 
-        sucessor = None
+
         for i in range(0,tam_vet,1):
 
 
@@ -156,35 +156,59 @@ class Arquivo:
                 no01_n01 = no01_n01.split(',')
                 apos = zy['apos']
                 apos = apos.split(',')
+                sucessor = []
+                sucessor.clear()
 
 
 
-                for j in range(0, len(ant_raiz)-1, 3):
-                    print("Valor apos separado:",ant_raiz)
-                    print(ant_raiz[j])
-                    print("Len do da ant_raiz", len(ant_raiz)-1)
+
 
                 for k in range(0, len(raiz) -1, 3):
                     print("Valor apos separado:",raiz)
                     print(raiz[k])
                     print("Len do da raiz", len(raiz)-1)
+                    if(int(raiz[k]) <= elemento):
 
-                for l in range(0, len(no01_n01)-1 , 3):
-                    print("Valor apos separado:",no01_n01)
-                    print(no01_n01[l])
-                    print("Len do da primeiro ńo apos a raiz", len(no01_n01)-1)
+                        for j in range(0, len(ant_raiz) - 1, 3):
+                                print("Valor apos separado:", ant_raiz)
+                                print(ant_raiz[j])
+                                print("Len do da ant_raiz", len(ant_raiz) - 1)
+                                sucessor.append(int(ant_raiz[j]))
+                                print(sucessor)
+                        if (min(sucessor) > elemento):
+                            sucessor = min(sucessor)
+                            print("Minimo sucessor lado esquerdo da arvore",sucessor)
+                            break
+                        else:
+                            sucessor = 0
+                            break
 
-                for m in range(0,len(apos)-1,3):
-                    print("Valor apos separado:",apos)
-                    print(m)
-                    print(apos[m])
-                    print("Len do  apos a raiz", len(apos)-1)
+
+                    elif (int(raiz[k]) > elemento):
 
 
+                        for l in range(0, len(no01_n01)-1 , 3):
+                                print("Valor apos separado:",no01_n01)
+                                print(no01_n01[l])
+                                print("Len do da primeiro ńo apos a raiz", len(no01_n01)-1)
+                                sucessor.append(int(ant_raiz[l]))
+                        if (min(sucessor) > elemento):
+                            sucessor = min(sucessor)
+                            break
+                        else:
 
-                sucessor = elemento
-                if(sucessor< elemento):
-                    sucessor = 0
+                            for m in range(0, len(apos) - 1, 3):
+                                    print("Valor apos separado:", apos)
+                                    print("Len do segundo no em diante apos a raiz", len(apos) - 1)
+                                    sucessor.append(int(apos[m]))
+                            if (min(sucessor) > elemento):
+                                sucessor = min(sucessor)
+
+                            else:
+                                sucessor = 0
+                                break
+
+
 
 
 
