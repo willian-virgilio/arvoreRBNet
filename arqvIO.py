@@ -90,7 +90,7 @@ class Arquivo:
         lista_comandos_e_valores_SUC = []
 
 
-
+        sucessor = None
         for i in range(0,tam_vet,1):
 
 
@@ -142,60 +142,58 @@ class Arquivo:
                     valordereferencia  = int(lista_comandos_e_valores[2])
                # nova.buscar_sucessor(int(lista_comandos_e_valores[1]),int(lista_comandos_e_valores[2]))
 
-                sucessor.clear()
+
 
                 zy = self.testeEscrita(True, valordereferencia)
-                vetor_valores_recebidos = []
-                print(type(zy))
-                print("valor apos executar testeEscrita em SUC:", zy)
-
-                # if(len(a) == 0)
-                print('Vetor A:',a)
-                zy = zy.split(',')
-
-
-
-
-
-                # lst = []
-
-                #user = input("enter a string ::-- ")
-               # lst = user.split(',')
-               # print("LIST ELEMENR ARE :: ", lst)
+                #{'ant_raiz': self.concatenar_antes, 'raiz': self.concatenar_raiz,'no01_n01': self.concatenar_no01_nivel01, 'apos': self.concatenar_apos}
+                print("Qual o tipo do zy:",type(zy))
+                print(zy)
+                ant_raiz = zy['ant_raiz']
+                ant_raiz = ant_raiz.split(',')
+                raiz = zy['raiz']
+                raiz = raiz.split(',')
+                no01_n01 = zy['no01_n01']
+                no01_n01 = no01_n01.split(',')
+                apos = zy['apos']
+                apos = apos.split(',')
 
 
 
+                for j in range(0, len(ant_raiz), 3):
+                    print("Valor apos separado:",ant_raiz)
+                    print(ant_raiz[j])
+                    print("Len do da ant_raiz", len(ant_raiz))
+
+                for k in range(0, len(raiz) , 3):
+                    print("Valor apos separado:",raiz)
+                    print(raiz[k])
+                    print("Len do da raiz", len(raiz))
+
+                for l in range(0, len(no01_n01) , 3):
+                    print("Valor apos separado:",no01_n01)
+                    print(no01_n01[l])
+                    print("Len do da primeiro ńo apos a raiz", len(no01_n01))
+                m = 0
+                while m < (len(apos)):
+                    print("Valor apos separado:",apos)
+                    print(m)
+                    print(apos[m])
+                    print("Len do  apos a raiz", len(apos))
+                    m +=3
+
+
+                sucessor = elemento
+                if(sucessor< elemento):
+                    sucessor = 0
 
 
 
-
-                for i in range(0,len(zy)-1,3):
-
-                    print(zy[i])
-
-                    print("Len de zy",len(zy))
+                if(sucessor == 0 ):
+                    sucessor = 'INF'
+                print("este é o sucessor", str(sucessor))
 
 
-                    y = int(zy[i])
-
-
-                    if( elemento < y ):#mpressão de valores
-
-                        sucessor.append(y)
-
-                    print("lista de valores de sucessores:", sucessor)
-                    print("tamanho", len(sucessor))
-
-                    x = 0
-                    for i in range(len(sucessor)):
-                        x = min(sucessor)
-
-                    if(x == 0 ):
-                        x = 'INF'
-                    print("este é o sucessor", x)
-
-
-                arqv_saida.write(str(x))
+                arqv_saida.write(str(sucessor))
 
                 arqv_saida.write('\n')
             # verificar erro AttributeError: 'str' object has no attribute 'loopDeGravacao'
@@ -337,7 +335,7 @@ class Arquivo:
                                     self.stringConcatenadaSUC = self.concatenar_raiz
                                     print("Valor concaternado da self.stringConcatenadaSUC\n"
                                       "se o vetor for menor que 4 : %s" % self.stringConcatenadaSUC)
-                                    return self.get_stringConcate()
+                                    return {'raiz':self.concatenar_raiz}
 
 
                             else:
@@ -404,8 +402,7 @@ class Arquivo:
                                     self.stringConcatenadaSUC += self.concatenar_apos
                                     print("Valor concaternado da self.stringConcatenadaSUC\n"
                                           "se o vetor for maior que 4 :", self.stringConcatenadaSUC)
-                                    return self.get_stringConcate()
-
+                                    return {'ant_raiz':self.concatenar_antes,'raiz':self.concatenar_raiz,'no01_n01':self.concatenar_no01_nivel01,'apos':self.concatenar_apos}
 
 
 

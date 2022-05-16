@@ -6,26 +6,59 @@
     def gravar_se_corrigido(self,corrigido,num_versao,num_no):
         arqv_saida = open('saida.txt', 'a')
 
-        if (int(corrigido) < num_versao):
-            arqv_saida.write(str(num_no) + ' ')
-            arqv_saida.write(str(corrigido) + ' ')
-            arqv_saida.write('\n')
-        else:
-            arqv_saida.write(str(num_no) + ' ')
-            arqv_saida.write(str(num_versao) + ' ')
-            arqv_saida.write('\n')
+   print(type(zy))
+                print("valor apos executar testeEscrita em SUC:", zy)
 
----------------------------------------------------
+                # if(len(a) == 0)
+                print('Vetor A:',a)
+                zy = zy.split(',')
 
 
- if(anterior <int(a[i])):
-                            sucessor.clear()
-                            sucessor.append(anterior)
-                            print("O valor do sucessor, comparando com o proximo elemento é: ",sucessor)
-                        sucessor.append(int(a[i]))
-#
-INC 4
-INC 5
+
+
+
+                # lst = []
+
+                #user = input("enter a string ::-- ")
+               # lst = user.split(',')
+               # print("LIST ELEMENR ARE :: ", lst)
+
+
+
+
+
+
+
+                for i in range(0,len(zy)-1,3):
+
+                    print(zy)
+
+                    print(zy[i])
+
+                    print("Len de zy",len(zy))
+
+
+
+                    primeiro = int(zy[i])
+                    if(zy[i+3] != ''):
+                        e = int(zy[i+3])
+                    else:
+                        e = primeiro
+
+
+                    if( elemento < primeiro ):#mpressão de valores
+
+                        sucessor = primeiro
+
+                        if(sucessor > e ):
+                            sucessor = e
+                            print("lista de valores de sucessores:", sucessor)
+                            break
+
+
+
+
+
 INC 6
 INC 7
 INC 8
@@ -105,7 +138,6 @@ INC 81
 INC 82
 INC 83
 INC 84
-IMP 99
 INC 85
 INC 86
 INC 87
@@ -121,3 +153,6 @@ INC 96
 INC 97
 INC 98
 INC 99
+IMP 14
+IMP 11
+IMP 99
