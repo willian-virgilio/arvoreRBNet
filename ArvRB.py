@@ -341,6 +341,37 @@ class ArvRB():
                     identador += "|    "
                     lado = "esq"
             print (str (noVerificado.valor) + "(" + s_cor + ")")
+            print(type(self.raiz.antecessor))
+            endereco_men_antecessor = id(self.raiz.antecessor)
+            print("antecessor da raiz", self.raiz.antecessor)
+
+            print("Endereço de memoria do antecessor:", endereco_men_antecessor)
+            rec_men_antecessor = ctypes.cast(endereco_men_antecessor, ctypes.py_object).value
+            print("valor recuperado do endereço de memoria do antecessor:", rec_men_antecessor)
+            endereco_men_raiz = id(self.raiz.valor)
+            print("Valor da raiz", self.raiz.valor)
+            print(self.raiz.__dict__)
+            print(self.raiz.__dict__['valor'])
+
+            rec_men_raiz = ctypes.cast(endereco_men_raiz, ctypes.py_object).value
+            print("valor recuperado do endereço de memoria da raiz:", rec_men_raiz)
+            print("Endereço de memoria da raiz:", endereco_men_raiz)
+            print("Filho da esquerda", self.raiz.filhoEsquerdo)
+            print(type(self.raiz.filhoEsquerdo))
+            print(self.raiz.filhoEsquerdo.__dict__)
+            print(self.raiz.filhoEsquerdo.__dict__['valor'])
+
+
+            endereco_men_filho_esquerdo = id(self.raiz.filhoEsquerdo)
+            print("Endereço de memoria do filho esquerdo:", endereco_men_filho_esquerdo)
+            rec_men_filho_esquerdo = ctypes.cast(endereco_men_filho_esquerdo, ctypes.py_object).value
+            print("valor recuperado do endereço de memoria do filho da  esquerda:", rec_men_filho_esquerdo)
+            print("Filha da direita: ", self.raiz.filhoDireito)
+            print(self.raiz.filhoDireito.__dict__)
+            print(self.raiz.filhoDireito.__dict__['valor'])
+
+            endereco_men_filho_direito = id(self.raiz.filhoDireito)
+            print("Endereço de memoria do filho esquerdo:", endereco_men_filho_direito)
 
 
             self.__gravar_versao(noVerificado.valor, contadory, s_cor,lado)
