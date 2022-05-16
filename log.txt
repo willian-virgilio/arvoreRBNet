@@ -9920,3 +9920,35 @@ Alerta: A versão solicitada para ser mostrada ainda é maior,
 A operação do arquivo entrada.txt 
 que gerou o esse alerta foi: IMP  200 
 ----------------------------------------
+-----------2022-05-16 00:33:42.397853-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-16 00:35:27.268631-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-16 00:39:00.643113-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------
+-----------2022-05-16 00:40:03.625406-----------
+Alerta: A versão solicitada para ser mostrada ainda é maior,
+ que a ultima versão gravada,portanto sera mostrado
+ a arvore  da ultima versão gravada 
+----------------------------------------------------------
+A operação do arquivo entrada.txt 
+que gerou o esse alerta foi: IMP  200 
+----------------------------------------

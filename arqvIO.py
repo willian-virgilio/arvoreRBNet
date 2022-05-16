@@ -175,8 +175,12 @@ class Arquivo:
                                 print("Len do da ant_raiz", len(ant_raiz) - 1)
                                 sucessor.append(int(ant_raiz[j]))
                                 print(sucessor)
-                        if (min(sucessor) > valordereferencia):
-                            sucessor = min(sucessor)
+                        temp = 0
+                        for i in range(len(sucessor)):
+                                temp = min(sucessor)
+                        if (temp > valordereferencia):
+
+                            temp = min(sucessor)
                             print("Minimo sucessor lado esquerdo da arvore",sucessor)
                             break
                         else:
@@ -192,8 +196,13 @@ class Arquivo:
                                 print(no01_n01[l])
                                 print("Len do da primeiro ńo apos a raiz", len(no01_n01)-1)
                                 sucessor.append(int(ant_raiz[l]))
-                        if (min(sucessor) > valordereferencia):
-                            sucessor = min(sucessor)
+                        temp = 0
+                        for i in range(len(sucessor)):
+                            temp = min(sucessor)
+                        if (temp > valordereferencia):
+
+                            temp = min(sucessor)
+                            print("Minimo sucessor lado esquerdo da arvore", sucessor)
                             break
                         else:
 
@@ -201,23 +210,28 @@ class Arquivo:
                                     print("Valor apos separado:", apos)
                                     print("Len do segundo no em diante apos a raiz", len(apos) - 1)
                                     sucessor.append(int(apos[m]))
-                            if (min(sucessor) > valordereferencia):
-                                sucessor = min(sucessor)
+                            temp = 0
+                            for i in range(len(sucessor)):
+                                temp = min(sucessor)
+                            if (temp > valordereferencia):
 
+                                temp = min(sucessor)
+                                print("Minimo sucessor lado esquerdo da arvore", sucessor)
+                                break
                             else:
-                                sucessor = 0
+                                temp = 0
                                 break
 
 
 
 
 
-                if(sucessor == 0 ):
-                    sucessor = 'INF'
+                if(temp == 0 ):
+                    temp = 'INF'
                 print("este é o sucessor", str(sucessor))
 
 
-                arqv_saida.write(str(sucessor))
+                arqv_saida.write(str(temp))
 
                 arqv_saida.write('\n')
             # verificar erro AttributeError: 'str' object has no attribute 'loopDeGravacao'
