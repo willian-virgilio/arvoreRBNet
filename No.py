@@ -5,3 +5,8 @@ class No():
         self.filhoEsquerdo = None                                 # Left Child of Node
         self.filhoDireito = None                                # Right Child of Node
         self.cor = 1                                   # Red Node as new noVerificado is always inserted as Red Node
+        self.versao = None
+        self.mod1 = None
+        self.versao_mod1 = None
+        self.mod2 = None
+        self.versao_mod2 = None

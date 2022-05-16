@@ -249,7 +249,7 @@ class Arquivo:
                     try:
                         variavelA = str(lista_comandos_e_valores[1])
 
-                        nova.controledeVersao('INC', lista_comandos_e_valores[1])
+                        #nova.controledeVersao('INC', lista_comandos_e_valores[1])
 
                         nova.inserirNovoNo(int(lista_comandos_e_valores[1]))
 
@@ -277,7 +277,7 @@ class Arquivo:
                         variavelA = str(lista_comandos_e_valores[1])
 
 
-                        nova.controledeVersao('REM', lista_comandos_e_valores[1])
+                       # nova.controledeVersao('REM', lista_comandos_e_valores[1])
 
                         nova.deletarNo(int(lista_comandos_e_valores[1]))
                     except Exception as err:

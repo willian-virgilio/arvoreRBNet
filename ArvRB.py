@@ -64,14 +64,15 @@ class ArvRB():
             exit()
 
     def inserirNovoNo(self, key1):
-       # self.controledeVersao('INC',key1)
+        self.controledeVersao('INC',key1)
 
         no = No(key1)
         no.antecessor = None
         no.valor = int(key1)
         no.filhoEsquerdo = self.TNULL
         no.filhoDireito = self.TNULL
-        no.cor = 1                                   # Set raiz colour as Red
+        no.cor = 1 # Set raiz colour as Red
+        no.versao = self.controle_versao
 
         v1 = None
         v2 = self.raiz
@@ -295,8 +296,11 @@ class ArvRB():
 
     # Deletion of noVerificado
     def deletarNo (self, valor) :
-        #self.controledeVersao('REM',valor)
+        no = No(valor)
+        self.controledeVersao('REM',valor)
+        no.versao = self.controle_versao
         self.__auxDel_no (self.raiz, valor)
+
 
 
     # Function to print
